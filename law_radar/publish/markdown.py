@@ -96,7 +96,9 @@ def render(digest: Digest) -> str:
     n = len(digest.entries)
     lines = [f"# {title(digest)}", "",
              f"{fmt_date(w.since)} to {fmt_date(w.until)} · ICP: {digest.icp.name} · "
-             f"{n} {'law' if n == 1 else 'laws'} flagged" + (" · keyword mode, no summaries" if digest.mode == "no-ai" else ""),
+             + (f"{n} keyword {'match' if n == 1 else 'matches'}, not read yet. Run /digest in Claude Code for "
+                "cited summaries" if digest.mode == "no-ai" else
+                f"{n} {'law' if n == 1 else 'laws'} flagged"),
              "", f"*{digest.disclaimer}*", ""]
     if digest.mode == "no-ai":
         lines += _no_ai([e for e in digest.entries if isinstance(e, NoAiEntry)]) + [""]

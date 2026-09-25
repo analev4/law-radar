@@ -51,7 +51,7 @@ def test_no_ai_lists_keyword_matches_without_calling_a_model(cfg, datasets, tmp_
     e = digest.entries[0]
     assert e.url.endswith("CELEX:32023L0970") and e.matched_codes
     md, js = write(digest, tmp_path / "out")
-    assert "keyword mode, no summaries" in md.read_text()
+    assert "1 keyword match, not read yet" in md.read_text()
     assert Digest.model_validate_json(js.read_text()).entries[0].kind == "no-ai"
 
 
