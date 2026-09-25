@@ -13,7 +13,7 @@ from typing import Dict, List, Optional
 
 from .config import FRSource
 from .models import Document
-from .sources import eu_cellar, fr_dila
+from .sources import es_boe, eu_cellar, fr_dila
 
 ROOT = Path(__file__).resolve().parent.parent
 FIXTURES = ROOT / "tests" / "fixtures"
@@ -30,6 +30,12 @@ FR_RELEVANT = "JORFTEXT000053634597"        # Décret n° 2026-168, apprentice h
 FR_EXCLUDED = "JORFTEXT000053635455"        # naturalisation decree: excluded heading, never read
 FR_IRRELEVANT = "JORFTEXT000053634692"      # label rouge specification: no keyword match
 FR_DAY = dt.date(2026, 3, 7)
+
+# Spain: a subset of the real BOE summary of 19 February 2026, plus the item XMLs we read.
+# The section 2 item (an appointment) is kept to test exclusion, with the person's name removed.
+ES_SUMARIO = "sumario-20260219.subset.json"
+ES_RELEVANT = "BOE-A-2026-3815"             # Real Decreto 126/2026, minimum wage for 2026
+ES_IRRELEVANT = "BOE-A-2026-3814"           # local-authority tax reporting: no keyword match
 
 
 def load_eu(celex: str, with_text: bool = True) -> Document:
@@ -75,5 +81,16 @@ def fr_fixture_source() -> FixtureSource:
     return FixtureSource("fr", "FR", load_fr())
 
 
+def load_es() -> List[Document]:
+    summary = json.loads((FIXTURES / "es" / ES_SUMARIO).read_text(encoding="utf-8"))
+    items = {i["id"]: i for i in es_boe.sumario_items(summary)}
+    return [es_boe.parse_item_xml((FIXTURES / "es" / f"{boe_id}.xml").read_bytes(), items[boe_id])
+            for boe_id in (ES_RELEVANT, ES_IRRELEVANT)]
+
+
+def es_fixture_source() -> FixtureSource:
+    return FixtureSource("es", "ES", load_es())
+
+
 def golden_sources() -> List[FixtureSource]:
-    return [eu_fixture_source(), fr_fixture_source()]
+    return [eu_fixture_source(), fr_fixture_source(), es_fixture_source()]

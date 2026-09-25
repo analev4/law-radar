@@ -1,0 +1,212 @@
+{
+  "step": "read",
+  "key": "es:BOE-A-2026-3815",
+  "model": "claude-code",
+  "request_sha256": "618de5db5206378900401a78fb27dc9e1e9906bff7167829b7ce11816b800e71",
+  "usage": {},
+  "output": {
+    "headline": {
+      "text": "Spain sets the 2026 minimum wage (salario mínimo interprofesional) at 1 221 euros a month, payable from 1 January 2026.",
+      "fact_refs": [
+        "f1",
+        "f9"
+      ]
+    },
+    "what_changed": [
+      {
+        "text": "The minimum wage rises 3,1 percent over the 2025 level to 1 221 euros a month or 40,70 euros a day.",
+        "fact_refs": [
+          "f1",
+          "f11"
+        ]
+      },
+      {
+        "text": "Employers must lift any annual pay below the 17 094 euros floor, while pay already above the minimum stays unchanged.",
+        "fact_refs": [
+          "f2",
+          "f7",
+          "f8"
+        ]
+      }
+    ],
+    "who": {
+      "text": "Every Spanish employer in agriculture, industry and services is covered, including hospitality, retail and construction firms of every size.",
+      "fact_refs": [
+        "f1"
+      ]
+    },
+    "icp_match": {
+      "countries": [
+        "ES"
+      ],
+      "sectors": [
+        "all"
+      ],
+      "size_bands": [
+        "all"
+      ],
+      "roles": [
+        "HR manager",
+        "Finance lead"
+      ],
+      "basis": "explicit"
+    },
+    "money": {
+      "text": "The text sets no penalty amount; the cost is the pay rise to 1 221 euros a month and a 17 094 euros annual floor.",
+      "fact_refs": [
+        "f1",
+        "f2"
+      ]
+    },
+    "facts": [
+      {
+        "id": "f1",
+        "kind": "amount",
+        "statement": "The minimum wage is 40,70 euros a day or 1 221 euros a month in all sectors, regardless of sex or age (Art. 1).",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1",
+          "quote": "El salario mínimo para cualesquiera actividades en la agricultura, en la industria y en los servicios, sin distinción de sexo ni edad de las personas trabajadoras, queda fijado en 40,70 euros/día o 1 221 euros/mes"
+        }
+      },
+      {
+        "id": "f2",
+        "kind": "threshold",
+        "statement": "The annual minimum used for comparison, including salary supplements, cannot fall below 17 094 euros (Art. 3(1)).",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 3(1)",
+          "quote": "sin que en ningún caso pueda considerarse una cuantía anual inferior a 17 094 euros."
+        }
+      },
+      {
+        "id": "f3",
+        "kind": "amount",
+        "statement": "Staff on short fixed-term contracts (contratos de duración determinada) get at least 57,82 euros per legal working day (Art. 4(1)).",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 4(1)",
+          "quote": "sin que la cuantía del salario profesional pueda resultar inferior a 57,82 euros por jornada legal en la actividad."
+        }
+      },
+      {
+        "id": "f4",
+        "kind": "amount",
+        "statement": "Domestic workers (empleadas y empleados de hogar) paid by the hour get at least 9,55 euros per hour worked (Art. 4(2)).",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 4(2)",
+          "quote": "el salario mínimo de dichas empleadas y empleados de hogar será de 9,55 euros por hora efectivamente trabajada."
+        }
+      },
+      {
+        "id": "f5",
+        "kind": "obligation",
+        "statement": "Only cash pay counts toward the minimum wage; pay in kind (salario en especie) cannot reduce the cash amount (Art. 1).",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1",
+          "quote": "En el salario mínimo se computa únicamente la retribución en dinero, sin que el salario en especie pueda, en ningún caso, dar lugar a la minoración de la cuantía íntegra en dinero de aquel."
+        }
+      },
+      {
+        "id": "f6",
+        "kind": "obligation",
+        "statement": "Staff working fewer than the legal hours receive the minimum wage pro rata (Art. 1).",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1",
+          "quote": "Si se realizase jornada inferior se percibirá a prorrata."
+        }
+      },
+      {
+        "id": "f7",
+        "kind": "obligation",
+        "statement": "Employers must raise agreed salaries that fall below the annual minimum total by the amount needed to reach it (Art. 3(3)).",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 3(3)",
+          "quote": "debiendo, en consecuencia, ser incrementados los salarios profesionales inferiores al indicado total anual en la cuantía necesaria para equipararse a este."
+        }
+      },
+      {
+        "id": "f8",
+        "kind": "obligation",
+        "statement": "Salaries already above the minimum on an annual basis keep their structure and amount (Art. 3(1)).",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 3(1)",
+          "quote": "La revisión del salario mínimo interprofesional establecida en este real decreto no afectará a la estructura ni a la cuantía de los salarios profesionales que viniesen percibiendo las personas trabajadoras cuando tales salarios en su conjunto y en cómputo anual fuesen superiores a dicho salario mínimo."
+        }
+      },
+      {
+        "id": "f9",
+        "kind": "date",
+        "statement": "The new minimum wage covers 1 January to 31 December 2026 and is payable with effect from 1 January 2026 (Final provision 3).",
+        "date": "2026-01-01",
+        "date_kind": "application",
+        "citation": {
+          "article": "Final provision 3",
+          "quote": "surtirá efectos durante el período comprendido entre el 1 de enero y el 31 de diciembre de 2026, procediendo, en consecuencia, el abono del salario mínimo fijado en este con efectos desde el 1 de enero de 2026."
+        }
+      },
+      {
+        "id": "f10",
+        "kind": "date",
+        "statement": "The decree enters into force the day after its publication in the Official State Gazette (Boletín Oficial del Estado) (Final provision 3).",
+        "date": "2026-02-20",
+        "date_kind": "entry_into_force",
+        "citation": {
+          "article": "Final provision 3",
+          "quote": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»"
+        }
+      },
+      {
+        "id": "f11",
+        "kind": "amount",
+        "statement": "The new amounts are 3,1 percent higher than those set for 2025 (Preamble).",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Preamble",
+          "quote": "Las nuevas cuantías representan un incremento del 3,1 por ciento respecto de las previstas en el Real Decreto 87/2025, de 11 de febrero"
+        }
+      },
+      {
+        "id": "f12",
+        "kind": "obligation",
+        "statement": "Employers can offset the increase against all annual full-time earnings workers already receive under laws, agreements and contracts (Art. 3(2)).",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 3(2)",
+          "quote": "Estas percepciones son compensables con los ingresos que por todos los conceptos viniesen percibiendo las personas trabajadoras en cómputo anual y jornada completa"
+        }
+      },
+      {
+        "id": "f13",
+        "kind": "affected",
+        "statement": "Private contracts that use the minimum wage as a reference for other purposes keep the old amount unless the parties agree otherwise (Transitional provision 1(b)).",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Transitional provision 1(b)",
+          "quote": "A cualesquiera contratos y pactos de naturaleza privada vigentes a la fecha de entrada en vigor de este real decreto que utilicen el salario mínimo interprofesional como referencia a cualquier efecto, salvo que las partes acuerden la aplicación de las nuevas cuantías del salario mínimo interprofesional."
+        }
+      }
+    ],
+    "transposes": [],
+    "confidence": {
+      "level": "high",
+      "reason": "The decree states every amount and date explicitly; only the entry-into-force date comes from source metadata."
+    }
+  }
+}

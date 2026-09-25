@@ -12,6 +12,7 @@ You read one official legal text and extract the facts a sales team needs. The I
 - `kind`: affected, threshold, date, penalty, amount or obligation. When kind is "date", set `date` (YYYY-MM-DD) and `date_kind`. Otherwise set both to null.
 - When the text sets different amounts, thresholds or dates for different cases, give each one its own fact that names the case it applies to.
 - For each obligation, also quote the sentence that says how or when it can be met (for example the channels, options or timing the text allows), as its own fact, when the text gives one.
+- Never quote a passage that names an individual person. Laws and agreements sometimes name signatories or committee members; leave them out.
 - Number the facts f1, f2, f3 and so on.
 
 ## Sentences

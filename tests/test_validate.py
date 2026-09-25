@@ -108,3 +108,37 @@ def test_article_lists_are_not_figures():
     from law_radar.textnorm import statement_numbers
     assert statement_numbers("Fines apply (Art. 9(3), 23(2)).") == set()
     assert statement_numbers("Employers report under Articles 5, 6 and 7 by 7 June 2027.") == {"7", "2027"}
+
+
+def test_quote_naming_a_person_is_dropped():
+    doc = Document(id="es:X", source="es", market="ES", native_id="X", title="t", language="es",
+                   doc_type="Resolución", published=dt.date(2026, 2, 19), url="u", text_url="u",
+                   text="Se designa a don Ejemplo Ficticio Pérez como secretario de la comisión negociadora.")
+    f, reason = check_fact(doc, fact(statement="The committee appoints a secretary.", article="Acta",
+                                     quote="Se designa a don Ejemplo Ficticio Pérez como secretario",
+                                     kind="affected", date=None, date_kind=None))
+    assert f is None and reason == "quote names a person"
+
+
+def test_repeated_article_numbers_check_each_article():
+    from law_radar.models import Article
+    doc = Document(id="es:Y", source="es", market="ES", native_id="Y", title="t", language="es",
+                   doc_type="Resolución", published=dt.date(2026, 2, 19), url="u", text_url="u",
+                   text="Artículo 47 Primera versión del texto.\nArtículo 47 Segunda versión con 1 221 euros al mes.",
+                   articles=[Article(num="47", text="Artículo 47 Primera versión del texto."),
+                             Article(num="47", text="Artículo 47 Segunda versión con 1 221 euros al mes.")])
+    f, reason = check_fact(doc, fact(statement="Pay rises to €1,221 a month.", article="Artículo 47",
+                                     quote="Segunda versión con 1 221 euros al mes", kind="amount",
+                                     date=None, date_kind=None))
+    assert reason is None, reason
+    f, reason = check_fact(doc, fact(statement="Text.", article="Artículo 47",   # spans two articles
+                                     quote="Primera versión del texto. Artículo 47 Segunda", kind="affected",
+                                     date=None, date_kind=None))
+    assert f is None and "not in cited article" in reason
+
+
+def test_provision_references_are_not_figures():
+    from law_radar.textnorm import statement_numbers
+    assert statement_numbers("The decree enters into force the day after publication (Final provision 3).") == set()
+    assert statement_numbers("Old contracts keep the old amount (Transitional provision 1(b)).") == set()
+    assert statement_numbers("Véase la disposición final tercera y la disposición adicional 2.") == set()

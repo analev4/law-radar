@@ -1,0 +1,184 @@
+{
+ "status": {
+  "code": "200",
+  "text": "ok"
+ },
+ "data": {
+  "sumario": {
+   "metadatos": {
+    "publicacion": "BOE",
+    "fecha_publicacion": "20260219"
+   },
+   "diario": [
+    {
+     "numero": "45",
+     "sumario_diario": {
+      "identificador": "BOE-S-2026-45",
+      "url_pdf": {
+       "szBytes": "142430",
+       "szKBytes": "139",
+       "texto": "https://www.boe.es/boe/dias/2026/02/19/pdfs/BOE-S-2026-45.pdf"
+      }
+     },
+     "seccion": []
+    },
+    {
+     "numero": "44",
+     "sumario_diario": {
+      "identificador": "BOE-S-2026-44",
+      "url_pdf": {
+       "szBytes": "401337",
+       "szKBytes": "392",
+       "texto": "https://www.boe.es/boe/dias/2026/02/19/pdfs/BOE-S-2026-44.pdf"
+      }
+     },
+     "seccion": [
+      {
+       "codigo": "1",
+       "nombre": "I. Disposiciones generales",
+       "departamento": [
+        {
+         "codigo": "5140",
+         "nombre": "MINISTERIO DE HACIENDA",
+         "epigrafe": [
+          {
+           "nombre": "Corporaciones locales. Información tributaria",
+           "item": [
+            {
+             "identificador": "BOE-A-2026-3814",
+             "control": "2026/2981",
+             "titulo": "Resolución de 11 de febrero de 2026, de la Secretaría General de Financiación Autonómica y Local, por la que se desarrolla la información a suministrar por las Corporaciones Locales relativa al esfuerzo fiscal de 2024 y su comprobación en las Delegaciones de Economía y Hacienda.",
+             "url_pdf": {
+              "szBytes": "211760",
+              "szKBytes": "207",
+              "pagina_inicial": "25603",
+              "pagina_final": "25606",
+              "texto": "https://www.boe.es/boe/dias/2026/02/19/pdfs/BOE-A-2026-3814.pdf"
+             },
+             "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3814",
+             "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-3814"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "codigo": "9573",
+         "nombre": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+         "epigrafe": [
+          {
+           "nombre": "Salario mínimo interprofesional",
+           "item": [
+            {
+             "identificador": "BOE-A-2026-3815",
+             "control": "2026/3089",
+             "titulo": "Real Decreto 126/2026, de 18 de febrero, por el que se fija el salario mínimo interprofesional para 2026.",
+             "url_pdf": {
+              "szBytes": "224617",
+              "szKBytes": "219",
+              "pagina_inicial": "25607",
+              "pagina_final": "25610",
+              "texto": "https://www.boe.es/boe/dias/2026/02/19/pdfs/BOE-A-2026-3815.pdf"
+             },
+             "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3815",
+             "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-3815"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "codigo": "2A",
+       "nombre": "II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias",
+       "departamento": [
+        {
+         "codigo": "1820",
+         "nombre": "CONSEJO GENERAL DEL PODER JUDICIAL",
+         "epigrafe": [
+          {
+           "nombre": "Nombramientos",
+           "item": [
+            {
+             "identificador": "BOE-A-2026-3816",
+             "control": "2026/2713",
+             "titulo": "Real Decreto 123/2026, de 11 de febrero, por el que se nombra Presidente del Tribunal Superior de Justicia de Illes Balears a [name removed from this fixture].",
+             "url_pdf": {
+              "szBytes": "191644",
+              "szKBytes": "187",
+              "pagina_inicial": "25611",
+              "pagina_final": "25611",
+              "texto": "https://www.boe.es/boe/dias/2026/02/19/pdfs/BOE-A-2026-3816.pdf"
+             },
+             "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3816",
+             "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-3816"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "codigo": "3",
+       "nombre": "III. Otras disposiciones",
+       "departamento": [
+        {
+         "codigo": "9573",
+         "nombre": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+         "epigrafe": [
+          {
+           "nombre": "Convenios colectivos de trabajo",
+           "item": [
+            {
+             "identificador": "BOE-A-2026-3870",
+             "control": "2026/2589",
+             "titulo": "Resolución de 6 de febrero de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de revisión salarial del XXI Convenio colectivo general de la industria química.",
+             "url_pdf": {
+              "szBytes": "230239",
+              "szKBytes": "225",
+              "pagina_inicial": "26057",
+              "pagina_final": "26060",
+              "texto": "https://www.boe.es/boe/dias/2026/02/19/pdfs/BOE-A-2026-3870.pdf"
+             },
+             "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3870",
+             "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-3870"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "codigo": "3120",
+         "nombre": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+         "epigrafe": [
+          {
+           "nombre": "Pesca marítima",
+           "item": [
+            {
+             "identificador": "BOE-A-2026-3874",
+             "control": "2026/3064",
+             "titulo": "Resolución de 16 de febrero de 2026, de la Secretaría General de Pesca, por la que se modifica la de 23 de enero de 2026, por la que se publica para 2026 el listado de días de pesca asignados por buque y grupo de buques de arrastre de fondo del Mediterráneo.",
+             "url_pdf": {
+              "szBytes": "856704",
+              "szKBytes": "837",
+              "pagina_inicial": "26174",
+              "pagina_final": "26194",
+              "texto": "https://www.boe.es/boe/dias/2026/02/19/pdfs/BOE-A-2026-3874.pdf"
+             },
+             "url_html": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3874",
+             "url_xml": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-3874"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -50,7 +50,15 @@ sources:
     # Sections about named people. Never read (no personal data).
     exclude_headings: ["Mesures nominatives", "Naturalisations"]
   es:
-    enabled: false               # switched on in step 4
+    enabled: true
+    sections: ["1"]              # section 2 (appointments of named people) is never read
+    section3_epigraphs: ["Convenios colectivos de trabajo"]
+    # BOE subject codes (materias): 1667 employment contracts, 1684 collective agreements,
+    # 1754 Social Security contributions, 2490 dismissals, 3160 employment, 3805 vocational training,
+    # 4553 working time, 4662 gender equality, 6047 labour relations, 6230 pay, 6256 minimum wage,
+    # 6257 salaries, 6499 Social Security, 6909 workers.
+    materias: ["1667", "1684", "1754", "2490", "3160", "3805", "4553", "4662", "6047", "6230",
+               "6256", "6257", "6499", "6909"]
 
 watch:
   directives: ["32023L0970"]     # Pay Transparency Directive: flag national transposition texts

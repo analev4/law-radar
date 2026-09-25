@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20260219112601">
+  <metadatos>
+    <identificador>BOE-A-2026-3814</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="5140">Ministerio de Hacienda</departamento>
+    <rango codigo="1370">Resolución</rango>
+    <fecha_disposicion>20260211</fecha_disposicion>
+    <numero_oficial/>
+    <titulo>Resolución de 11 de febrero de 2026, de la Secretaría General de Financiación Autonómica y Local, por la que se desarrolla la información a suministrar por las Corporaciones Locales relativa al esfuerzo fiscal de 2024 y su comprobación en las Delegaciones de Economía y Hacienda.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20260219</fecha_publicacion>
+    <diario_numero>44</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>25603</pagina_inicial>
+    <pagina_final>25606</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2026/02/19/pdfs/BOE-A-2026-3814.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2026-3814</url_epub>
+    </url_epub>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20260220</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/res/2026/02/11/(1)</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/res/2026/02/11/(1)">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/res"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2026-3814</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-11</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/421"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4093"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4096"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4117"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4169"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4629"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/res/2026/02/11/(1)/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/res"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2026-3814</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-11</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/421"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4093"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4096"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4117"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4169"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4629"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/res/2026/02/11/(1)"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/res/2026/02/11/(1)/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resolución de 11 de febrero de 2026, de la Secretaría General de Financiación Autonómica y Local, por la que se desarrolla la información a suministrar por las Corporaciones Locales relativa al esfuerzo fiscal de 2024 y su comprobación en las Delegaciones de Economía y Hacienda.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-19</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/res/2026/02/11/(1)/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/res/2026/02/11/(1)/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2026/02/11/(1)/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/res/2026/02/11/(1)/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2026/02/11/(1)/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/res/2026/02/11/(1)/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2026/02/11/(1)/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/res/2026/02/11/(1)/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2026/02/11/(1)/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="421" orden="1">Ayuntamientos</materia>
+      <materia codigo="4093" orden="1">Impuesto sobre Actividades Económicas</materia>
+      <materia codigo="4096" orden="1">Impuesto sobre Bienes Inmuebles</materia>
+      <materia codigo="4117" orden="1">Impuesto sobre Vehículos de Tracción Mecánica</materia>
+      <materia codigo="4169" orden="1">Información tributaria</materia>
+      <materia codigo="4629" orden="1">Secretaría General de Financiación Autonómica y Local</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2026-2547" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>el art. 18 del Real Decreto-ley 2/2026, de 3 de febrero</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2022-22128" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>la Ley 31/2022, de 23 de diciembre</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="121" orden="1">Organización de la Administración</alerta>
+      <alerta codigo="128" orden="1">Sistema tributario</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">El artículo 99.3, apartado b.2, de Ley 31/2022, de 23 de diciembre, de Presupuestos Generales del Estado para el año 2023, prorrogados para el ejercicio 2026, establece la fórmula para el cálculo del esfuerzo fiscal de 2021 de los municipios, necesario para proceder a la liquidación definitiva de su participación en los tributos del Estado correspondiente a 2023. Esta fórmula se desarrolla en términos análogos a los de ejercicios anteriores, y en virtud de la prórroga de presupuestos mencionada, hay que considerarla aplicable también al esfuerzo fiscal de 2024, al igual que la información a suministrar por las Corporaciones Locales en relación con dicho esfuerzo fiscal.</p>
+    <p class="parrafo">Por otro lado, el artículo 18 del Real Decreto-ley 2/2026, de 3 de febrero, por el que se adoptan medidas urgentes para hacer frente a situaciones de vulnerabilidad social, en materia tributaria y relativas a los recursos de los sistemas de financiación territorial, establece que: «A efectos de la información a suministrar por las Corporaciones locales relativa al esfuerzo fiscal establecida en el artículo 116 de la Ley 31/2022, de 23 de diciembre, las certificaciones correspondientes se referirán al año 2024 y se deberán suministrar a los órganos competentes antes del 30 de junio de 2026, en la forma en la que éstos determinen».</p>
+    <p class="parrafo">Consecuentemente con lo dispuesto por el citado real decreto-ley, se establece el próximo 30 de junio de 2026 como fecha límite de presentación de la información sobre el esfuerzo fiscal correspondiente al año 2024.</p>
+    <p class="parrafo">Dicha presentación sólo podrá realizarse mediante su transmisión telemática con firma electrónica. Para ello, esta Secretaría General ha puesto a disposición de las Entidades Locales una aplicación accesible desde la Oficina Virtual para la Coordinación Financiera con las Entidades Locales del portal del Ministerio de Hacienda.</p>
+    <p class="parrafo">Al objeto de facilitar a los ayuntamientos el cumplimiento de esta obligación, y para calcular el esfuerzo fiscal municipal con la mayor precisión,</p>
+    <p class="parrafo">Esta Secretaría General dicta la presente resolución, en virtud de la normativa anteriormente citada.</p>
+    <p class="articulo">Apartado 1. Información a suministrar por las Corporaciones Locales.</p>
+    <p class="parrafo">Los ayuntamientos deberán remitir la información que, con carácter básico y complementario, se cita en los apartados siguientes.</p>
+    <p class="parrafo_2">1.1 Información básica. Los ayuntamientos deberán certificar los siguientes datos referidos al ejercicio 2024:</p>
+    <p class="parrafo_2">a) Recaudaciones líquidas de los siguientes tributos:</p>
+    <p class="parrafo_2">– Impuesto sobre Bienes Inmuebles (en adelante, IBI), especificándose por separado, la recaudación por bienes inmuebles urbanos, rústicos y de características especiales.</p>
+    <p class="parrafo">– Impuesto sobre Actividades Económicas (en adelante, IAE).</p>
+    <p class="parrafo">– Impuesto sobre Vehículos de Tracción Mecánica.</p>
+    <p class="parrafo_2">b) Bases imponibles deducidas de los padrones del año 2024, así como de las altas producidas en los mismos, correspondientes al IBI, especificando separadamente los bienes inmuebles urbanos y los de características especiales.</p>
+    <p class="parrafo">Además, se especificarán las reducciones que se hubieran aplicado en 2024, a las que se refiere la disposición adicional novena del texto refundido de la Ley Reguladora de las Haciendas Locales, aprobado por Real Decreto Legislativo 2/2004, de 5 de marzo, que establece que las bases imponibles del mencionado impuesto a considerar en el cálculo del esfuerzo fiscal, a efectos de la distribución de la participación en tributos del Estado a favor de los ayuntamientos, «… se corresponderán con el importe de los valores catastrales minorados en la cuantía de la reducción establecida en esta ley que, en su caso, corresponda a los inmuebles del municipio en cada ejercicio económico» (artículos 65 a 70 del citado texto refundido).</p>
+    <p class="parrafo">c) Tipos de gravamen aplicados en el IBI, tanto de naturaleza urbana como rústica y, en su caso, el correspondiente a los bienes inmuebles de características especiales.</p>
+    <p class="parrafo">Para los bienes inmuebles urbanos no deberán consignarse los tipos de gravamen incrementados previstos en el apartado 4 del artículo 72 del texto refundido de la Ley Reguladora de las Haciendas Locales que haya aprobado el ayuntamiento.</p>
+    <p class="parrafo">d) Cuota tributaria total exigible en el municipio por el IAE.</p>
+    <p class="parrafo_2">1.2 Información complementaria. En el caso de que la gestión recaudatoria esté encomendada a otro ente territorial a cuya demarcación pertenezcan los ayuntamientos, con el que se hubiere formalizado el correspondiente convenio o en el que se hubiere delegado esta facultad, se deberá adjuntar, además, certificado de la recaudación obtenida por aquel ente, el cual deberá emitirlo en cumplimiento de la obligación dimanante de las relaciones interadministrativas a las que hace referencia el artículo 55 de la Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local.</p>
+    <p class="parrafo">En el documento que expida el órgano competente deberá quedar constancia de que los ingresos corresponden al ejercicio 2024 y que han sido recaudados dentro del período voluntario. Igualmente, habrá de especificarse que la recaudación líquida por el IAE contenida en las certificaciones expedidas, corresponde exclusivamente a ingresos municipales, excluidos, en su caso, los recargos a favor de entes provinciales y las cuotas nacionales y provinciales.</p>
+    <p class="articulo">Apartado 2. Plazo y forma de remisión de la información.</p>
+    <p class="parrafo">Los ayuntamientos deberán grabar y transmitir la información citada en el apartado anterior a partir de la publicación de la presente resolución en el «Boletín Oficial del Estado» y antes del 30 de junio de 2026.</p>
+    <p class="parrafo">Los ayuntamientos remitirán la documentación básica y complementaria y los datos fiscales con firma electrónica del Interventor o, en su caso, del titular del órgano de la Corporación Local que tenga atribuida la función de contabilidad, cumplimentándolos directamente a través de la aplicación disponible en la Oficina Virtual para la Coordinación Financiera con las Entidades Locales, accesible en el portal del Ministerio de Hacienda y proceder a su tramitación telemática.</p>
+    <p class="parrafo">A aquellos ayuntamientos que no graben y transmitan telemáticamente con firma electrónica la documentación anterior, en las condiciones señaladas, les será de aplicación, a efectos de practicar la liquidación definitiva de su participación en los tributos del Estado correspondiente a 2026, el coeficiente mínimo del esfuerzo fiscal medio, calculado en los términos del apartado 3 del artículo 116 de la Ley 31/2022, de 23 de diciembre.</p>
+    <p class="articulo">Apartado 3. Comprobación de la información suministrada por las Corporaciones Locales.</p>
+    <p class="parrafo">Las Delegaciones de Economía y Hacienda, una vez grabados y documentados los certificados de esfuerzo fiscal por los ayuntamientos, comprobarán su contenido con arreglo a los apartados siguientes.</p>
+    <p class="parrafo_2">3.1 Comprobación de las recaudaciones. Para la comprobación de las recaudaciones obtenidas por los diferentes tributos se deberán tener en cuenta los siguientes extremos:</p>
+    <p class="parrafo_2">a) Los ayuntamientos deberán aportar datos de la recaudación líquida obtenida en período voluntario correspondiente al ejercicio 2024.</p>
+    <p class="parrafo">b) En el caso de que existan discrepancias respecto a los mismos tributos entre los datos del certificado expedido por el órgano recaudador provincial o supramunicipal y las cifras aportadas por el ayuntamiento, prevalecerán las recogidas en aquél, salvo cuando haya habido actuaciones de recaudación municipal (por ejemplo: altas en padrones tributarios), en cuyo caso se recogerán por separado y se sumarán ambos importes.</p>
+    <p class="parrafo">c) La recaudación del IAE no podrá exceder de la cuota tributaria total deducida de la tarifa (cuota modificada por la aplicación del coeficiente de ponderación, incrementada, en su caso, por los coeficientes de situación, excluyendo los recargos provinciales y las cuotas provinciales y nacionales). Esta recaudación se incrementará con el importe de la compensación que, en relación a 2024, se hubiere reconocido a los ayuntamientos por bonificaciones en la cuota de este impuesto concedidas a cooperativas fiscalmente protegidas.</p>
+    <p class="parrafo">d) La recaudación del IBI de naturaleza urbana no podrá exceder, en ningún caso, de la aplicación del tipo de gravamen acordado por el ayuntamiento sobre la base liquidable sujeta a tributación, datos que el ayuntamiento aporta en la aplicación de esfuerzo fiscal. Esta recaudación se incrementará con el importe de la compensación que, en relación a 2024, se hubiera reconocido a los ayuntamientos por bonificaciones en la cuota de este impuesto concedidas a centros educativos concertados.</p>
+    <p class="parrafo_2">3.2 Comprobación de elementos tributarios básicos. La comprobación de los elementos tributarios básicos deberá incidir en los siguientes aspectos:</p>
+    <p class="parrafo_2">a) La base imponible del IBI de naturaleza urbana, en los términos de la disposición adicional novena y en los artículos 65 a 70 del texto refundido de la Ley Reguladora de las Haciendas Locales. En aquélla no se incluirá la base imponible de los bienes inmuebles de características especiales, que deberá recogerse en el certificado de forma separada. En cualquier caso, se excluirá la base imponible que corresponda a bienes exentos de tributación en este impuesto.</p>
+    <p class="parrafo">b) Los tipos de gravamen del IBI, correspondiente a los bienes inmuebles de naturaleza urbana, de naturaleza rústica, así como a los de características especiales, en su caso, deberán estar incluidos en los límites que se fijan en los apartados 1 y 3 del artículo 72 del texto refundido de la Ley Reguladora de las Haciendas Locales.</p>
+    <p class="parrafo">c) La cuota tributaria total del IAE no deberá incluir cuotas provinciales o nacionales ni recargos provinciales.</p>
+    <p class="parrafo_2">3.3 Resultados de la comprobación. Realizada la comprobación con arreglo a los criterios anteriores, las Delegaciones de Economía y Hacienda ajustarán a los mismos las certificaciones correspondientes, accediendo a la misma aplicación habilitada a estos efectos por la Secretaría General de Financiación Autonómica y Local.</p>
+    <p class="parrafo">En el supuesto de que las Delegaciones de Economía y Hacienda hayan apreciado la necesidad de ajustar las certificaciones a los criterios anteriores, deberán comunicar tal circunstancia a los ayuntamientos correspondientes, al objeto de que, en el plazo de quince días hábiles desde su recepción, manifiesten las alegaciones que consideren oportunas.</p>
+    <p class="parrafo">Una vez transcurrido dicho plazo, la Delegaciones de Economía y Hacienda consolidarán los datos en la aplicación y remitirán a la Secretaría General de Financiación Autonómica y Local la documentación aportada por las Entidades Locales, conforme a lo dispuesto en el apartado 4 siguiente.</p>
+    <p class="articulo">Apartado 4. Comunicación a la Secretaría General de Financiación Autonómica y Local del resultado de la comprobación.</p>
+    <p class="parrafo">Antes del 30 de octubre de 2026, las Delegaciones de Economía y Hacienda comunicarán a la Secretaría General de Financiación Autonómica y Local la finalización del procedimiento de comprobación de las certificaciones de los ayuntamientos de sus respectivas provincias, dando especial relieve a las incidencias existentes en el mismo. La Secretaría General de Financiación Autonómica y Local procederá, por su parte, al bloqueo de la información correspondiente a todos los ayuntamientos el mismo 30 de octubre de 2026.</p>
+    <p class="parrafo">Las Delegaciones de Economía y Hacienda enviarán, en relación con todos los ayuntamientos de su provincia, la siguiente documentación:</p>
+    <p class="parrafo_2">a) En el supuesto de que se hubieran incluido en los importes de recaudación, de bases imponibles o de cuotas tributarias, las compensaciones que por beneficios fiscales en el IBI o en el IAE se hubieran reconocido, se enviará una relación conteniendo los nombres de los municipios afectados y los importes que correspondan a cada compensación, especificando ésta y el impuesto municipal al que se refiera. Si no hubieren incluido las compensaciones antes citadas en las cifras de recaudación, de bases imponibles o de cuotas tributarias, se deberá especificar esta circunstancia.</p>
+    <p class="parrafo">b) En el caso de que, a pesar de la limitación establecida en el epígrafe c) del apartado 3.1 de esta resolución, la recaudación del IAE supere a la cuota tributaria municipal, se enviará una relación de los municipios en los que se dé esta circunstancia, especificando el motivo de la misma.</p>
+    <p class="articulo">Apartado 5. Prórroga de los plazos.</p>
+    <p class="parrafo">Los plazos señalados en la presente resolución podrán ser prorrogados de oficio, en la forma prevista en el artículo 32 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas, en cuyo caso, la Secretaría General de Financiación Autonómica y Local adoptará el oportuno acuerdo, que será comunicado a los municipios a través de las Delegaciones de Economía y Hacienda.</p>
+    <p class="articulo">Apartado 6. Publicación.</p>
+    <p class="parrafo">La presente resolución debe ser objeto de publicación en el «Boletín Oficial del Estado», para general conocimiento, y entrará en vigor al día siguiente de su publicación.</p>
+    <p class="parrafo_2">Madrid, 11 de febrero de 2026.–La Secretaria General de Financiación Autonómica y Local, Inés Olóndriz de Moragas.</p>
+  </texto>
+</documento>

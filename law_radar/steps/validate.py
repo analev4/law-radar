@@ -21,6 +21,10 @@ from ..textnorm import canon, months, quote_numbers, statement_numbers
 
 MIN_QUOTE_CHARS = 20
 
+# Principle 5: the tool reads laws, never people. A quote that names a person with a courtesy title
+# (common in Spanish collective-agreement minutes and French appointment texts) is dropped.
+_PERSON = re.compile(r"(?:\b(?:don|doña|dña\.|Mme|Mlle)|\bD\.ª|\bM\.)\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+")
+
 _ARTICLE_WORDS = r"(?:art(?:icle|ículo|iculo)?s?\.?|§)"
 _ORDINALS = {"premier": "1", "1er": "1", "primero": "1", "unique": "unique", "unico": "unique", "único": "unique"}
 
@@ -47,11 +51,10 @@ def _normalise_num(num: str) -> str:
     return _ORDINALS.get(n, n)
 
 
-def _article_text(doc: Document, num: str) -> Optional[str]:
-    for art in doc.articles:
-        if _normalise_num(art.num) == num:
-            return art.text
-    return None
+def _article_texts(doc: Document, num: str) -> List[str]:
+    """Every article with that number. A number can repeat, for example in a Spanish resolution
+    that quotes the clauses of a collective agreement. A quote must sit inside one of them."""
+    return [art.text for art in doc.articles if _normalise_num(art.num) == num]
 
 
 def _date_supported(value: dt.date, quote: str) -> bool:
@@ -67,14 +70,16 @@ def check_fact(doc: Document, fact: FactOut) -> Tuple[Optional[Fact], Optional[s
         return None, f"quote shorter than {MIN_QUOTE_CHARS} characters"
     if cq not in canon(doc.text):
         return None, "quote not found in the fetched text"
+    if _PERSON.search(cq):
+        return None, "quote names a person"
 
     kind, num = parse_article_ref(fact.citation.article)
     article_checked = False
     if doc.articles and kind == "article" and num:
-        art_text = _article_text(doc, num)
-        if art_text is None:
+        art_texts = _article_texts(doc, num)
+        if not art_texts:
             return None, f"cited article {fact.citation.article!r} not found"
-        if cq not in canon(art_text):
+        if not any(cq in canon(t) for t in art_texts):
             return None, f"quote not in cited article {fact.citation.article!r}"
         article_checked = True
 

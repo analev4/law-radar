@@ -2,32 +2,33 @@
   "step": "score",
   "key": "fr:JORFTEXT000053634597",
   "model": "claude-code",
-  "request_sha256": "9d3ff84c37ebd3495ae9c62d85fd18913c79257aa19945a2ab06004400c96509",
+  "request_sha256": "6a985818a16d5279f8fa29a8b6e6923a7564848f51850a3ef1462d32a8aa04d0",
   "usage": {},
   "output": {
     "forcing_mechanism": {
       "verdict": "yes",
-      "evidence": "Firms under 250 staff get up to 4,500 euros per level 5 apprentice contract starting before 1 January 2027.",
+      "evidence": "Firms under 250 staff get up to EUR 4,500 in aid (aide exceptionnelle) per level 5 apprentice whose contract starts before 1 January 2027.",
       "fact_refs": [
-        "f2",
-        "f7"
+        "f1",
+        "f3",
+        "f8"
       ],
       "dataset_ids": []
     },
     "findable": {
       "verdict": "yes",
-      "evidence": "SIRENE names companies with NAF code and staff band; France Travail ads name the employer, NAF code and contract type.",
+      "evidence": "The France Travail job ads API and SIRENE both name companies, with NAF code and staff size band fields.",
       "fact_refs": [],
       "dataset_ids": [
-        "fr_sirene",
-        "fr_france_travail_offres"
+        "fr_france_travail_offres",
+        "fr_sirene"
       ]
     },
     "early": {
       "verdict": "yes",
-      "evidence": "France Travail ads update continuously, so hiring intent shows before the 1 January 2027 start-date cutoff.",
+      "evidence": "Job ads are live and updated continuously, so apprentice hiring shows before contracts start and before the 1 January 2027 cutoff.",
       "fact_refs": [
-        "f7"
+        "f1"
       ],
       "dataset_ids": [
         "fr_france_travail_offres"
@@ -35,11 +36,8 @@
     },
     "gap_evidence": {
       "verdict": "no",
-      "evidence": "No catalogue dataset records apprentice contracts or aid claims, which run through the skills operator and payment agency.",
-      "fact_refs": [
-        "f10",
-        "f11"
-      ],
+      "evidence": "No catalogue dataset records signed apprenticeship contracts or aid claims, so no record shows which firms have not taken the aid.",
+      "fact_refs": [],
       "dataset_ids": [
         "fr_france_travail_offres",
         "fr_sirene"
@@ -47,29 +45,29 @@
     },
     "crowding": {
       "verdict": "yes",
-      "evidence": "Aid payment depends on the monthly payroll declaration, a filing every French payroll tool already produces.",
+      "evidence": "For firms under 250 staff, the aid flows from payroll declaration data that existing payroll tools and accountants already file.",
       "fact_refs": [
-        "f16",
-        "f17"
+        "f15",
+        "f22"
       ],
       "dataset_ids": []
     },
     "list_recipes": [
       {
         "dataset_id": "fr_france_travail_offres",
-        "filter": "apprenticeship (apprentissage) in typeContrat or intitule, codeNAF 55, 56, 47 or 41-43, trancheEffectifEtab 10-249",
-        "gap_evidence": "open apprentice ad means a contract not yet signed before 1 January 2027",
-        "metric": "open apprentice ads per company times 4,500 euros maximum aid",
+        "filter": "codeNAF 55, 56, 47 or 41-43; trancheEffectifEtab 10-249; typeContrat or intitule showing apprenticeship (apprentissage)",
+        "gap_evidence": "open apprentice ad, so the contract is not yet signed before the 1 January 2027 cutoff",
+        "metric": "count of open apprentice ads per company",
         "signal_strength": "weak",
-        "caveat": "An open ad shows hiring intent only, since the aid claim runs through the skills operator outside this data."
+        "caveat": "An open ad shows hiring intent, not a missed claim, and level 3 to 4 apprentices at firms under 250 staff get no aid."
       },
       {
         "dataset_id": "fr_sirene",
-        "filter": "activitePrincipale NAF 55, 56, 47 or 41-43, trancheEffectifs 10-49 or 50-249",
-        "gap_evidence": "none in the data; staff band shows eligibility for the under-250 rate only",
-        "metric": "count of eligible establishments per company",
+        "filter": "activitePrincipale NAF 55, 56, 47 or 41-43; trancheEffectifs 10-249",
+        "gap_evidence": "none in the data; only sector and size eligibility",
+        "metric": "staff size band per company",
         "signal_strength": "weak",
-        "caveat": "SIRENE shows eligibility, not whether a company hires apprentices or claims the aid."
+        "caveat": "SIRENE holds no apprenticeship or aid data, so it only sizes the eligible base."
       }
     ]
   }

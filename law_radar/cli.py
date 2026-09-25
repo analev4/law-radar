@@ -36,6 +36,9 @@ def build_sources(cfg: Config, client: PoliteClient) -> List:
     if cfg.sources.fr.enabled:
         from .sources.fr_dila import FRDilaSource
         sources.append(FRDilaSource(client, cfg.sources.fr.natures, cfg.sources.fr.exclude_headings))
+    if cfg.sources.es.enabled:
+        from .sources.es_boe import ESBoeSource
+        sources.append(ESBoeSource(client, cfg.sources.es.sections, cfg.sources.es.section3_epigraphs))
     return sources
 
 

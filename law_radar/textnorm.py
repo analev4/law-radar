@@ -40,7 +40,9 @@ def strip_accents(text: str) -> str:
 # ---------------------------------------------------------------------------
 
 _ARTICLE_REF = re.compile(
-    r"\b(?:art(?:icle|ículo|iculo)?s?\.?|annex(?:e)?|anexo|recital|considérant|para(?:graph)?\.?|"
+    r"\b(?:(?:final|transitional|additional|repealing|derogatory)\s+provisions?|provisions?|"
+    r"disposici[oó]n(?:es)?(?:\s+(?:final|transitoria|adicional|derogatoria)(?:es)?)?|dispositions?|"
+    r"art(?:icle|ículo|iculo)?s?\.?|annex(?:e)?|anexo|recital|considérant|para(?:graph)?\.?|"
     r"regulation|directive|decree|décret|decret|real decreto|ley|loi|order|orden|arrêté|n°|no\.)"
     r"\s*(?:\(?(?:eu|ue|ce|ec)\)?\s*)?(?:(?:no\.?|n°|nº)\s*)?[\dA-Z][\w./()-]*"
     # a list of further article numbers: "Art. 9(3), 23(2) and 24"

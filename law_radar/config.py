@@ -49,8 +49,10 @@ class FRSource(BaseModel):
 
 class ESSource(BaseModel):
     enabled: bool = False
-    sections: List[str] = Field(default_factory=lambda: ["1"])
-    materias: List[str] = Field(default_factory=list)
+    sections: List[str] = Field(default_factory=lambda: ["1"])      # section 2 (named people) is never read
+    # Section 3 is read only under these epigraphs; the rest of it is grants, prizes and similar acts.
+    section3_epigraphs: List[str] = Field(default_factory=lambda: ["Convenios colectivos de trabajo"])
+    materias: List[str] = Field(default_factory=list)                # BOE subject codes that count as a match
 
 
 class Sources(BaseModel):

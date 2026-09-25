@@ -115,8 +115,12 @@ Verified end to end on the golden fixture: `JORF_20260307-002619.tar.gz` contain
 
 Sections we read by default:
 - **1, Disposiciones generales:** laws, royal decrees and orders. This is the main target.
-- **3, Otras disposiciones:** includes sector collective agreements (convenios colectivos), which matter for payroll and HR ICPs. Off or on per config.
-- **Not read:** section 2 (Autoridades y personal: named appointments, which is personal data), section 4 (courts) and section 5 (announcements and tenders).
+- **3, Otras disposiciones:** only under the epigraphs listed in the config. The default is "Convenios colectivos de trabajo" (collective agreements), which matter for payroll ICPs. The rest of section 3 is grants, prizes, curricula and similar acts.
+- **Never read:** section 2 (Autoridades y personal: appointments of named people). It is blocked in code, whatever the config says. Sections 4 and 5 (courts, announcements) aren't read either.
+
+**Personal data in collective agreements.** Agreement minutes can name the members of the negotiating committee. On 19 February 2026, BOE-A-2026-3870 did. law-radar never stores those texts in the repo; they stay in the local, gitignored `.cache`. The read prompt forbids quoting a passage that names a person, and the citation validator drops any quote that names someone with a courtesy title ("don", "doña", "M.", "Mme"). The golden fixtures don't include that agreement, and the one appointment kept to test the section 2 exclusion has the person's name removed.
+
+**As built (step 4):** `sources/es_boe.py` fetches one summary per day in the window (404 means no BOE that day), then the XML of each item it keeps. A live run for 19–22 September 2026 fetched 21 texts in 25 seconds. Articles are split on `<p class="articulo">`. "Disposición" blocks stay in the full text but aren't articles, so a quote from a final provision is checked against the whole text. Example config subject codes: 1667, 1684, 1754, 2490, 3160, 3805, 4553, 4662, 6047, 6230, 6256, 6257, 6499, 6909 (from `/datosabiertos/api/datos-auxiliares/materias`).
 
 The same API also serves consolidated legislation (`/datosabiertos/api/legislacion-consolidada/...`) and subject lookup tables (`/datosabiertos/api/datos-auxiliares/materias`), which the config can use to map subject codes to labels. Source: [BOE open data API](https://www.boe.es/datosabiertos/api/api.php).
 

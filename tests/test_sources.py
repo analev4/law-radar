@@ -86,3 +86,35 @@ def test_transposition_detection():
     assert transposed_directives("La presente ley incorpora al ordenamiento la Directiva 2006/54/CE.") == ["32006L0054"]
     assert transposed_directives("Vu la directive (UE) 2023/970 ;") == []                  # a visa is not a transposition
     assert transposed_directives("leur transposition didactique : quarante minutes") == []
+
+
+# ---------------------------------------------------------------------------
+# Spain (the real BOE of 19 February 2026, trimmed)
+# ---------------------------------------------------------------------------
+
+def test_es_summary_filtering():
+    import json
+    from law_radar.config import ESSource
+    from law_radar.fixtures import ES_SUMARIO, FIXTURES
+    from law_radar.sources.es_boe import sumario_items, wanted
+    cfg = ESSource()
+    items = sumario_items(json.loads((FIXTURES / "es" / ES_SUMARIO).read_text()))
+    kept = {i["id"] for i in items if wanted(i, cfg.sections, cfg.section3_epigraphs)}
+    assert kept == {"BOE-A-2026-3814", "BOE-A-2026-3815", "BOE-A-2026-3870"}
+    # Section 2 (appointments) is never read, even if the config asks for it.
+    appointment = next(i for i in items if i["section"] == "2A")
+    assert not wanted(appointment, ["1", "2A", "2B"], [])
+    # Section 3 only under the listed epigraphs: the collective agreement yes, the fishing order no.
+    assert not wanted(next(i for i in items if i["id"] == "BOE-A-2026-3874"), cfg.sections, cfg.section3_epigraphs)
+
+
+def test_es_minimum_wage_decree_is_parsed():
+    from law_radar.fixtures import ES_RELEVANT, load_es
+    doc = next(d for d in load_es() if d.native_id == ES_RELEVANT)
+    assert doc.id == "es:BOE-A-2026-3815" and doc.doc_type == "Real Decreto" and doc.language == "es"
+    assert doc.published == dt.date(2026, 2, 19) and doc.entry_into_force == dt.date(2026, 2, 20)
+    assert doc.classification["materias"] == ["6256"]
+    assert doc.url == "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3815"
+    assert [a.num for a in doc.articles] == ["1", "2", "3", "4"]
+    assert "40,70 euros/día o 1 221 euros/mes" in doc.articles[0].text
+    assert "Disposición final tercera" in doc.text and "Disposición final tercera" not in doc.articles[-1].text

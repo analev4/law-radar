@@ -1,0 +1,13 @@
+{
+  "step": "rewrite",
+  "key": "es:BOE-A-2026-3815__scorecard_early",
+  "model": "claude-code",
+  "request_sha256": "49ec4da1a17f026b8ac476ad1c7cbd76397122c8bb135edeee6233f2121a4f3a",
+  "usage": {},
+  "output": {
+    "text": "No catalogue dataset covers Spain, and the new minimum wage took effect on 1 January 2026.",
+    "fact_refs": [
+      "f9"
+    ]
+  }
+}

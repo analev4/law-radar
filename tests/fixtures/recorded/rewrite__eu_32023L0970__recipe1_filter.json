@@ -1,0 +1,14 @@
+{
+  "step": "rewrite",
+  "key": "eu:32023L0970__recipe1_filter",
+  "model": "claude-code",
+  "request_sha256": "6291d1a4b21d010f2f3d94db851a1b8f91c74e208106925f7eae7b1593bc2bcb",
+  "usage": {},
+  "output": {
+    "text": "activitePrincipale NAF 55, 56, 47 or 41-43; trancheEffectifs covering 100 to 249 workers",
+    "fact_refs": [
+      "f11",
+      "f12"
+    ]
+  }
+}

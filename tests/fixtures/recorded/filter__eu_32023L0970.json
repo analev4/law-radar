@@ -2,10 +2,10 @@
   "step": "filter",
   "key": "eu:32023L0970",
   "model": "claude-code",
-  "request_sha256": "5e10945c279d44d6844d45afaefba8fc32ef0df0166fdbe0c6f90bde963ad14b",
+  "request_sha256": "4cf841f1152c24f7675d1a6ad4ea472548390536b07723396fead953c26fd1a4",
   "usage": {},
   "output": {
     "relevant": true,
-    "reason": "Employers must give applicants starting pay ranges and answer staff pay requests; firms with 100+ staff report pay gaps (Art. 5, 7, 9)."
+    "reason": "The directive sets pay transparency and equal pay duties for employers in France and Spain, hitting the HR and payroll work of Ledgerly's buyers."
   }
 }

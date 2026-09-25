@@ -51,3 +51,11 @@ def test_french_irrelevant_text_is_rejected(cfg):
     from law_radar.fixtures import FR_IRRELEVANT, load_fr
     doc = next(d for d in load_fr() if d.native_id == FR_IRRELEVANT)
     assert not KeywordFilter(cfg).match(doc).passed
+
+
+def test_spanish_codes_and_keywords(cfg):
+    from law_radar.fixtures import ES_IRRELEVANT, ES_RELEVANT, load_es
+    docs = {d.native_id: d for d in load_es()}
+    m = KeywordFilter(cfg).match(docs[ES_RELEVANT])
+    assert m.passed and "materia:6256" in m.codes
+    assert not KeywordFilter(cfg).match(docs[ES_IRRELEVANT]).passed

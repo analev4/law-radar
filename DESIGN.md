@@ -24,6 +24,11 @@ Status: approved in step 2, built in step 3 (EU only). Changes since approval ar
 - **Keywords are per language:** each language's list applies only to texts in that language. The Spanish "nómina*" matched French "nomination" before this change.
 - **France (step 4):** `fr_dila.py` as described in SOURCES.md. The golden fixture is a 14-file subset of the real dump `JORF_20260307-002619.tar.gz`: the apprentice decree, a naturalisation decree (to test exclusion) and a label-rouge order (to test keyword rejection), plus the issue's table of contents.
 
+- **Spain (step 4):** `es_boe.py` as described in SOURCES.md. Golden text: Real Decreto 126/2026 (minimum wage for 2026). The test expects €40.70 a day and €1,221 a month cited from Article 1. Rejected by keywords: BOE-A-2026-3814 (local tax reporting).
+- **Writing rules added in step 4:** write numbers as digits, and never quote a passage that names a person. The second rule is also enforced in code, in the validator.
+- **Validator fixes in step 4:** references to "provisions" and "disposiciones" are no longer counted as figures, and a quote under a repeated article number is checked against each article with that number separately.
+- **Known gap:** the dataset catalogue has no Spanish dataset, so Spanish laws score low on "findable" and "early". Adding one needs the same verification as the French entries.
+
 ## File structure
 
 ```

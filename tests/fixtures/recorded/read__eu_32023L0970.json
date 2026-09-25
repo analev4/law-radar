@@ -2,37 +2,36 @@
   "step": "read",
   "key": "eu:32023L0970",
   "model": "claude-code",
-  "request_sha256": "02d8e93d56f000ec4e19f24c969c256e0db9c2fb6de779f77bdabc2eeee39960",
+  "request_sha256": "96d113e8524419c78402b1fa25545458a770a49f7c0ebd47fbdc0a7cd208816a",
   "usage": {},
   "output": {
     "headline": {
-      "text": "EU countries must adopt the pay transparency rules by 7 June 2026, giving job applicants a right to the starting pay or its range.",
+      "text": "EU countries must apply the pay transparency rules by 7 June 2026, with pay gap reports for employers from 100 workers.",
       "fact_refs": [
         "f2",
-        "f3"
+        "f12"
       ]
     },
     "what_changed": [
       {
-        "text": "Employers must tell job applicants the starting pay or its range, and may not ask about their pay history.",
+        "text": "Job applicants get the right to the starting pay or its range, and employers may not ask about pay history.",
         "fact_refs": [
           "f3",
           "f5"
         ]
       },
       {
-        "text": "Employers with 150 workers or more report gender pay gaps from 7 June 2027, and those with 100 to 149 from 7 June 2031.",
+        "text": "Employers with 150 to 249 workers must report their gender pay gap by 7 June 2027, then every three years.",
         "fact_refs": [
-          "f10",
-          "f11",
-          "f12"
+          "f11"
         ]
       }
     ],
     "who": {
-      "text": "French and Spanish hospitality, retail and construction employers are all covered via national law, and their HR managers report pay gaps from 100 workers.",
+      "text": "All FR and ES employers, hospitality, retail and construction included, are covered through national law; pay gap reporting hits firms of 100 to 249 workers.",
       "fact_refs": [
         "f1",
+        "f11",
         "f12"
       ]
     },
@@ -55,10 +54,10 @@
       "basis": "inferred"
     },
     "money": {
-      "text": "The directive sets no fine amount, national law sets the fines, and worker compensation has no upper limit.",
+      "text": "The text sets no fine amount; Member States set fines in national law, and worker compensation has no upper limit.",
       "fact_refs": [
-        "f17",
-        "f18"
+        "f16",
+        "f17"
       ]
     },
     "facts": [
@@ -76,7 +75,7 @@
       {
         "id": "f2",
         "kind": "date",
-        "statement": "EU countries must bring the rules into national law by 7 June 2026.",
+        "statement": "EU countries must bring the pay transparency rules into national law by 7 June 2026.",
         "date": "2026-06-07",
         "date_kind": "transposition_deadline",
         "citation": {
@@ -87,18 +86,18 @@
       {
         "id": "f3",
         "kind": "obligation",
-        "statement": "Prospective employers must tell job applicants the starting pay or its range for the position, based on gender-neutral criteria.",
+        "statement": "Job applicants get the right to the starting pay or its range from the prospective employer.",
         "date": null,
         "date_kind": null,
         "citation": {
-          "article": "Art. 5(1)(a)",
+          "article": "Art. 5(1)",
           "quote": "the initial pay or its range, based on objective, gender-neutral criteria, to be attributed for the position concerned"
         }
       },
       {
         "id": "f4",
         "kind": "obligation",
-        "statement": "Employers can give that pay information in the published job ad, before the job interview or otherwise.",
+        "statement": "Employers can give the pay information in a published job ad, before the job interview, or otherwise.",
         "date": null,
         "date_kind": null,
         "citation": {
@@ -109,7 +108,7 @@
       {
         "id": "f5",
         "kind": "obligation",
-        "statement": "Employers may not ask job applicants about their pay in current or previous jobs.",
+        "statement": "Employers may not ask applicants about their pay in current or previous jobs.",
         "date": null,
         "date_kind": null,
         "citation": {
@@ -120,7 +119,7 @@
       {
         "id": "f6",
         "kind": "obligation",
-        "statement": "Employers must give workers easy access to the criteria used to set pay, pay levels and pay progression.",
+        "statement": "Employers must give workers easy access to the criteria that set pay, pay levels and pay progression.",
         "date": null,
         "date_kind": null,
         "citation": {
@@ -131,7 +130,7 @@
       {
         "id": "f7",
         "kind": "threshold",
-        "statement": "EU countries may exempt employers with fewer than 50 workers from the pay progression part of that duty.",
+        "statement": "EU countries may exempt employers with fewer than 50 workers from the pay progression duty.",
         "date": null,
         "date_kind": null,
         "citation": {
@@ -142,18 +141,18 @@
       {
         "id": "f8",
         "kind": "obligation",
-        "statement": "Workers can request, in writing, their own pay level and average pay levels by sex for workers doing equal work.",
+        "statement": "Employers must tell all workers every year of their right to pay information and how to use it.",
         "date": null,
         "date_kind": null,
         "citation": {
-          "article": "Art. 7(1)",
-          "quote": "Workers shall have the right to request and receive in writing, in accordance with paragraphs 2 and 4, information on their individual pay level and the average pay levels, broken down by sex, for categories of workers performing the same work as them or work of equal value to theirs."
+          "article": "Art. 7(3)",
+          "quote": "Employers shall inform all workers, on an annual basis, of their right to receive the information referred to in paragraph 1 and of the steps that the worker is to undertake to exercise that right."
         }
       },
       {
         "id": "f9",
         "kind": "obligation",
-        "statement": "Employers must answer those requests within two months of the request date.",
+        "statement": "Employers must answer a worker's request for pay levels by sex within two months.",
         "date": null,
         "date_kind": null,
         "citation": {
@@ -164,7 +163,7 @@
       {
         "id": "f10",
         "kind": "date",
-        "statement": "Employers with 250 workers or more must report gender pay gap data by 7 June 2027, then every year.",
+        "statement": "Employers with 250 workers or more must report pay gap data by 7 June 2027, then every year.",
         "date": "2027-06-07",
         "date_kind": "deadline",
         "citation": {
@@ -175,7 +174,7 @@
       {
         "id": "f11",
         "kind": "date",
-        "statement": "Employers with 150 to 249 workers must first report by 7 June 2027, then every three years.",
+        "statement": "Employers with 150 to 249 workers must report pay gap data by 7 June 2027, then every three years.",
         "date": "2027-06-07",
         "date_kind": "deadline",
         "citation": {
@@ -186,7 +185,7 @@
       {
         "id": "f12",
         "kind": "date",
-        "statement": "Employers with 100 to 149 workers must first report by 7 June 2031, then every three years.",
+        "statement": "Employers with 100 to 149 workers must report pay gap data by 7 June 2031, then every three years.",
         "date": "2031-06-07",
         "date_kind": "deadline",
         "citation": {
@@ -197,7 +196,7 @@
       {
         "id": "f13",
         "kind": "threshold",
-        "statement": "EU countries may require employers with fewer than 100 workers to report on pay under national law.",
+        "statement": "EU countries may require pay reporting from employers with fewer than 100 workers.",
         "date": null,
         "date_kind": null,
         "citation": {
@@ -207,41 +206,30 @@
       },
       {
         "id": "f14",
-        "kind": "obligation",
-        "statement": "Employers may publish the pay gap figures on their own website or make them public another way.",
+        "kind": "threshold",
+        "statement": "Reporting employers face a joint pay assessment when their report shows a gap of at least 5 % in any worker category.",
         "date": null,
         "date_kind": null,
         "citation": {
-          "article": "Art. 9(7)",
-          "quote": "The employer may publish the information referred to in paragraph 1, points (a) to (f), of this Article on its website or make it publicly available in another manner."
-        }
-      },
-      {
-        "id": "f15",
-        "kind": "obligation",
-        "statement": "Reporting employers must run a joint pay assessment with worker representatives when a worker category shows a gap of at least 5 %.",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 10(1)(a)",
+          "article": "Art. 10(1)",
           "quote": "the pay reporting demonstrates a difference in the average pay level between female and male workers of at least 5 % in any category of workers"
         }
       },
       {
-        "id": "f16",
-        "kind": "obligation",
-        "statement": "The assessment is due only if the employer has not fixed the unjustified gap within six months of submitting the report.",
+        "id": "f15",
+        "kind": "threshold",
+        "statement": "EU countries must give employers with fewer than 250 workers technical assistance and training.",
         "date": null,
         "date_kind": null,
         "citation": {
-          "article": "Art. 10(1)(c)",
-          "quote": "the employer has not remedied such an unjustified difference in the average pay level within six months of the date of submission of the pay reporting"
+          "article": "Article 11",
+          "quote": "Member States shall provide support, in the form of technical assistance and training, to employers with fewer than 250 workers"
         }
       },
       {
-        "id": "f17",
+        "id": "f16",
         "kind": "penalty",
-        "statement": "EU countries must set penalties that include fines under national law, and the directive sets no fine amount.",
+        "statement": "EU countries must set fines under national law; the text sets no fine amount.",
         "date": null,
         "date_kind": null,
         "citation": {
@@ -250,43 +238,21 @@
         }
       },
       {
-        "id": "f18",
-        "kind": "amount",
-        "statement": "Workers who suffer pay discrimination get compensation with no upper limit.",
+        "id": "f17",
+        "kind": "penalty",
+        "statement": "Compensation for workers who suffer pay discrimination has no upper limit.",
         "date": null,
         "date_kind": null,
         "citation": {
           "article": "Art. 16(4)",
           "quote": "The compensation or reparation shall not be restricted by the fixing of a prior upper limit."
         }
-      },
-      {
-        "id": "f19",
-        "kind": "penalty",
-        "statement": "An employer that skips the transparency duties must prove before a court or authority that it did not discriminate on pay.",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 18(2)",
-          "quote": "where an employer has not implemented the pay transparency obligations set out in Articles 5, 6, 7, 9 and 10, it is for the employer to prove that there has been no such discrimination."
-        }
-      },
-      {
-        "id": "f20",
-        "kind": "affected",
-        "statement": "EU countries must give employers with fewer than 250 workers technical assistance and training to comply.",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Article 11",
-          "quote": "Member States shall provide support, in the form of technical assistance and training, to employers with fewer than 250 workers"
-        }
       }
     ],
     "transposes": [],
     "confidence": {
       "level": "high",
-      "reason": "The source is the full official directive text, but French and Spanish transposing laws set the final fines and exemptions."
+      "reason": "The official text states every date, threshold and obligation used here, but French and Spanish transposing laws can add stricter rules."
     }
   }
 }

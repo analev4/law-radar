@@ -9,8 +9,9 @@ import os
 import pytest
 
 from law_radar.config import ROOT
-from law_radar.fixtures import (EU_IRRELEVANT, EU_RELEVANT, FR_EXCLUDED, FR_IRRELEVANT, FR_RELEVANT,
-                                GOLDEN_TODAY, golden_sources, load_eu, load_fr)
+from law_radar.fixtures import (ES_IRRELEVANT, ES_RELEVANT, EU_IRRELEVANT, EU_RELEVANT, FR_EXCLUDED,
+                                FR_IRRELEVANT, FR_RELEVANT, GOLDEN_TODAY, golden_sources, load_es, load_eu,
+                                load_fr)
 from law_radar.llm import LLM
 from law_radar.models import NOT_GENERATED, CitationOut, Entry, FactOut
 from law_radar.pipeline import run_pipeline
@@ -38,7 +39,7 @@ def _need(*names):
 @pytest.fixture
 def golden(cfg, datasets, tmp_path):
     _need(*(f"{step}__{doc}.json" for step in ("filter", "read", "score")
-            for doc in (f"eu_{EU_RELEVANT}", f"fr_{FR_RELEVANT}")))
+            for doc in (f"eu_{EU_RELEVANT}", f"fr_{FR_RELEVANT}", f"es_{ES_RELEVANT}")))
     llm = LLM(mode="replay", recordings=RECORDED)
     digest = run_pipeline(cfg, golden_sources(), State(tmp_path), today=GOLDEN_TODAY,
                           since=GOLDEN_TODAY - dt.timedelta(days=7), until=GOLDEN_TODAY,
@@ -89,7 +90,7 @@ def test_pay_directive_scorecard_and_recipe(golden):
 
 def test_every_published_fact_still_validates(golden):
     docs = {f"eu:{EU_RELEVANT}": load_eu(EU_RELEVANT)}
-    docs.update({d.id: d for d in load_fr()})
+    docs.update({d.id: d for d in load_fr() + load_es()})
     for e in golden.entries:
         for f in e.facts:
             again, reason = check_fact(docs[e.id], FactOut(
@@ -154,3 +155,24 @@ def test_french_texts_that_must_not_be_flagged(golden):
     ids = {e.id for e in golden.entries}
     assert f"fr:{FR_IRRELEVANT}" not in ids          # label rouge: no keyword match
     assert f"fr:{FR_EXCLUDED}" not in ids            # naturalisation: never read at all
+
+
+
+# ---------------------------------------------------------------------------
+# Spain: Real Decreto 126/2026 (minimum wage for 2026)
+# ---------------------------------------------------------------------------
+
+def test_minimum_wage_decree_is_flagged_with_the_amounts(golden):
+    entries = {e.id: e for e in golden.entries}
+    assert f"es:{ES_RELEVANT}" in entries, "the minimum wage decree must be flagged"
+    e = entries[f"es:{ES_RELEVANT}"]
+    for amount in ("40.7", "1221"):
+        cited = [f for f in e.facts if amount in statement_numbers(f.statement)]
+        assert cited, f"the {amount} euro amount must be a cited fact"
+        assert any(f.citation.article.lower().startswith(("artículo 1", "art. 1", "article 1"))
+                   and f.citation.article_checked for f in cited), f"{amount} must be cited from Article 1"
+    assert e.url == "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-3815"
+
+
+def test_spanish_irrelevant_text_is_not_flagged(golden):
+    assert f"es:{ES_IRRELEVANT}" not in {e.id for e in golden.entries}
