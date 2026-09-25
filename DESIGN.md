@@ -29,6 +29,10 @@ Status: approved in step 2, built in step 3 (EU only). Changes since approval ar
 - **Validator fixes in step 4:** references to "provisions" and "disposiciones" are no longer counted as figures, and a quote under a repeated article number is checked against each article with that number separately.
 - **Known gap:** the dataset catalogue has no Spanish dataset, so Spanish laws score low on "findable" and "early". Adding one needs the same verification as the French entries.
 
+- **Publishing (step 5):** `weekly.yml` runs Monday 06:00 UTC and on demand. It runs `--no-ai`, or API mode only if an `ANTHROPIC_API_KEY` secret exists. It commits `digests/` and `state/`, opens or edits the Issue "Law radar: week NN" through `gh` (a hidden marker ties each Issue to its year and week), runs the optional channels, and builds the Pages table. `publish.yml` runs when you push a digest (after `/digest`): it edits that week's Issue and rebuilds the table. Pushes by the weekly workflow itself don't trigger it.
+- **Pages on a private repo:** GitHub's free plan serves Pages only from public repositories. Both workflows always upload the table as a downloadable artifact, and deploy only when the repository variable `PAGES_ENABLED` is `true`.
+- **Optional channels:** Slack (webhook), email (SMTP) and Notion (a database with the properties Name, Law ID, Market, Week, Source, Score and Next deadline, Notion API version 2022-06-28). All are off by default. A missing secret skips the channel and never fails the run. They're tested against mocked services only.
+
 ## File structure
 
 ```

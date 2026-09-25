@@ -1,0 +1,110 @@
+name: weekly
+
+# Every Monday: fetch the week's official journals, keep the keyword matches, commit the digest and
+# state, open the weekly Issue and rebuild the Pages table.
+# Free by default (--no-ai). The AI summaries come from /digest in Claude Code, or from the Claude
+# API if you add an ANTHROPIC_API_KEY secret (optional).
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"            # Monday 06:00 UTC
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Start of the window, YYYY-MM-DD (optional, default: the day before the last run)"
+        required: false
+
+permissions:
+  contents: write                   # commit digests/ and state/
+  issues: write                     # open or update the weekly Issue
+
+concurrency:
+  group: law-radar
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      ICP_YAML: ${{ secrets.ICP_YAML }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GH_TOKEN: ${{ github.token }}
+      SINCE_INPUT: ${{ inputs.since }}
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      SMTP_HOST: ${{ secrets.SMTP_HOST }}
+      SMTP_PORT: ${{ secrets.SMTP_PORT }}
+      SMTP_USER: ${{ secrets.SMTP_USER }}
+      SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      MAIL_FROM: ${{ secrets.MAIL_FROM }}
+      MAIL_TO: ${{ secrets.MAIL_TO }}
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+      NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: |
+          if [ -n "$ANTHROPIC_API_KEY" ]; then pip install -e ".[api]"; else pip install -e .; fi
+
+      - name: Choose the ICP
+        # Your real ICP lives in the ICP_YAML secret. Without it, the fictional Ledgerly example is used.
+        run: |
+          if [ -n "$ICP_YAML" ]; then echo "CONFIG_ARGS=" >> "$GITHUB_ENV"; echo "ICP: from the ICP_YAML secret";
+          else echo "CONFIG_ARGS=--config icp.example.yaml" >> "$GITHUB_ENV"; echo "ICP: icp.example.yaml (fictional)"; fi
+
+      - name: Fetch and filter
+        run: |
+          ARGS="$CONFIG_ARGS"
+          if [ -n "$SINCE_INPUT" ]; then
+            if ! echo "$SINCE_INPUT" | grep -Eq '^[0-9]{4}-[0-9]{2}-[0-9]{2}$'; then echo "since must be YYYY-MM-DD"; exit 1; fi
+            ARGS="$ARGS --since $SINCE_INPUT"
+          fi
+          if [ -n "$ANTHROPIC_API_KEY" ]; then
+            echo "ANTHROPIC_API_KEY is set: API mode (optional, billed to your key)."
+            law-radar run $ARGS
+          else
+            law-radar run --no-ai $ARGS
+          fi
+
+      - name: Commit digest and state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add digests state
+          if git diff --cached --quiet; then echo "Nothing to commit"; else
+            git commit -m "Weekly digest $(date -u +%G-W%V)"
+            git push
+          fi
+
+      - name: Weekly Issue
+        run: law-radar issue $CONFIG_ARGS
+
+      - name: Optional channels (Slack, email, Notion)
+        run: law-radar notify $CONFIG_ARGS
+
+      - name: Build the Pages table
+        run: law-radar site --out site
+
+      # Always uploaded, so you can download and preview the table even while Pages is off.
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    # GitHub Pages on the free plan needs a public repository. Set the repository variable
+    # PAGES_ENABLED to "true" (Settings > Secrets and variables > Actions > Variables) once Pages is on.
+    needs: run
+    if: vars.PAGES_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

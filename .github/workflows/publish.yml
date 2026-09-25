@@ -1,0 +1,68 @@
+name: publish
+
+# After you push a digest written with /digest in Claude Code: update that week's Issue with the AI
+# version and rebuild the Pages table. (Pushes made by the weekly workflow itself don't trigger this.)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "digests/*.json"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: law-radar
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      ICP_YAML: ${{ secrets.ICP_YAML }}
+      GH_TOKEN: ${{ github.token }}
+      BEFORE: ${{ github.event.before }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e .
+
+      - name: Update the Issue for each changed week
+        run: |
+          if [ -n "$ICP_YAML" ]; then CONFIG_ARGS=""; else CONFIG_ARGS="--config icp.example.yaml"; fi
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then BEFORE="HEAD~1"; fi
+          CHANGED=$(git diff --name-only "$BEFORE" HEAD -- 'digests/*.json' | grep -v '\.matches\.json$' || true)
+          if [ -z "$CHANGED" ]; then law-radar issue $CONFIG_ARGS; exit 0; fi
+          for f in $CHANGED; do
+            [ -f "$f" ] || continue
+            stem=$(basename "$f" .json)                       # 2026-40
+            law-radar issue $CONFIG_ARGS --week "${stem%-*}-W${stem#*-}"
+          done
+
+      - name: Build the Pages table
+        run: law-radar site --out site
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: publish
+    if: vars.PAGES_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

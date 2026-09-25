@@ -1,4 +1,4 @@
-"""Command line: law-radar run | digest-step | record-fixtures | lint | schema"""
+"""Command line: law-radar run | digest-step | record-fixtures | issue | notify | site | lint | schema"""
 from __future__ import annotations
 
 import argparse
@@ -246,6 +246,66 @@ def cmd_record(args: argparse.Namespace) -> int:
 
 
 # ---------------------------------------------------------------------------
+# publish: Issue, Pages table, optional channels
+# ---------------------------------------------------------------------------
+
+def _digest_path(out: Path, week: Optional[str]) -> Optional[Path]:
+    if week:
+        path = out / f"{week.replace('-W', '-')}.json"
+        return path if path.exists() else None
+    found = [p for p in sorted(out.glob("*.json")) if not p.name.endswith(".matches.json")]
+    return found[-1] if found else None
+
+
+def cmd_issue(args: argparse.Namespace) -> int:
+    from .publish import issue
+    cfg = _load_cfg(args.config)
+    if cfg is None:
+        return 2
+    if not cfg.delivery.issue:
+        print("Issue delivery is off in the config.")
+        return 0
+    path = _digest_path(Path(args.out), args.week)
+    if path is None:
+        print("No digest found.", file=sys.stderr)
+        return 2
+    digest = Digest.model_validate_json(path.read_text(encoding="utf-8"))
+    md = path.with_suffix(".md").read_text(encoding="utf-8")
+    if args.dry_run:
+        print(issue.issue_title(digest.week))
+        print(issue.issue_body(md, digest.week, issue.digest_file_url(path.with_suffix(".md")))[:2000])
+        return 0
+    result = issue.publish(md, digest.week, gh=os.environ.get("GH_BIN", "gh"),
+                           file_url=issue.digest_file_url(path.with_suffix(".md")))
+    print(f"{issue.issue_title(digest.week)}: {result}")
+    return 0
+
+
+def cmd_notify(args: argparse.Namespace) -> int:
+    from .publish import issue, notify
+    cfg = _load_cfg(args.config)
+    if cfg is None:
+        return 2
+    path = _digest_path(Path(args.out), args.week)
+    if path is None:
+        print("No digest found.", file=sys.stderr)
+        return 2
+    digest = Digest.model_validate_json(path.read_text(encoding="utf-8"))
+    for channel, result in notify.run_all(cfg, digest, link=issue.digest_file_url(path.with_suffix(".md"))).items():
+        print(f"{channel}: {result}")
+    return 0
+
+
+def cmd_site(args: argparse.Namespace) -> int:
+    from .publish import site
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    url = f"{os.environ.get('GITHUB_SERVER_URL', 'https://github.com')}/{repo}" if repo else None
+    index = site.build(Path(args.digests), Path(args.out), repo_url=url)
+    print(f"Wrote {index}")
+    return 0
+
+
+# ---------------------------------------------------------------------------
 
 def cmd_lint(args: argparse.Namespace) -> int:
     errors = lint(args.text, args.sentences)
@@ -292,6 +352,24 @@ def main(argv: Optional[List[str]] = None) -> int:
     rec.add_argument("--api", action="store_true", help="record through the optional Claude API instead")
     rec.add_argument("--scratch", default=str(ROOT / ".cache" / "record"))
     rec.set_defaults(func=cmd_record)
+
+    iss = sub.add_parser("issue", help="open or update the weekly GitHub Issue (uses the gh CLI)")
+    iss.add_argument("--week", help="ISO week, e.g. 2026-W40 (default: the latest digest)")
+    iss.add_argument("--config")
+    iss.add_argument("--out", default=str(ROOT / "digests"))
+    iss.add_argument("--dry-run", action="store_true", help="print the title and body instead of calling gh")
+    iss.set_defaults(func=cmd_issue)
+
+    no = sub.add_parser("notify", help="send the digest to the optional channels switched on in the config")
+    no.add_argument("--week")
+    no.add_argument("--config")
+    no.add_argument("--out", default=str(ROOT / "digests"))
+    no.set_defaults(func=cmd_notify)
+
+    si = sub.add_parser("site", help="build the static Pages table from digests/*.json")
+    si.add_argument("--digests", default=str(ROOT / "digests"))
+    si.add_argument("--out", default=str(ROOT / "site"))
+    si.set_defaults(func=cmd_site)
 
     li = sub.add_parser("lint", help="check a sentence against the writing rules")
     li.add_argument("text")
