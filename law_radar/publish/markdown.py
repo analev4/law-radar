@@ -104,6 +104,9 @@ def render(digest: Digest) -> str:
         for e in digest.entries:
             if isinstance(e, Entry):
                 lines += ["---", ""] + _entry(e) + [""]
+        unread = [e for e in digest.entries if isinstance(e, NoAiEntry)]
+        if unread:                                        # matches found after the AI digest was written
+            lines += ["---", "", "### Keyword matches not read yet", ""] + _no_ai(unread) + [""]
     c = digest.run.counts
     source = {
         "claude-code": "AI fields written in Claude Code (/digest), no API cost.",

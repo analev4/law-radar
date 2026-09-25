@@ -193,7 +193,7 @@ def cmd_digest_step(args: argparse.Namespace) -> int:
         known = {d.id for d in state.deferred}
         state.deferred.extend(d for d in over if d.id not in known)
         state.save(dt.date.today(), state.last_until or until)
-    md, js = files.write(digest, out)
+    md, js = files.write(digest, out, replace=True)     # rebuilt from the week's full list of matches
     c = digest.run.counts
     print(f"\nCOMPLETE: {digest.week}. {c.read} text(s) read, {c.published} law(s) published, "
           f"{c.facts_dropped} fact(s) dropped by the citation check, {c.fields_not_generated} field(s) not generated"

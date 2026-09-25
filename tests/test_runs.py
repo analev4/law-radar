@@ -70,3 +70,27 @@ def test_state_dedupes_across_runs(cfg, datasets, tmp_path):
 def test_schema_file_matches_models():
     on_disk = json.loads((ROOT / "schema" / "digest.schema.json").read_text())
     assert on_disk == Digest.model_json_schema(), "run `law-radar schema` and commit the result"
+
+
+
+def test_second_run_in_the_same_week_merges(cfg, datasets, tmp_path):
+    from law_radar.publish.files import write, write_matches
+    out = tmp_path / "digests"
+    state = State(tmp_path / "state")
+    kwargs = dict(today=GOLDEN_TODAY, since=GOLDEN_TODAY - dt.timedelta(days=7), until=GOLDEN_TODAY,
+                  datasets=datasets, no_ai=True, log=lambda _: None)
+    docs = []
+    first = run_pipeline(cfg, [eu_fixture_source()], state, matches_out=docs, **kwargs)
+    write(first, out)
+    write_matches(first, docs, out)
+    # Second run the same week: everything is already seen, so it finds nothing new.
+    docs2 = []
+    second = run_pipeline(cfg, [eu_fixture_source()], state, matches_out=docs2, **kwargs)
+    assert second.nothing_relevant
+    md, js = write(second, out)
+    write_matches(second, docs2, out)
+    merged = Digest.model_validate_json(js.read_text())
+    assert [e.id for e in merged.entries] == ["eu:32023L0970"] and not merged.nothing_relevant
+    assert "nothing relevant" not in md.read_text()
+    matches = json.loads((out / "2026-40.matches.json").read_text())
+    assert [d["id"] for d in matches["documents"]] == ["eu:32023L0970"]
