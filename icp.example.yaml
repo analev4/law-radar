@@ -1,0 +1,73 @@
+# law-radar ICP config. Copy this file to icp.yaml (gitignored) and edit it,
+# or paste it into a repository secret named ICP_YAML.
+#
+# Ledgerly is a fictional company. Every example, test and screenshot uses it.
+
+icp:
+  name: Ledgerly
+  description: Payroll and HR software for companies with 10-249 staff in France and Spain.
+  markets: [FR, ES]              # EU acts are always read when the EU source is enabled
+  sectors:
+    - {label: "Food and beverage service (hospitality)", nace: "I56", naf: "56", cnae: "56"}
+    - {label: "Accommodation (hospitality)", nace: "I55", naf: "55", cnae: "55"}
+    - {label: "Retail trade", nace: "G47", naf: "47", cnae: "47"}
+    - {label: "Construction", nace: "F", naf: "41-43", cnae: "41-43"}
+  size_bands: ["10-49", "50-249"]
+  buyer_roles: ["HR manager", "Finance lead"]
+  topics:
+    - employment and hiring
+    - pay and payroll
+    - pay transparency
+    - social contributions
+    - apprenticeships and training
+    - working time
+    - employee data protection
+
+# Matched against titles and source classification labels, case- and accent-insensitive.
+# Each language's list applies to texts in that language (EU texts are read in English).
+# A plain word matches as a whole word. A word ending in * matches as a prefix ("employ*").
+keywords:
+  en: [pay, wage*, salar*, remunerat*, payroll, employ*, worker*, apprentic*, "social security",
+       "working time", "working conditions", "minimum wage", vocational, "equal pay", "gender pay"]
+  fr: [rémunération*, salaire*, salarié*, employeur*, apprenti*, apprentissage, cotisation*,
+       paie, "code du travail", "durée du travail", formation professionnelle, "égalité professionnelle"]
+  es: [salari*, retribuci*, trabajador*, empleador*, emple*, aprendiz*, cotizaci*, nómina*,
+       "Estatuto de los Trabajadores", "convenio colectivo", "jornada", "formación profesional"]
+  # Dropped unless a classification code also matched.
+  exclude: [fishing*, fisheries, pêche, pesca*]
+
+sources:
+  eu:
+    enabled: true
+    # Directory of EU legal acts: 05 = freedom of movement for workers and social policy.
+    directory_prefixes: ["05"]
+    # EuroVoc: 3273 remuneration of work, 687 equal pay, 82 working conditions, 2454 EU employment policy.
+    eurovoc: ["3273", "687", "82", "2454"]
+    include_corrigenda: false
+  fr:
+    enabled: true
+    natures: [LOI, ORDONNANCE, DECRET, ARRETE]
+    # Sections about named people. Never read (no personal data).
+    exclude_headings: ["Mesures nominatives", "Naturalisations"]
+  es:
+    enabled: false               # switched on in step 4
+
+watch:
+  directives: ["32023L0970"]     # Pay Transparency Directive: flag national transposition texts
+
+delivery:
+  issue: true
+  pages: true
+  slack: {enabled: false}        # SLACK_WEBHOOK_URL
+  email: {enabled: false}        # SMTP_HOST, SMTP_USER, SMTP_PASSWORD, MAIL_TO
+  notion: {enabled: false}       # NOTION_TOKEN, NOTION_DATABASE_ID
+
+limits:
+  max_documents_claude_code: 10  # /digest in Claude Code: texts read per week
+  max_documents_per_run: 25      # optional API mode: cost cap, applied before any model call
+  max_text_chars: 200000
+
+models:
+  filter: claude-haiku-4-5-20251001
+  read: claude-sonnet-5
+  read_effort: medium

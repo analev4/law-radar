@@ -1,0 +1,284 @@
+{
+  "step": "read",
+  "key": "fr:JORFTEXT000053634597",
+  "model": "claude-code",
+  "request_sha256": "553c9bfe453cda4d2bd90179252974d4994709a43a8756bb95c07397ce46f9f1",
+  "usage": {},
+  "output": {
+    "headline": {
+      "text": "France pays employers up to 4,500 euros per apprentice, or 6,000 euros for disabled apprentices, for contracts starting before 1 January 2027.",
+      "fact_refs": [
+        "f2",
+        "f6",
+        "f7"
+      ]
+    },
+    "what_changed": [
+      {
+        "text": "Firms under two hundred and fifty staff get up to 4,500 euros for level 5 apprentices and 2,000 euros for higher levels.",
+        "fact_refs": [
+          "f1",
+          "f2",
+          "f3"
+        ]
+      },
+      {
+        "text": "Firms with two hundred and fifty or more staff get up to 2,000, 1,500 or 750 euros, tied to a 5% work-study quota.",
+        "fact_refs": [
+          "f3",
+          "f4",
+          "f5",
+          "f13"
+        ]
+      }
+    ],
+    "who": {
+      "text": "French employers in every sector qualify, including hospitality, retail and construction firms under two hundred and fifty staff; HR managers and finance leads run claims.",
+      "fact_refs": [
+        "f1",
+        "f10"
+      ]
+    },
+    "icp_match": {
+      "countries": [
+        "FR"
+      ],
+      "sectors": [
+        "all"
+      ],
+      "size_bands": [
+        "10-49",
+        "50-249"
+      ],
+      "roles": [
+        "HR manager",
+        "Finance lead"
+      ],
+      "basis": "inferred"
+    },
+    "money": {
+      "text": "The State pays up to 6,000 euros per contract; the agency suspends payment when payroll data is missing and recovers sums from non-compliant large firms.",
+      "fact_refs": [
+        "f6",
+        "f17",
+        "f18"
+      ]
+    },
+    "facts": [
+      {
+        "id": "f1",
+        "kind": "affected",
+        "statement": "Firms with fewer than two hundred and fifty staff get the exceptional aid (aide exceptionnelle) for apprentices preparing a level 5 diploma.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(I)(1°)",
+          "quote": "Pour les contrats conclus par une entreprise de moins de deux cent cinquante salariés en vue de la préparation d'un diplôme ou d'un titre à finalité professionnelle équivalant au niveau 5 du cadre national des certifications professionnelles"
+        }
+      },
+      {
+        "id": "f2",
+        "kind": "amount",
+        "statement": "Firms under two hundred and fifty staff get up to 4,500 euros per level five apprentice contract.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(II)",
+          "quote": "Le montant de l'aide est de 4 500 euros maximum pour les contrats mentionnés au 1° du I"
+        }
+      },
+      {
+        "id": "f3",
+        "kind": "amount",
+        "statement": "Contracts get up to 2,000 euros in two cases: small firms at levels six to seven, large firms at levels three to four.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(II)",
+          "quote": "de 2 000 euros maximum pour les contrats mentionnés aux 2° et 3° du I"
+        }
+      },
+      {
+        "id": "f4",
+        "kind": "amount",
+        "statement": "Firms with two hundred and fifty or more staff get up to 1,500 euros per level five apprentice contract.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(II)",
+          "quote": "de 1 500 euros maximum pour les contrats mentionnés au 4° du I"
+        }
+      },
+      {
+        "id": "f5",
+        "kind": "amount",
+        "statement": "Firms with two hundred and fifty or more staff get up to 750 euros per level six to seven apprentice contract.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(II)",
+          "quote": "de 750 euros maximum pour les contrats mentionnés au 5° du I"
+        }
+      },
+      {
+        "id": "f6",
+        "kind": "amount",
+        "statement": "The cap rises to 6,000 euros in every case when the apprentice is a recognised disabled worker (travailleur handicapé).",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(II)",
+          "quote": "Toutefois, ce montant est porté à 6 000 euros maximum pour les contrats mentionnés au I qui sont conclus avec une personne reconnue travailleur handicapé."
+        }
+      },
+      {
+        "id": "f7",
+        "kind": "date",
+        "statement": "The aid covers the first year of apprenticeship contracts whose start date falls before 1 January 2027.",
+        "date": "2027-01-01",
+        "date_kind": "deadline",
+        "citation": {
+          "article": "Art. 1(I)",
+          "quote": "Les contrats d'apprentissage dont la date de début d'exécution intervient avant le 1er janvier 2027 ouvrent droit à une aide exceptionnelle au titre de la première année d'exécution du contrat versée à l'employeur par l'Etat"
+        }
+      },
+      {
+        "id": "f8",
+        "kind": "affected",
+        "statement": "The aid applies to contracts signed from the day after the decree's publication.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 2",
+          "quote": "Les dispositions de l'article 1er s'appliquent aux contrats conclus à compter du lendemain de la publication du présent décret."
+        }
+      },
+      {
+        "id": "f9",
+        "kind": "obligation",
+        "statement": "Employers cannot combine this aid with the single apprentice hiring aid (aide unique) of the Labour Code.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(IV)",
+          "quote": "L'aide mentionnée au I n'est pas cumulable avec l'aide unique aux employeurs d'apprentis mentionnée à l'article L. 6243-1 du code du travail."
+        }
+      },
+      {
+        "id": "f10",
+        "kind": "obligation",
+        "statement": "Employers must send the contract to their skills operator (opérateur de compétences) within six months of signing to qualify.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(VI)(1°)",
+          "quote": "La transmission du contrat par l'employeur à l'opérateur de compétences intervient au plus tard six mois après sa conclusion"
+        }
+      },
+      {
+        "id": "f11",
+        "kind": "obligation",
+        "statement": "The labour ministry sends each eligible contract's data to the payment agency (Agence de services et de paiement) through its online service.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(VII)",
+          "quote": "Le ministre chargé de la formation professionnelle adresse par le service dématérialisé à l'Agence de services et de paiement les informations nécessaires au paiement de l'aide pour chaque contrat éligible."
+        }
+      },
+      {
+        "id": "f12",
+        "kind": "obligation",
+        "statement": "For firms under two hundred and fifty staff, that data transfer counts as the award decision.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(VII)",
+          "quote": "Cette transmission vaut décision d'attribution, à l'exception des entreprises d'au moins deux cent cinquante salariés"
+        }
+      },
+      {
+        "id": "f13",
+        "kind": "obligation",
+        "statement": "Large firms must reach at least 5% work-study staff by 31 December of the year after signing, or meet a growth alternative.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(VII)(1°)(a)",
+          "quote": "a) Soit l'ensemble des effectifs suivants représente au moins 5 % de l'effectif salarié au 31 décembre de l'année suivant celle de la conclusion du contrat d'apprentissage"
+        }
+      },
+      {
+        "id": "f14",
+        "kind": "obligation",
+        "statement": "Large firms must send a sworn commitment to the payment agency within eight months of signing the contract.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(VIII)",
+          "quote": "Pour bénéficier de l'aide, l'employeur d'au moins deux cent cinquante salariés transmet l'engagement mentionné au premier alinéa du VII, attestant sur l'honneur qu'il va respecter les obligations prévues au présent article, dans un délai de huit mois à compter de la date de la conclusion du contrat à l'Agence de services et de paiement."
+        }
+      },
+      {
+        "id": "f15",
+        "kind": "obligation",
+        "statement": "The payment agency can take this commitment through an online channel.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(VIII)",
+          "quote": "Les modalités de cette transmission peuvent être mises en œuvre par l'Agence de services et de paiement par voie dématérialisée."
+        }
+      },
+      {
+        "id": "f16",
+        "kind": "obligation",
+        "statement": "The agency pays the aid each month before wages are paid, pending the employer's payroll declaration data.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(X)",
+          "quote": "L'aide est versée avant le paiement de la rémunération par l'employeur et chaque mois dans l'attente des données mentionnées dans la déclaration prévue à l'article L. 133-5-3 du code de la sécurité sociale effectuée par l'employeur."
+        }
+      },
+      {
+        "id": "f17",
+        "kind": "penalty",
+        "statement": "The agency suspends the aid the following month when the employer does not transmit that payroll data.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(X)",
+          "quote": "A défaut de transmission de ces données, le mois suivant, l'aide est suspendue."
+        }
+      },
+      {
+        "id": "f18",
+        "kind": "penalty",
+        "statement": "The payment agency recovers the aid from large firms that fail to file the sworn compliance declaration.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(IX)",
+          "quote": "A défaut, l'Agence de services et de paiement procède à la récupération des sommes versées au titre de l'aide."
+        }
+      },
+      {
+        "id": "f19",
+        "kind": "obligation",
+        "statement": "The payment agency can request extra documents from employers, including the apprentices' payslips.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1(XV)",
+          "quote": "L'Agence de services et de paiement peut demander à l'employeur et à l'opérateur de compétences toute information et document complémentaire nécessaires au paiement et au contrôle du respect des conditions d'attribution de l'aide, y compris la transmission des bulletins de paie des salariés concernés."
+        }
+      }
+    ],
+    "transposes": [],
+    "confidence": {
+      "level": "high",
+      "reason": "The decree states amounts, size thresholds and conditions explicitly; only the application start is set relative to publication."
+    }
+  }
+}

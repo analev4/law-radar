@@ -1,0 +1,234 @@
+{
+ "list": {
+  "results": {
+   "bindings": [
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/1a5a6d84-951d-11f1-9262-01aa75ed71a1"
+     },
+     "celex": {
+      "type": "literal",
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "value": "32026R1933"
+     },
+     "pub": {
+      "type": "literal",
+      "datatype": "http://www.w3.org/2001/XMLSchema#date",
+      "value": "2026-08-11"
+     },
+     "type": {
+      "type": "literal",
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "value": "R"
+     },
+     "eif": {
+      "type": "literal",
+      "datatype": "http://www.w3.org/2001/XMLSchema#date",
+      "value": "2026-07-27"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/1a5a6d84-951d-11f1-9262-01aa75ed71a1"
+     },
+     "celex": {
+      "type": "literal",
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "value": "32026R1933"
+     },
+     "pub": {
+      "type": "literal",
+      "datatype": "http://www.w3.org/2001/XMLSchema#date",
+      "value": "2026-08-11"
+     },
+     "type": {
+      "type": "literal",
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "value": "R"
+     },
+     "eif": {
+      "type": "literal",
+      "datatype": "http://www.w3.org/2001/XMLSchema#date",
+      "value": "2026-08-12"
+     }
+    }
+   ]
+  }
+ },
+ "meta": {
+  "head": {
+   "link": [],
+   "vars": [
+    "work",
+    "title",
+    "ev",
+    "evl",
+    "dir"
+   ]
+  },
+  "results": {
+   "distinct": false,
+   "ordered": true,
+   "bindings": [
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/1a5a6d84-951d-11f1-9262-01aa75ed71a1"
+     },
+     "title": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "Council Regulation (EU) 2026/1933 of 13 July 2026 on the allocation of the fishing opportunities provided for in the Protocol on the implementation of the Sustainable Fisheries Partnership Agreement between the European Union and the Republic of Seychelles (2026-2030)"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/1a5a6d84-951d-11f1-9262-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/1474"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "agreement (EU)"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/1a5a6d84-951d-11f1-9262-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/2282"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "ship's flag"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/1a5a6d84-951d-11f1-9262-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/2308"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "sea fishing"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/1a5a6d84-951d-11f1-9262-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/2850"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "protocol to an agreement"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/1a5a6d84-951d-11f1-9262-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/544"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "fishing rights"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/1a5a6d84-951d-11f1-9262-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/2556"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "fishing agreement"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/1a5a6d84-951d-11f1-9262-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/4148"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "Seychelles"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/1a5a6d84-951d-11f1-9262-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/4788"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "catch area"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/1a5a6d84-951d-11f1-9262-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/c_8702d5f7"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "sustainable fisheries"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/1a5a6d84-951d-11f1-9262-01aa75ed71a1"
+     },
+     "dir": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/authority/dir-eu-legal-act/042020"
+     }
+    }
+   ]
+  }
+ }
+}

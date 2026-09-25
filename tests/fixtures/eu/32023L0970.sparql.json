@@ -1,0 +1,199 @@
+{
+ "list": {
+  "results": {
+   "bindings": [
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/5bbb9daf-f470-11ed-a05c-01aa75ed71a1"
+     },
+     "celex": {
+      "type": "literal",
+      "value": "32023L0970"
+     },
+     "pub": {
+      "type": "literal",
+      "value": "2023-05-17"
+     },
+     "type": {
+      "type": "literal",
+      "value": "L"
+     },
+     "eif": {
+      "type": "literal",
+      "value": "2023-06-06"
+     }
+    }
+   ]
+  }
+ },
+ "meta": {
+  "head": {
+   "link": [],
+   "vars": [
+    "work",
+    "title",
+    "ev",
+    "evl",
+    "dir"
+   ]
+  },
+  "results": {
+   "distinct": false,
+   "ordered": true,
+   "bindings": [
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/5bbb9daf-f470-11ed-a05c-01aa75ed71a1"
+     },
+     "title": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "Directive (EU) 2023/970 of the European Parliament and of the Council of 10 May 2023 to strengthen the application of the principle of equal pay for equal work or work of equal value between men and women through pay transparency and enforcement mechanisms (Text with EEA relevance)"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/5bbb9daf-f470-11ed-a05c-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/2454"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "EU employment policy"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/5bbb9daf-f470-11ed-a05c-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/3913"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "gender equality"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/5bbb9daf-f470-11ed-a05c-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/688"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "equal treatment"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/5bbb9daf-f470-11ed-a05c-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/454"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "sexual discrimination"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/5bbb9daf-f470-11ed-a05c-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/82"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "working conditions"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/5bbb9daf-f470-11ed-a05c-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/455"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "economic discrimination"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/5bbb9daf-f470-11ed-a05c-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/687"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "equal pay"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/5bbb9daf-f470-11ed-a05c-01aa75ed71a1"
+     },
+     "ev": {
+      "type": "uri",
+      "value": "http://eurovoc.europa.eu/3273"
+     },
+     "evl": {
+      "type": "literal",
+      "xml:lang": "en",
+      "value": "remuneration of work"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/5bbb9daf-f470-11ed-a05c-01aa75ed71a1"
+     },
+     "dir": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/authority/dir-eu-legal-act/05202020"
+     }
+    },
+    {
+     "work": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/cellar/5bbb9daf-f470-11ed-a05c-01aa75ed71a1"
+     },
+     "dir": {
+      "type": "uri",
+      "value": "http://publications.europa.eu/resource/authority/dir-eu-legal-act/05200520"
+     }
+    }
+   ]
+  }
+ }
+}

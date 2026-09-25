@@ -1,0 +1,11 @@
+{
+  "step": "filter",
+  "key": "fr:JORFTEXT000053634597",
+  "model": "claude-code",
+  "request_sha256": "046b19fc794bfd102bf78e864725165f9eaf6f492cc56c410d8502bd3d5854c7",
+  "usage": {},
+  "output": {
+    "relevant": true,
+    "reason": "Employers under 250 staff get an apprentice hiring aid (aide exceptionnelle) for first-year contracts starting before 1 January 2027."
+  }
+}

@@ -1,0 +1,900 @@
+{
+  "$defs": {
+    "Citation": {
+      "properties": {
+        "article": {
+          "title": "Article",
+          "type": "string"
+        },
+        "quote": {
+          "title": "Quote",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "article_checked": {
+          "title": "Article Checked",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "article",
+        "quote",
+        "url",
+        "article_checked"
+      ],
+      "title": "Citation",
+      "type": "object"
+    },
+    "Confidence": {
+      "properties": {
+        "level": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "title": "Level",
+          "type": "string"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "level",
+        "reason"
+      ],
+      "title": "Confidence",
+      "type": "object"
+    },
+    "Cost": {
+      "properties": {
+        "by_model": {
+          "additionalProperties": {
+            "$ref": "#/$defs/ModelUsage"
+          },
+          "title": "By Model",
+          "type": "object"
+        },
+        "estimated_usd": {
+          "default": 0.0,
+          "title": "Estimated Usd",
+          "type": "number"
+        },
+        "price_table_date": {
+          "default": "",
+          "title": "Price Table Date",
+          "type": "string"
+        }
+      },
+      "title": "Cost",
+      "type": "object"
+    },
+    "Counts": {
+      "properties": {
+        "fetched": {
+          "default": 0,
+          "title": "Fetched",
+          "type": "integer"
+        },
+        "new": {
+          "default": 0,
+          "title": "New",
+          "type": "integer"
+        },
+        "keyword_pass": {
+          "default": 0,
+          "title": "Keyword Pass",
+          "type": "integer"
+        },
+        "deferred_by_cap": {
+          "default": 0,
+          "title": "Deferred By Cap",
+          "type": "integer"
+        },
+        "model_pass": {
+          "default": 0,
+          "title": "Model Pass",
+          "type": "integer"
+        },
+        "read": {
+          "default": 0,
+          "title": "Read",
+          "type": "integer"
+        },
+        "published": {
+          "default": 0,
+          "title": "Published",
+          "type": "integer"
+        },
+        "facts_dropped": {
+          "default": 0,
+          "title": "Facts Dropped",
+          "type": "integer"
+        },
+        "fields_not_generated": {
+          "default": 0,
+          "title": "Fields Not Generated",
+          "type": "integer"
+        }
+      },
+      "title": "Counts",
+      "type": "object"
+    },
+    "Deadline": {
+      "properties": {
+        "date": {
+          "format": "date",
+          "title": "Date",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "fact_ref": {
+          "title": "Fact Ref",
+          "type": "string"
+        }
+      },
+      "required": [
+        "date",
+        "label",
+        "fact_ref"
+      ],
+      "title": "Deadline",
+      "type": "object"
+    },
+    "Entry": {
+      "properties": {
+        "kind": {
+          "const": "ai",
+          "default": "ai",
+          "title": "Kind",
+          "type": "string"
+        },
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "market": {
+          "title": "Market",
+          "type": "string"
+        },
+        "doc_type": {
+          "title": "Doc Type",
+          "type": "string"
+        },
+        "title_original": {
+          "title": "Title Original",
+          "type": "string"
+        },
+        "language": {
+          "title": "Language",
+          "type": "string"
+        },
+        "published": {
+          "format": "date",
+          "title": "Published",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "text_url": {
+          "title": "Text Url",
+          "type": "string"
+        },
+        "text_sha256": {
+          "title": "Text Sha256",
+          "type": "string"
+        },
+        "transposes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Transposes",
+          "type": "array"
+        },
+        "headline": {
+          "$ref": "#/$defs/Sentence"
+        },
+        "what_changed": {
+          "items": {
+            "$ref": "#/$defs/Sentence"
+          },
+          "title": "What Changed",
+          "type": "array"
+        },
+        "who": {
+          "$ref": "#/$defs/Who"
+        },
+        "when": {
+          "$ref": "#/$defs/When"
+        },
+        "money": {
+          "$ref": "#/$defs/Sentence"
+        },
+        "facts": {
+          "items": {
+            "$ref": "#/$defs/Fact"
+          },
+          "title": "Facts",
+          "type": "array"
+        },
+        "scorecard": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Scorecard"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "list_recipes": {
+          "items": {
+            "$ref": "#/$defs/ListRecipe"
+          },
+          "title": "List Recipes",
+          "type": "array"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "not_generated": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Not Generated",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "market",
+        "doc_type",
+        "title_original",
+        "language",
+        "published",
+        "url",
+        "text_url",
+        "text_sha256",
+        "headline",
+        "what_changed",
+        "who",
+        "when",
+        "money",
+        "facts",
+        "confidence"
+      ],
+      "title": "Entry",
+      "type": "object"
+    },
+    "Fact": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "affected",
+            "threshold",
+            "date",
+            "penalty",
+            "amount",
+            "obligation"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "statement": {
+          "title": "Statement",
+          "type": "string"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Date"
+        },
+        "date_kind": {
+          "anyOf": [
+            {
+              "enum": [
+                "publication",
+                "entry_into_force",
+                "deadline",
+                "transposition_deadline",
+                "application"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Date Kind"
+        },
+        "citation": {
+          "$ref": "#/$defs/Citation"
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "statement",
+        "citation"
+      ],
+      "title": "Fact",
+      "type": "object"
+    },
+    "IcpMatch": {
+      "properties": {
+        "countries": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Countries",
+          "type": "array"
+        },
+        "sectors": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Sectors",
+          "type": "array"
+        },
+        "size_bands": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Size Bands",
+          "type": "array"
+        },
+        "roles": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Roles",
+          "type": "array"
+        },
+        "basis": {
+          "enum": [
+            "explicit",
+            "inferred"
+          ],
+          "title": "Basis",
+          "type": "string"
+        }
+      },
+      "required": [
+        "countries",
+        "sectors",
+        "size_bands",
+        "roles",
+        "basis"
+      ],
+      "title": "IcpMatch",
+      "type": "object"
+    },
+    "IcpRef": {
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "config_sha256": {
+          "title": "Config Sha256",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "config_sha256"
+      ],
+      "title": "IcpRef",
+      "type": "object"
+    },
+    "ListRecipe": {
+      "properties": {
+        "label": {
+          "const": "hypothesis",
+          "default": "hypothesis",
+          "title": "Label",
+          "type": "string"
+        },
+        "dataset_id": {
+          "title": "Dataset Id",
+          "type": "string"
+        },
+        "dataset_name": {
+          "title": "Dataset Name",
+          "type": "string"
+        },
+        "dataset_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Dataset Url"
+        },
+        "dataset_verified": {
+          "title": "Dataset Verified",
+          "type": "boolean"
+        },
+        "filter": {
+          "title": "Filter",
+          "type": "string"
+        },
+        "gap_evidence": {
+          "title": "Gap Evidence",
+          "type": "string"
+        },
+        "metric": {
+          "title": "Metric",
+          "type": "string"
+        },
+        "signal_strength": {
+          "enum": [
+            "strong",
+            "weak"
+          ],
+          "title": "Signal Strength",
+          "type": "string"
+        },
+        "caveat": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Caveat"
+        }
+      },
+      "required": [
+        "dataset_id",
+        "dataset_name",
+        "dataset_verified",
+        "filter",
+        "gap_evidence",
+        "metric",
+        "signal_strength"
+      ],
+      "title": "ListRecipe",
+      "type": "object"
+    },
+    "ModelUsage": {
+      "properties": {
+        "input_tokens": {
+          "default": 0,
+          "title": "Input Tokens",
+          "type": "integer"
+        },
+        "output_tokens": {
+          "default": 0,
+          "title": "Output Tokens",
+          "type": "integer"
+        },
+        "cache_creation_input_tokens": {
+          "default": 0,
+          "title": "Cache Creation Input Tokens",
+          "type": "integer"
+        },
+        "cache_read_input_tokens": {
+          "default": 0,
+          "title": "Cache Read Input Tokens",
+          "type": "integer"
+        }
+      },
+      "title": "ModelUsage",
+      "type": "object"
+    },
+    "NoAiEntry": {
+      "properties": {
+        "kind": {
+          "const": "no-ai",
+          "default": "no-ai",
+          "title": "Kind",
+          "type": "string"
+        },
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "market": {
+          "title": "Market",
+          "type": "string"
+        },
+        "doc_type": {
+          "title": "Doc Type",
+          "type": "string"
+        },
+        "title_original": {
+          "title": "Title Original",
+          "type": "string"
+        },
+        "published": {
+          "format": "date",
+          "title": "Published",
+          "type": "string"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "matched_keywords": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Matched Keywords",
+          "type": "array"
+        },
+        "matched_codes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Matched Codes",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "market",
+        "doc_type",
+        "title_original",
+        "published",
+        "url"
+      ],
+      "title": "NoAiEntry",
+      "type": "object"
+    },
+    "RunInfo": {
+      "properties": {
+        "sources": {
+          "items": {
+            "$ref": "#/$defs/SourceReport"
+          },
+          "title": "Sources",
+          "type": "array"
+        },
+        "counts": {
+          "$ref": "#/$defs/Counts"
+        },
+        "cost": {
+          "$ref": "#/$defs/Cost"
+        }
+      },
+      "title": "RunInfo",
+      "type": "object"
+    },
+    "ScoreLine": {
+      "properties": {
+        "verdict": {
+          "enum": [
+            "yes",
+            "no",
+            "unclear"
+          ],
+          "title": "Verdict",
+          "type": "string"
+        },
+        "evidence": {
+          "title": "Evidence",
+          "type": "string"
+        },
+        "fact_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Fact Refs",
+          "type": "array"
+        },
+        "dataset_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Dataset Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "verdict",
+        "evidence"
+      ],
+      "title": "ScoreLine",
+      "type": "object"
+    },
+    "Scorecard": {
+      "properties": {
+        "forcing_mechanism": {
+          "$ref": "#/$defs/ScoreLine"
+        },
+        "findable": {
+          "$ref": "#/$defs/ScoreLine"
+        },
+        "early": {
+          "$ref": "#/$defs/ScoreLine"
+        },
+        "gap_evidence": {
+          "$ref": "#/$defs/ScoreLine"
+        },
+        "crowding": {
+          "$ref": "#/$defs/ScoreLine"
+        },
+        "points": {
+          "title": "Points",
+          "type": "integer"
+        },
+        "max_points": {
+          "title": "Max Points",
+          "type": "integer"
+        },
+        "sinks": {
+          "title": "Sinks",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "forcing_mechanism",
+        "findable",
+        "early",
+        "gap_evidence",
+        "crowding",
+        "points",
+        "max_points",
+        "sinks"
+      ],
+      "title": "Scorecard",
+      "type": "object"
+    },
+    "Sentence": {
+      "properties": {
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "fact_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Fact Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "title": "Sentence",
+      "type": "object"
+    },
+    "SourceReport": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "fetched": {
+          "default": 0,
+          "title": "Fetched",
+          "type": "integer"
+        },
+        "new": {
+          "default": 0,
+          "title": "New",
+          "type": "integer"
+        },
+        "errors": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Errors",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id"
+      ],
+      "title": "SourceReport",
+      "type": "object"
+    },
+    "When": {
+      "properties": {
+        "publication": {
+          "format": "date",
+          "title": "Publication",
+          "type": "string"
+        },
+        "entry_into_force": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Entry Into Force"
+        },
+        "deadlines": {
+          "items": {
+            "$ref": "#/$defs/Deadline"
+          },
+          "title": "Deadlines",
+          "type": "array"
+        },
+        "next_deadline": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Next Deadline"
+        }
+      },
+      "required": [
+        "publication"
+      ],
+      "title": "When",
+      "type": "object"
+    },
+    "Who": {
+      "properties": {
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "fact_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Fact Refs",
+          "type": "array"
+        },
+        "icp_match": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/IcpMatch"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "title": "Who",
+      "type": "object"
+    },
+    "Window": {
+      "properties": {
+        "since": {
+          "format": "date",
+          "title": "Since",
+          "type": "string"
+        },
+        "until": {
+          "format": "date",
+          "title": "Until",
+          "type": "string"
+        }
+      },
+      "required": [
+        "since",
+        "until"
+      ],
+      "title": "Window",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "week": {
+      "title": "Week",
+      "type": "string"
+    },
+    "window": {
+      "$ref": "#/$defs/Window"
+    },
+    "mode": {
+      "enum": [
+        "ai",
+        "no-ai"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "generated_by": {
+      "default": "no-ai",
+      "enum": [
+        "no-ai",
+        "claude-code",
+        "api",
+        "replay"
+      ],
+      "title": "Generated By",
+      "type": "string"
+    },
+    "icp": {
+      "$ref": "#/$defs/IcpRef"
+    },
+    "nothing_relevant": {
+      "title": "Nothing Relevant",
+      "type": "boolean"
+    },
+    "entries": {
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/Entry"
+          },
+          {
+            "$ref": "#/$defs/NoAiEntry"
+          }
+        ]
+      },
+      "title": "Entries",
+      "type": "array"
+    },
+    "run": {
+      "$ref": "#/$defs/RunInfo"
+    },
+    "disclaimer": {
+      "default": "Not legal advice. law-radar flags and summarises official texts. Read the source before acting.",
+      "title": "Disclaimer",
+      "type": "string"
+    },
+    "attribution": {
+      "default": "Sources: EUR-Lex / Publications Office of the EU (CC BY 4.0); DILA, Journal officiel (Licence Ouverte 2.0); Basado en datos de la Agencia Estatal Bolet\u00edn Oficial del Estado.",
+      "title": "Attribution",
+      "type": "string"
+    }
+  },
+  "required": [
+    "week",
+    "window",
+    "mode",
+    "icp",
+    "nothing_relevant"
+  ],
+  "title": "Digest",
+  "type": "object"
+}

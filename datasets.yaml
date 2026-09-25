@@ -1,0 +1,38 @@
+# Public datasets that list recipes may use. ICP-neutral: datasets, not customers.
+#
+# Every entry records what was checked and against what. A recipe that needs a dataset
+# outside this file is published with "unverified dataset".
+#
+# Only add a dataset after checking its publisher, access method and licence at the source.
+
+- id: fr_france_travail_offres
+  market: FR
+  name: France Travail job ads API (Offres d'emploi v2)
+  publisher: France Travail
+  url: https://francetravail.io/data/api/offres-emploi
+  access: REST API, free registration on francetravail.io, OAuth client credentials
+  licence: Licence Ouverte 2.0
+  names_companies: true
+  timing: Live job ads, updated continuously
+  fields: [intitule, dateCreation, entreprise, codeNAF, secteurActiviteLibelle, trancheEffectifEtab, salaire, lieuTravail, typeContrat]
+  notes: Search results are paged at 150 per page. Rate limit 10 calls per second.
+  verified_on: "2026-09-24"
+  verified: >-
+    Publisher, access, licence and the 10 calls/second limit from the data.gouv.fr API page.
+    Field names from published client code, not yet from a live call.
+
+- id: fr_sirene
+  market: FR
+  name: SIRENE register of companies and establishments
+  publisher: INSEE
+  url: https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/
+  access: Monthly bulk files (ZIP, Parquet); API through INSEE's portal with an account
+  licence: Licence Ouverte 2.0
+  names_companies: true
+  timing: Monthly stock files, with API updates in between
+  fields: [siren, siret, denomination, activitePrincipale (NAF), trancheEffectifs]
+  notes: Includes sole traders' personal data. Use company-level fields only.
+  verified_on: "2026-09-24"
+  verified: >-
+    Publisher, licence, update cadence and the NAF activity code from the data.gouv.fr dataset page.
+    The employee size band field name is from INSEE's schema, not checked on that page.

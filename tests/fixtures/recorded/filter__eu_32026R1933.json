@@ -1,0 +1,11 @@
+{
+  "step": "filter",
+  "key": "eu:32026R1933",
+  "model": "claude-code",
+  "request_sha256": "b44d6da252289c7fe7fef74bffb9456ebf33a0a20ea46b6175c305a926befdcf",
+  "usage": {},
+  "output": {
+    "relevant": false,
+    "reason": "The regulation splits EU fishing quotas under the 2026-2030 Seychelles protocol among Member States and reaches fishing fleets only, not ICP employers."
+  }
+}

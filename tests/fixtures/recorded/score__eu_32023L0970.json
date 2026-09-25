@@ -1,0 +1,79 @@
+{
+  "step": "score",
+  "key": "eu:32023L0970",
+  "model": "claude-code",
+  "request_sha256": "8bfa6d603d727b73f00157743e53a5eccfc40535bbf1d043eae318b31aa2c7e6",
+  "usage": {},
+  "output": {
+    "forcing_mechanism": {
+      "verdict": "yes",
+      "evidence": "National rules were due by 7 June 2026. Employers with 150-249 workers first report pay gaps by 7 June 2027, backed by national fines.",
+      "fact_refs": [
+        "f2",
+        "f11",
+        "f17",
+        "f18"
+      ],
+      "dataset_ids": []
+    },
+    "findable": {
+      "verdict": "yes",
+      "evidence": "SIRENE and France Travail ads name French companies with NAF code and staff band. The catalogue holds no Spanish dataset.",
+      "fact_refs": [],
+      "dataset_ids": [
+        "fr_sirene",
+        "fr_france_travail_offres"
+      ]
+    },
+    "early": {
+      "verdict": "yes",
+      "evidence": "Job ads update live and SIRENE monthly, so both list firms before the 7 June 2027 first reporting deadline.",
+      "fact_refs": [
+        "f11"
+      ],
+      "dataset_ids": [
+        "fr_france_travail_offres",
+        "fr_sirene"
+      ]
+    },
+    "gap_evidence": {
+      "verdict": "unclear",
+      "evidence": "France Travail ads carry a salary field, but employers may give pay before the interview or otherwise, so an empty field proves nothing.",
+      "fact_refs": [
+        "f3",
+        "f4"
+      ],
+      "dataset_ids": [
+        "fr_france_travail_offres"
+      ]
+    },
+    "crowding": {
+      "verdict": "yes",
+      "evidence": "Pay-gap reporting by sex applies to all private employers from 150 workers, so every payroll and HR vendor can pitch the same report.",
+      "fact_refs": [
+        "f1",
+        "f10",
+        "f11"
+      ],
+      "dataset_ids": []
+    },
+    "list_recipes": [
+      {
+        "dataset_id": "fr_france_travail_offres",
+        "filter": "codeNAF 55, 56, 47 or 41-43; trancheEffectifEtab 10-249 staff; dateCreation after 7 June 2026",
+        "gap_evidence": "salaire field empty or without an amount or range",
+        "metric": "share of the company's live ads without a pay amount or range",
+        "signal_strength": "weak",
+        "caveat": "Employers may give pay information before the interview or otherwise, so an ad without pay does not prove non-compliance."
+      },
+      {
+        "dataset_id": "fr_sirene",
+        "filter": "activitePrincipale NAF 55, 56, 47 or 41-43; trancheEffectifs bands covering 150-249 staff",
+        "gap_evidence": "none in the register; the size band only marks the first reporting duty due 7 June 2027",
+        "metric": "number of establishments (siret) per company (siren)",
+        "signal_strength": "weak",
+        "caveat": "SIRENE shows sector and size only, not whether a company has prepared its pay gap report."
+      }
+    ]
+  }
+}
