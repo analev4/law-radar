@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "week": "2026-W39",
   "window": {
-    "since": "2026-09-18",
+    "since": "2026-09-24",
     "until": "2026-09-25"
   },
   "mode": "no-ai",
@@ -11,381 +11,37 @@
     "name": "Ledgerly",
     "config_sha256": "0c3a5d5e5015adc50b1e028d0832c2f4be493cfa3e5d230b7766532b3e7c0eef"
   },
-  "nothing_relevant": false,
-  "entries": [
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19849",
-      "market": "ES",
-      "doc_type": "Real Decreto",
-      "title_original": "Real Decreto 739/2026, de 23 de septiembre, por el que se establece el régimen jurídico para el cómputo como cotizados al Régimen General de la Seguridad Social, a efectos de la pensión de jubilación, de los periodos de actividad ejercidos como deportista profesional con anterioridad a su integración en el Régimen General de la Seguridad Social.",
-      "published": "2026-09-25",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19849",
-      "matched_keywords": [
-        "cotizaci*"
-      ],
-      "matched_codes": [
-        "materia:1754"
-      ]
-    },
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19848",
-      "market": "ES",
-      "doc_type": "Real Decreto",
-      "title_original": "Real Decreto 738/2026, de 23 de septiembre, por el que se crea como Centro de Referencia Nacional de Construcciones Aeronáuticas el Centro de Formación de Illescas, en el área profesional de Construcciones Aeronáuticas, de la familia profesional de Fabricación Mecánica, en el ámbito de la formación profesional.",
-      "published": "2026-09-25",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19848",
-      "matched_keywords": [
-        "formación profesional"
-      ],
-      "matched_codes": [
-        "materia:3805"
-      ]
-    },
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19846",
-      "market": "ES",
-      "doc_type": "Real Decreto",
-      "title_original": "Real Decreto 737/2026, de 23 de septiembre, sobre reconocimiento como cotizados a la Seguridad Social de los periodos de actividad ejercidos como ministros de culto de las iglesias pertenecientes a la Federación de Entidades Religiosas Evangélicas de España con anterioridad a su integración en el Régimen General de la Seguridad Social.",
-      "published": "2026-09-25",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19846",
-      "matched_keywords": [
-        "cotizaci*"
-      ],
-      "matched_codes": [
-        "materia:1754",
-        "materia:6499"
-      ]
-    },
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19845",
-      "market": "ES",
-      "doc_type": "Resolución",
-      "title_original": "Resolución de 23 de septiembre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de convalidación del Real Decreto-ley 23/2026, de 8 de septiembre, por el que se adoptan medidas fiscales y financieras urgentes que contribuyan a la reconstrucción económica y social de la isla de La Palma, así como medidas tendentes a promover la ejecución de inversiones por parte de las comunidades autónomas que han registrado superávits presupuestarios y excesos de financiación pendientes de aplicar de ejercicios anteriores a 2026.",
-      "published": "2026-09-25",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19845",
-      "matched_keywords": [
-        "trabajador*"
-      ],
-      "matched_codes": []
-    },
-    {
-      "kind": "no-ai",
-      "id": "eu:32026R2111",
-      "market": "EU",
-      "doc_type": "Regulation",
-      "title_original": "Commission Implementing Regulation (EU) 2026/2111 of 23 September 2026 correcting Implementing Regulation (EU) 2025/2143 as regards the date of application of certain provisions",
-      "published": "2026-09-24",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R2111",
-      "matched_keywords": [
-        "vocational"
-      ],
-      "matched_codes": []
-    },
-    {
-      "kind": "no-ai",
-      "id": "eu:22026D2005",
-      "market": "EU",
-      "doc_type": "Decision",
-      "title_original": "Decision of the EEA Joint Committee No 178/2026 of 5 June 2026 amending Annex XIII (Transport) to the EEA Agreement [2026/2005]",
-      "published": "2026-09-24",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22026D2005",
-      "matched_keywords": [
-        "vocational"
-      ],
-      "matched_codes": []
-    },
-    {
-      "kind": "no-ai",
-      "id": "eu:22026D1994",
-      "market": "EU",
-      "doc_type": "Decision",
-      "title_original": "Decision of the EEA Joint Committee No 187/2026 of 5 June 2026 amending Protocol 31 to the EEA Agreement, on cooperation in specific fields outside the four freedoms [2026/1994]",
-      "published": "2026-09-24",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22026D1994",
-      "matched_keywords": [
-        "worker*"
-      ],
-      "matched_codes": []
-    },
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19751",
-      "market": "ES",
-      "doc_type": "Resolución",
-      "title_original": "Resolución de 10 de septiembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo estatal de artes gráficas, manipulados de papel, manipulados de cartón, editoriales e industrias auxiliares.",
-      "published": "2026-09-23",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19751",
-      "matched_keywords": [
-        "convenio colectivo"
-      ],
-      "matched_codes": [
-        "materia:1684"
-      ]
-    },
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19628",
-      "market": "ES",
-      "doc_type": "Acuerdo Internacional",
-      "title_original": "Acuerdo administrativo para la aplicación del Convenio de Seguridad Social entre el Reino de España y la República de Filipinas, hecho en Madrid el 11 de septiembre de 2026.",
-      "published": "2026-09-22",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19628",
-      "matched_keywords": [],
-      "matched_codes": [
-        "materia:6499"
-      ]
-    },
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19606",
-      "market": "ES",
-      "doc_type": "Resolución",
-      "title_original": "Resolución de 10 de septiembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de modificación del Convenio colectivo de Transportes Bacoma, SA.",
-      "published": "2026-09-21",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19606",
-      "matched_keywords": [
-        "convenio colectivo"
-      ],
-      "matched_codes": [
-        "materia:1684"
-      ]
-    },
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19605",
-      "market": "ES",
-      "doc_type": "Resolución",
-      "title_original": "Resolución de 10 de septiembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el III Convenio colectivo de centros y servicios veterinarios.",
-      "published": "2026-09-21",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19605",
-      "matched_keywords": [
-        "convenio colectivo",
-        "formación profesional"
-      ],
-      "matched_codes": [
-        "materia:1684",
-        "materia:3805"
-      ]
-    },
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19604",
-      "market": "ES",
-      "doc_type": "Resolución",
-      "title_original": "Resolución de 10 de septiembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el II Convenio colectivo de Skytanking Spain, SLU.",
-      "published": "2026-09-21",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19604",
-      "matched_keywords": [
-        "convenio colectivo"
-      ],
-      "matched_codes": [
-        "materia:1684"
-      ]
-    },
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19603",
-      "market": "ES",
-      "doc_type": "Resolución",
-      "title_original": "Resolución de 10 de septiembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo del Banco de España.",
-      "published": "2026-09-21",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19603",
-      "matched_keywords": [
-        "convenio colectivo"
-      ],
-      "matched_codes": [
-        "materia:1684"
-      ]
-    },
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19525",
-      "market": "ES",
-      "doc_type": "Resolución",
-      "title_original": "Resolución de 17 de septiembre de 2026, de la Secretaría General para la Innovación y Calidad del Servicio Público de Justicia, por la que se regula la duración de la jornada general de trabajo en cómputo anual y las de las jornadas especiales en régimen de dedicación especial para el Cuerpo de Letrados de la Administración de Justicia.",
-      "published": "2026-09-21",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19525",
-      "matched_keywords": [
-        "jornada"
-      ],
-      "matched_codes": [
-        "materia:4553"
-      ]
-    },
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19524",
-      "market": "ES",
-      "doc_type": "Resolución",
-      "title_original": "Resolución de 15 de septiembre de 2026, de la Dirección General para la Eficiencia del Servicio Público de Justicia, por la que se regula la duración de la jornada general de trabajo en cómputo anual y las de las jornadas especiales en régimen de dedicación especial para el personal al servicio de la Administración de Justicia.",
-      "published": "2026-09-21",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19524",
-      "matched_keywords": [
-        "jornada"
-      ],
-      "matched_codes": [
-        "materia:4553"
-      ]
-    },
-    {
-      "kind": "no-ai",
-      "id": "fr:JORFTEXT000054860921",
-      "market": "FR",
-      "doc_type": "Arrêté",
-      "title_original": "Arrêté du 7 septembre 2026 portant extension d'un avenant à la convention collective nationale des coopératives de consommateurs salariés (n° 3205)",
-      "published": "2026-09-19",
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054860921",
-      "matched_keywords": [
-        "salarié*"
-      ],
-      "matched_codes": []
-    },
-    {
-      "kind": "no-ai",
-      "id": "fr:JORFTEXT000054860173",
-      "market": "FR",
-      "doc_type": "Décret",
-      "title_original": "Décret n° 2026-874 du 17 septembre 2026 portant modification du décret n° 2026-776 du 14 août 2026 portant création d'une aide exceptionnelle à destination des entreprises de moins de deux cent cinquante salariés ayant subi les conséquences des incendies et ayant fait l'objet d'une mesure d'évacuation ou de confinement",
-      "published": "2026-09-19",
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054860173",
-      "matched_keywords": [
-        "salarié*"
-      ],
-      "matched_codes": []
-    },
-    {
-      "kind": "no-ai",
-      "id": "fr:JORFTEXT000054860067",
-      "market": "FR",
-      "doc_type": "Décret",
-      "title_original": "Décret n° 2026-872 du 14 septembre 2026 relatif aux conditions de classement, d'avancement et de rémunération applicables à certains emplois de direction de la police nationale",
-      "published": "2026-09-19",
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054860067",
-      "matched_keywords": [
-        "rémunération*"
-      ],
-      "matched_codes": []
-    },
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19486",
-      "market": "ES",
-      "doc_type": "Orden",
-      "title_original": "Orden EFD/978/2026, de 14 de septiembre, por la que se crea y se regula la Comisión Ministerial de Administración Digital del Ministerio de Educación, Formación Profesional y Deportes.",
-      "published": "2026-09-19",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19486",
-      "matched_keywords": [
-        "formación profesional"
-      ],
-      "matched_codes": []
-    },
-    {
-      "kind": "no-ai",
-      "id": "fr:JORFTEXT000054854981",
-      "market": "FR",
-      "doc_type": "Arrêté",
-      "title_original": "Arrêté du 3 septembre 2026 relatif aux modalités de cotisation due par les entreprises au titre des arrêts de travail visé à l'article L. 5424-6 du code du travail et au montant du fonds de réserve visé à l'article D. 5424-40 du code du travail pour la période du 1er avril 2026 au 31 mars 2027",
-      "published": "2026-09-18",
-      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054854981",
-      "matched_keywords": [
-        "code du travail",
-        "cotisation*"
-      ],
-      "matched_codes": []
-    },
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19427",
-      "market": "ES",
-      "doc_type": "Circular",
-      "title_original": "Circular 6/2026, de 8 de septiembre, de la Comisión Nacional de los Mercados y la Competencia, por la que se establece la metodología de retribución de la distribución de gas natural.",
-      "published": "2026-09-18",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19427",
-      "matched_keywords": [
-        "retribuci*"
-      ],
-      "matched_codes": []
-    },
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19426",
-      "market": "ES",
-      "doc_type": "Circular",
-      "title_original": "Circular 5/2026, de 8 de septiembre, de la Comisión Nacional de los Mercados y la Competencia, por la que se establece la tasa de retribución financiera aplicable a las actividades de regasificación, transporte, y gestión técnica del sistema y a las actividades vinculadas a la distribución de gas natural, en el periodo regulatorio 2027-2032.",
-      "published": "2026-09-18",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19426",
-      "matched_keywords": [
-        "retribuci*"
-      ],
-      "matched_codes": [
-        "materia:6230"
-      ]
-    },
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19425",
-      "market": "ES",
-      "doc_type": "Circular",
-      "title_original": "Circular 4/2026, de 8 de septiembre, de la Comisión Nacional de los Mercados y la Competencia, por la que se establece la metodología para determinar la retribución de las instalaciones de transporte de gas natural y de las plantas de gas natural licuado.",
-      "published": "2026-09-18",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19425",
-      "matched_keywords": [
-        "retribuci*"
-      ],
-      "matched_codes": []
-    },
-    {
-      "kind": "no-ai",
-      "id": "es:BOE-A-2026-19420",
-      "market": "ES",
-      "doc_type": "Resolución",
-      "title_original": "Resolución de 16 de septiembre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de convalidación del Real Decreto-ley 22/2026, de 1 de septiembre, por el que se aprueban medidas urgentes de carácter social y económico de apoyo a la ciudad de Ceuta.",
-      "published": "2026-09-18",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-19420",
-      "matched_keywords": [
-        "cotizaci*",
-        "emple*",
-        "trabajador*"
-      ],
-      "matched_codes": [
-        "materia:1667",
-        "materia:1754"
-      ]
-    }
-  ],
+  "nothing_relevant": true,
+  "entries": [],
   "run": {
     "sources": [
       {
         "id": "eu",
-        "fetched": 101,
-        "new": 101,
+        "fetched": 53,
+        "new": 0,
         "errors": []
       },
       {
         "id": "fr",
-        "fetched": 206,
-        "new": 206,
+        "fetched": 53,
+        "new": 0,
         "errors": []
       },
       {
         "id": "es",
-        "fetched": 38,
-        "new": 38,
+        "fetched": 5,
+        "new": 0,
         "errors": []
       }
     ],
     "counts": {
-      "fetched": 345,
-      "new": 345,
-      "keyword_pass": 24,
+      "fetched": 111,
+      "new": 0,
+      "keyword_pass": 0,
       "deferred_by_cap": 0,
       "model_pass": 0,
       "read": 0,
-      "published": 24,
+      "published": 0,
       "facts_dropped": 0,
       "fields_not_generated": 0
     },
