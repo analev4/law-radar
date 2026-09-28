@@ -15,12 +15,12 @@
   "entries": [
     {
       "kind": "no-ai",
-      "id": "es:BOE-A-2026-20003",
+      "id": "es:BOE-A-2026-20001",
       "market": "ES",
       "doc_type": "Providencia",
-      "title_original": "Cuestión de inconstitucionalidad n.o 5959-2026, en relación con las disposiciones adicionales sexta y octava de la Ley 20/2021, de 28 de diciembre, de medidas urgentes para la reducción de la temporalidad en el empleo público, por posible vulneración de los artículos 23.2 y 149.1.18 CE.",
+      "title_original": "Cuestión de inconstitucionalidad n.o 5551-2026, en relación con las disposiciones adicionales sexta y octava de la Ley 20/2021, de 28 de diciembre, de medidas urgentes para la reducción de la temporalidad en el empleo público, por posible vulneración de los arts. 23.2 y 149.1.18 CE.",
       "published": "2026-09-28",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20003",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20001",
       "matched_keywords": [
         "emple*"
       ],
@@ -45,12 +45,12 @@
     },
     {
       "kind": "no-ai",
-      "id": "es:BOE-A-2026-20001",
+      "id": "es:BOE-A-2026-20003",
       "market": "ES",
       "doc_type": "Providencia",
-      "title_original": "Cuestión de inconstitucionalidad n.o 5551-2026, en relación con las disposiciones adicionales sexta y octava de la Ley 20/2021, de 28 de diciembre, de medidas urgentes para la reducción de la temporalidad en el empleo público, por posible vulneración de los arts. 23.2 y 149.1.18 CE.",
+      "title_original": "Cuestión de inconstitucionalidad n.o 5959-2026, en relación con las disposiciones adicionales sexta y octava de la Ley 20/2021, de 28 de diciembre, de medidas urgentes para la reducción de la temporalidad en el empleo público, por posible vulneración de los artículos 23.2 y 149.1.18 CE.",
       "published": "2026-09-28",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20001",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20003",
       "matched_keywords": [
         "emple*"
       ],
@@ -91,10 +91,28 @@
         "fetched": 11,
         "new": 6,
         "errors": []
+      },
+      {
+        "id": "eu",
+        "fetched": 13,
+        "new": 0,
+        "errors": []
+      },
+      {
+        "id": "fr",
+        "fetched": 19,
+        "new": 0,
+        "errors": []
+      },
+      {
+        "id": "es",
+        "fetched": 4,
+        "new": 0,
+        "errors": []
       }
     ],
     "counts": {
-      "fetched": 186,
+      "fetched": 222,
       "new": 75,
       "keyword_pass": 4,
       "deferred_by_cap": 0,
