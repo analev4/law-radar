@@ -6,7 +6,7 @@ Weekly monitor for the EU, French and Spanish official journals. Matches new leg
 
 *Pages table from the golden test run: three real laws, read and cited for the fictional ICP "Ledgerly".*
 
-## What it does
+## Features
 
 - Pulls new texts weekly from the EU Official Journal (Cellar), the Journal officiel (DILA open data) and the BOE (open data API).
 - Filters them by keyword, classification code and a watchlist of EU directives awaiting national transposition.
