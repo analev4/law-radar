@@ -1,6 +1,6 @@
 # Design: file structure and JSON schema
 
-Status: approved in step 2, built in step 3 (EU only). Changes since approval are listed under "Decisions".
+Status: the design record. Approved in step 2 and built in steps 3 to 6; changes since approval are listed under "Decisions". The contributor guide is CONTRIBUTING.md.
 
 ## Decisions
 
