@@ -1,28 +1,48 @@
 # law-radar
 
-Every week, law-radar reads the official journals of the EU, France and Spain, finds the new laws that affect the companies you sell to, and quotes the text for every fact.
+Weekly monitor for the EU, French and Spanish official journals. Matches new legal texts against an ICP config, extracts cited facts, and scores each law as an outbound trigger.
 
-![The law-radar Pages table: one row per law, with who is affected, the next deadline, a score and a list recipe](docs/cover.png)
+![cover](docs/cover.png)
 
-*The Pages table, built from the golden test run: three real laws read and cited for the fictional ICP "Ledgerly".*
+*Pages table from the golden test run: three real laws, read and cited for the fictional ICP "Ledgerly".*
 
-## Why this exists
+## What it does
 
-The best outbound trigger is one the government already made for you. When a law changes, the buyer doesn't need convincing that the problem is real. The state has made that argument, set a deadline and usually a penalty. What they need is to hear it from someone who has read the text and done the maths for their company.
+- Pulls new texts weekly from the EU Official Journal (Cellar), the Journal officiel (DILA open data) and the BOE (open data API).
+- Filters them by keyword, classification code and a watchlist of EU directives awaiting national transposition.
+- Extracts facts per law: who is affected, thresholds, dates, amounts, penalties.
+- Validates every fact against the source: the quote must be verbatim, sit in the cited article and contain every number and date in the sentence. Failed facts are dropped.
+- Scores each law on five signals (forcing mechanism, findable, early, gap evidence, crowding) and proposes list recipes from a catalogue of verified public datasets.
+- Publishes a weekly GitHub Issue, a Pages table and Markdown + JSON digests.
 
-Most teams find these laws late, through a LinkedIn post or a vendor webinar, after every competitor has already written the same email. The official journals publish every change first, for free. Nobody reads them because they're long, dull and in several languages.
+Fetching and filtering run free on GitHub Actions. The model steps run through `/digest` in Claude Code at no API cost, or through the Claude API if a key is set.
 
-law-radar reads them. It isn't a news digest. Each item is meant to become a list and a campaign by Monday: the law, the companies it hits, public proof they haven't acted, the number per company, and only then the message. The aim is several signals a week to test, not one campaign polished for a quarter.
+## Pipeline
 
-## How it works
+```
+fetch -> dedupe -> keyword/code filter -> relevance filter -> read -> validate + lint -> score -> publish
+```
 
-1. **Describe your ICP** in one config file: markets, sectors, company sizes, buyer roles, topics and keywords.
-2. **Turn on the weekly run.** Every Monday, a free GitHub Action fetches the EU Official Journal, the French Journal officiel and the Spanish BOE, and keeps the texts that match your keywords and classification codes.
-3. **Get the cited summaries.** Run `/digest` in Claude Code (free with your Claude plan), or add a Claude API key to have the weekly run write them itself.
+| Stage | Runs in | Output |
+|---|---|---|
+| fetch | adapters `eu_cellar`, `fr_dila`, `es_boe` | one `Document` per new text |
+| dedupe | `state/seen.json` | unseen texts only |
+| keyword/code filter | code | `digests/YYYY-WW.matches.json` |
+| relevance filter | model | yes/no with a reason |
+| read | model | facts with article, verbatim quote and URL |
+| validate + lint | code | facts that fail the citation check are dropped; sentences that fail the writing or number checks are rewritten once, then dropped |
+| score | model per line, code for totals | scorecard out of 12, list recipes from `datasets.yaml` |
+| publish | code | Issue, Pages, `digests/YYYY-WW.{md,json}` |
 
-Behind step 3: a model decides whether each text could affect your ICP, reads the relevant ones in full, and extracts facts. Code then checks every fact against the text. The quote must be verbatim, sit in the article cited, and contain every number and date the sentence states. Facts that fail are dropped. A linter rejects filler words, long sentences and advice. A scorecard rates whether the law is a usable sales signal, and up to three **list recipes** say which public dataset would name the affected companies.
+## Use case
 
-## Setup guide
+Regulation-led outbound. A new law gives a set of companies a date, a cost and a rule. law-radar surfaces those laws, cites them, and points to the public datasets that name the affected companies.
+
+## Requirements
+
+Python 3.9+, `httpx`, `pydantic`, `pyyaml`. `anthropic` is optional (`pip install -e ".[api]"`). Tests: `pytest` (93 tests, including golden replays), run in CI on Python 3.9 and 3.12.
+
+## Quickstart
 
 You don't need to code. You need a GitHub account, and for the free summaries, Claude Code.
 
@@ -131,7 +151,7 @@ The first live week is in [digests/2026-39.md](digests/2026-39.md): 24 keyword m
 
 **Building the list.** Recipes point to datasets in [`datasets.yaml`](datasets.yaml), each checked for access, fields and licence. For Spain, `law-radar bdns --since 2026-09-01 --text contratación` exports grants awarded to companies from the national grants database. Records about individuals are dropped by tax ID before anything is saved, because its licence only allows reuse of personal data for scrutiny of public administration.
 
-## Principles
+## Design principles
 
 1. **Primary sources only.** Official journals and legislation databases. No news sites, law-firm blogs or vendor content.
 2. **Every claim cites the text.** Each fact carries the article, a verbatim quote and the link. Code checks that the quote is in the fetched text and in the cited article, and that every number, date and month in the sentence appears in it. Facts that fail are dropped, not softened.
