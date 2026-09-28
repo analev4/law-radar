@@ -171,10 +171,11 @@ def cmd_digest_step(args: argparse.Namespace) -> int:
                for sid in sorted({d.source for d in docs}) if sid in real]
     waiting: List[str] = []
     log = print if args.verbose else (lambda _: None)
+    cap = args.max_texts or cfg.limits.max_documents_claude_code
+    scratch = State(work / "scratch-state")
     try:
-        digest = run_pipeline(cfg, sources, State(work / "scratch-state"), today=until, since=since, until=until,
-                              datasets=load_datasets(), llm=llm, log=log,
-                              max_documents=cfg.limits.max_documents_claude_code, waiting=waiting)
+        digest = run_pipeline(cfg, sources, scratch, today=until, since=since, until=until,
+                              datasets=load_datasets(), llm=llm, log=log, max_documents=cap, waiting=waiting)
     finally:
         client.close()
 
@@ -187,8 +188,17 @@ def cmd_digest_step(args: argparse.Namespace) -> int:
     for k in ("fetched", "new", "keyword_pass"):
         if k in before:
             setattr(digest.run.counts, k, before[k])
-    over = [d for d in docs if d.id not in {e.id for e in digest.entries}][: digest.run.counts.deferred_by_cap]
+    # Texts over the cap stay listed in the week's digest as "not read yet".
+    over = list(scratch.deferred)
     if over:
+        from .models import NoAiEntry
+        digest.entries.extend(NoAiEntry(id=d.id, market=d.market, doc_type=d.doc_type, title_original=d.title,
+                                        published=d.published, url=d.url) for d in over)
+        digest.nothing_relevant = False
+        digest.run.counts.published = len(digest.entries)
+    # With the normal weekly cap they are also carried to next week's /digest. A one-off --max-texts
+    # run doesn't carry them, so it can't crowd next week.
+    if over and not args.max_texts:
         state = State.load(Path(args.state))
         known = {d.id for d in state.deferred}
         state.deferred.extend(d for d in over if d.id not in known)
@@ -197,8 +207,8 @@ def cmd_digest_step(args: argparse.Namespace) -> int:
     c = digest.run.counts
     print(f"\nCOMPLETE: {digest.week}. {c.read} text(s) read, {c.published} law(s) published, "
           f"{c.facts_dropped} fact(s) dropped by the citation check, {c.fields_not_generated} field(s) not generated"
-          + (f", {c.deferred_by_cap} text(s) over the cap of {cfg.limits.max_documents_claude_code} kept for next week"
-             if c.deferred_by_cap else "") + ".")
+          + (f", {c.deferred_by_cap} text(s) over the cap of {cap} listed as not read yet"
+             + ("" if args.max_texts else " and kept for next week") if c.deferred_by_cap else "") + ".")
     print(f"Wrote {md} and {js}. Review them, then commit and push.")
     return 0
 
@@ -364,6 +374,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     d.add_argument("--out", default=str(ROOT / "digests"))
     d.add_argument("--state", default=str(ROOT / "state"))
     d.add_argument("--work", default=str(ROOT / ".cache" / "claude"), help="request/answer folder (gitignored)")
+    d.add_argument("--max-texts", type=int, help="read at most N texts this time (overrides the config's cap)")
     d.add_argument("--verbose", action="store_true")
     d.set_defaults(func=cmd_digest_step)
 

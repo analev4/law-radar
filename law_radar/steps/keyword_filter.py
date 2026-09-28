@@ -92,8 +92,21 @@ def priority(m: Match) -> tuple:
 
 
 def cap(matches: List[Match], limit: int) -> Tuple[List[Match], List[Match]]:
-    ordered = sorted(matches, key=priority)
-    return ordered[:limit], ordered[limit:]
+    """Take the best match of each market in turn (EU, FR, ES, then again), so the cap is shared.
+    Without this, the source with the richest classification codes (Spain) takes every slot."""
+    by_market: Dict[str, List[Match]] = {}
+    for m in sorted(matches, key=priority):
+        by_market.setdefault(m.doc.market, []).append(m)
+    watched = [m for m in sorted(matches, key=priority) if m.watched]      # watched texts always go first
+    order: List[Match] = list(watched)
+    queues = [q for _, q in sorted(by_market.items())]
+    while any(queues):
+        for q in queues:
+            while q and q[0] in order:
+                q.pop(0)
+            if q:
+                order.append(q.pop(0))
+    return order[:limit], order[limit:]
 
 
 def summarise_classification(doc: Document) -> Dict[str, List[str]]:

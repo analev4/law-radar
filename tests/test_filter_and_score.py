@@ -59,3 +59,14 @@ def test_spanish_codes_and_keywords(cfg):
     m = KeywordFilter(cfg).match(docs[ES_RELEVANT])
     assert m.passed and "materia:6256" in m.codes
     assert not KeywordFilter(cfg).match(docs[ES_IRRELEVANT]).passed
+
+
+
+def test_cap_shares_slots_across_markets(cfg):
+    from law_radar.fixtures import load_es, load_fr
+    kf = KeywordFilter(cfg)
+    es = [kf.match(d) for d in load_es()]
+    es = [m for m in es if m.passed] * 3                  # three strong Spanish matches (with subject codes)
+    fr = [m for m in (kf.match(d) for d in load_fr()) if m.passed]
+    kept, over = cap(es + fr, 2)
+    assert {m.doc.market for m in kept} == {"ES", "FR"}

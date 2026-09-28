@@ -87,6 +87,15 @@ def _no_ai(entries: List[NoAiEntry]) -> List[str]:
     return out
 
 
+def _ai_count(digest: Digest) -> str:
+    read = sum(1 for e in digest.entries if isinstance(e, Entry))
+    unread = len(digest.entries) - read
+    text = f"{read} {'law' if read == 1 else 'laws'} read and cited"
+    if unread:
+        text += f", {unread} keyword {'match' if unread == 1 else 'matches'} not read yet"
+    return text
+
+
 def render(digest: Digest) -> str:
     if digest.nothing_relevant:
         return (f"Law radar, week {week_number(digest)}: nothing relevant this week.\n\n"
@@ -97,8 +106,7 @@ def render(digest: Digest) -> str:
     lines = [f"# {title(digest)}", "",
              f"{fmt_date(w.since)} to {fmt_date(w.until)} · ICP: {digest.icp.name} · "
              + (f"{n} keyword {'match' if n == 1 else 'matches'}, not read yet. Run /digest in Claude Code for "
-                "cited summaries" if digest.mode == "no-ai" else
-                f"{n} {'law' if n == 1 else 'laws'} flagged"),
+                "cited summaries" if digest.mode == "no-ai" else _ai_count(digest)),
              "", f"*{digest.disclaimer}*", ""]
     if digest.mode == "no-ai":
         lines += _no_ai([e for e in digest.entries if isinstance(e, NoAiEntry)]) + [""]
