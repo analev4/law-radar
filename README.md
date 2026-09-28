@@ -155,10 +155,10 @@ The first live week is in [digests/2026-39.md](digests/2026-39.md): 24 keyword m
 
 1. **Primary sources only.** Official journals and legislation databases. No news sites, law-firm blogs or vendor content.
 2. **Every claim cites the text.** Each fact carries the article, a verbatim quote and the link. Code checks that the quote is in the fetched text and in the cited article, and that every number, date and month in the sentence appears in it. Facts that fail are dropped, not softened.
-3. **"Nothing relevant this week" is a valid result.** An empty week says so in one line.
+3. **Empty weeks produce a one-line digest.** No filler entries are added to reach a count.
 4. **Not legal advice.** The tool flags and summarises. Every output says so.
-5. **No personal data.** It reads laws, not people. Sections about named people (appointments, naturalisations) are never read, quotes that name a person are dropped, and datasets are filtered to companies.
-6. **Configurable by anyone.** Everything about your ICP lives in one file.
+5. **No personal data.** Sections about named people (appointments, naturalisations) are never read, quotes that name a person are dropped, and datasets are filtered to companies.
+6. **All ICP settings live in one config file.** Nothing about a specific company is hard-coded.
 7. **Model calls are limited to filtering, reading and scoring.** Fetching, dedupe, keyword filtering, validation, scheduling and publishing are plain code. `--no-ai` runs with no model calls.
 
 ## Adding a source
