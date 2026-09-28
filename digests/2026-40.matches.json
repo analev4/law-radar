@@ -1,0 +1,162 @@
+{
+ "week": "2026-W40",
+ "window": {
+  "since": "2026-09-24",
+  "until": "2026-09-28"
+ },
+ "counts": {
+  "fetched": 186,
+  "new": 75,
+  "keyword_pass": 4
+ },
+ "documents": [
+  {
+   "id": "fr:JORFTEXT000054902969",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054902969",
+   "title": "Arrêté du 10 septembre 2026 modifiant l'arrêté du 9 mars 2020 modifié fixant la liste des certifications antérieurement inscrites à l'annexe II-1 de l'article A. 212-1 du code du sport permettant l'encadrement des activités physiques ou sportives contre rémunération et modifiant le code du sport (partie réglementaire : arrêtés)",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-09-26",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054902969",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20260926-210736.tar.gz#JORFTEXT000054902969",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère des sports, de la jeunesse et de la vie associative"
+    ],
+    "department": [
+     "Ministère des sports, de la jeunesse et de la vie associative"
+    ],
+    "nor": [
+     "SPOV2624083A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-20001",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-20001",
+   "title": "Cuestión de inconstitucionalidad n.o 5551-2026, en relación con las disposiciones adicionales sexta y octava de la Ley 20/2021, de 28 de diciembre, de medidas urgentes para la reducción de la temporalidad en el empleo público, por posible vulneración de los arts. 23.2 y 149.1.18 CE.",
+   "language": "es",
+   "doc_type": "Providencia",
+   "published": "2026-09-28",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20001",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20001",
+   "classification": {
+    "materias": [
+     "93",
+     "2253",
+     "3160",
+     "3842",
+     "5247"
+    ],
+    "materias_labels": [
+     "Administraciones Públicas",
+     "Cuestiones de inconstitucionalidad",
+     "Empleo",
+     "Función Pública",
+     "Oposiciones y concursos"
+    ],
+    "department": [
+     "Tribunal Constitucional"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Cuestiones de inconstitucionalidad"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-20002",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-20002",
+   "title": "Cuestión de inconstitucionalidad n.o 5552-2026, en relación con las disposiciones adicionales sexta y octava de la Ley 20/2021, de 28 de diciembre, de medidas urgentes para la reducción de la temporalidad en el empleo público, por posible vulneración de los arts. 23.2 y 149.1.18 CE.",
+   "language": "es",
+   "doc_type": "Providencia",
+   "published": "2026-09-28",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20002",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20002",
+   "classification": {
+    "materias": [
+     "93",
+     "2253",
+     "3160",
+     "3842",
+     "5247"
+    ],
+    "materias_labels": [
+     "Administraciones Públicas",
+     "Cuestiones de inconstitucionalidad",
+     "Empleo",
+     "Función Pública",
+     "Oposiciones y concursos"
+    ],
+    "department": [
+     "Tribunal Constitucional"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Cuestiones de inconstitucionalidad"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-20003",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-20003",
+   "title": "Cuestión de inconstitucionalidad n.o 5959-2026, en relación con las disposiciones adicionales sexta y octava de la Ley 20/2021, de 28 de diciembre, de medidas urgentes para la reducción de la temporalidad en el empleo público, por posible vulneración de los artículos 23.2 y 149.1.18 CE.",
+   "language": "es",
+   "doc_type": "Providencia",
+   "published": "2026-09-28",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20003",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20003",
+   "classification": {
+    "materias": [
+     "93",
+     "2253",
+     "3160",
+     "3842",
+     "5247"
+    ],
+    "materias_labels": [
+     "Administraciones Públicas",
+     "Cuestiones de inconstitucionalidad",
+     "Empleo",
+     "Función Pública",
+     "Oposiciones y concursos"
+    ],
+    "department": [
+     "Tribunal Constitucional"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Cuestiones de inconstitucionalidad"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  }
+ ]
+}
