@@ -2,55 +2,52 @@
   "step": "score",
   "key": "es:BOE-A-2026-3815",
   "model": "claude-code",
-  "request_sha256": "5ee437c6e8ee57c287b57e52bf6f60067f7c30ee9c2e9d718d192ebbe580c01f",
+  "request_sha256": "77983ad87c264285edf20881bdcda8a17908f44f081189bbcba2de4546e5ad8b",
   "usage": {},
   "output": {
     "forcing_mechanism": {
       "verdict": "yes",
-      "evidence": "Employers must raise salaries below the 17 094 euro annual minimum, backdated to 1 January 2026, but the text sets no penalty amount.",
+      "evidence": "Employers must pay 1,221 euros per month from 1 January 2026 and raise lower salaries to match, but the text sets no penalty amount.",
       "fact_refs": [
-        "f2",
-        "f7",
-        "f9"
+        "f1",
+        "f8",
+        "f14"
       ],
       "dataset_ids": []
     },
     "findable": {
       "verdict": "no",
-      "evidence": "The catalogue holds only French datasets, fr_france_travail_offres and fr_sirene, so no dataset names Spanish employers.",
+      "evidence": "The only Spanish dataset, es_bdns_concesiones, lists grant awards to companies with no sector code and no company size.",
       "fact_refs": [],
       "dataset_ids": [
-        "fr_france_travail_offres",
-        "fr_sirene"
+        "es_bdns_concesiones"
       ]
     },
     "early": {
       "verdict": "no",
-      "evidence": "No catalogue dataset covers Spain, and the new minimum wage took effect on 1 January 2026, 9 months before today.",
+      "evidence": "The new rates took effect on 1 January 2026, so the buying moment passed 9 months before today.",
       "fact_refs": [
-        "f9"
+        "f13",
+        "f14"
       ],
-      "dataset_ids": [
-        "fr_france_travail_offres",
-        "fr_sirene"
-      ]
+      "dataset_ids": []
     },
     "gap_evidence": {
       "verdict": "no",
-      "evidence": "No catalogue record covers Spanish pay, and employers can meet the minimum by offsetting existing annual earnings (Art. 3(2)).",
+      "evidence": "The Spanish dataset es_bdns_concesiones records grant awards, not wages, so no public record shows which employers pay below 1,221 euros.",
       "fact_refs": [
-        "f12"
+        "f1"
       ],
       "dataset_ids": [
-        "fr_france_travail_offres",
-        "fr_sirene"
+        "es_bdns_concesiones"
       ]
     },
     "crowding": {
       "verdict": "yes",
-      "evidence": "Every Spanish payroll vendor loads the 1 221 euro monthly minimum each year, so the update is a standard feature, not a differentiator.",
+      "evidence": "The minimum wage rises every year by a set amount, 3.1% this time, and every Spanish payroll tool ships the same rate update.",
       "fact_refs": [
-        "f1"
+        "f1",
+        "f3"
       ],
       "dataset_ids": []
     },

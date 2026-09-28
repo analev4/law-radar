@@ -2,10 +2,10 @@
   "step": "filter",
   "key": "eu:32023L0970",
   "model": "claude-code",
-  "request_sha256": "4cf841f1152c24f7675d1a6ad4ea472548390536b07723396fead953c26fd1a4",
+  "request_sha256": "a38ac05d5cc520941ae3f56f62549edf67fb919a6f0ae82a44fde943ec2c542e",
   "usage": {},
   "output": {
     "relevant": true,
-    "reason": "The directive sets pay transparency and equal pay duties for employers in France and Spain, hitting the HR and payroll work of Ledgerly's buyers."
+    "reason": "Employers must give applicants starting pay ranges and, from 100 staff, report gender pay gaps; EU countries must apply this by 7 June 2026."
   }
 }

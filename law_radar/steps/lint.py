@@ -53,7 +53,8 @@ EMOJI_RE = re.compile(
 
 # Abbreviations that end in a full stop but don't end a sentence.
 ABBREVIATIONS = ["Art", "Arts", "No", "Nos", "e.g", "i.e", "cf", "para", "p", "n°", "St", "vs", "approx", "Reg", "Dir"]
-_ABBR_RE = re.compile(r"\b(" + "|".join(re.escape(a) for a in ABBREVIATIONS) + r")\.(?=\s)")
+# Also a single capital letter, as in French code articles ("Article L. 6243-1") or initials.
+_ABBR_RE = re.compile(r"\b(" + "|".join(re.escape(a) for a in ABBREVIATIONS) + r"|[A-Z])\.(?=\s)")
 _PLACEHOLDER = "\u0000"
 
 

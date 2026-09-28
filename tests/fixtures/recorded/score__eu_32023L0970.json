@@ -2,42 +2,45 @@
   "step": "score",
   "key": "eu:32023L0970",
   "model": "claude-code",
-  "request_sha256": "c9d89b04549a78ec54d24726964e913dc54519ebfa0f081e6db6bdada824d649",
+  "request_sha256": "b85d2c457c2f310316e6cf43dd74e017f9fcc453d2a7126b9b481dbbdc70552d",
   "usage": {},
   "output": {
     "forcing_mechanism": {
       "verdict": "yes",
-      "evidence": "Employers with 150 to 249 workers must report pay gap data by 7 June 2027, and national law sets the fines.",
+      "evidence": "Employers with 150 to 249 staff must report pay gaps by 7 June 2027, and discrimination compensation has no cap (Art. 9(3), Art. 16(4)).",
       "fact_refs": [
-        "f11",
-        "f16"
+        "f12",
+        "f20",
+        "f19"
       ],
       "dataset_ids": []
     },
     "findable": {
       "verdict": "yes",
-      "evidence": "SIRENE and France Travail name French companies with NAF code and staff band; the catalogue lists no Spanish dataset.",
+      "evidence": "France Travail job ads and SIRENE name French companies with NAF code and staff band, and no catalogue dataset covers Spanish employers by sector.",
       "fact_refs": [],
       "dataset_ids": [
+        "fr_france_travail_offres",
         "fr_sirene",
-        "fr_france_travail_offres"
+        "es_bdns_concesiones"
       ]
     },
     "early": {
       "verdict": "yes",
-      "evidence": "SIRENE monthly files and live France Travail ads are available now, 8 months before the 7 June 2027 reporting date.",
+      "evidence": "Live job ads and monthly SIRENE files are available now, 8 months before the 7 June 2027 reporting deadline for 150 to 249 staff.",
       "fact_refs": [
-        "f11"
+        "f12"
       ],
       "dataset_ids": [
-        "fr_sirene",
-        "fr_france_travail_offres"
+        "fr_france_travail_offres",
+        "fr_sirene"
       ]
     },
     "gap_evidence": {
       "verdict": "unclear",
-      "evidence": "France Travail ads carry a salaire field, but employers can also give pay information before the interview or otherwise.",
+      "evidence": "A France Travail ad with an empty salaire field is not proof, because employers can give pay before the interview or otherwise (Art. 5(1)).",
       "fact_refs": [
+        "f3",
         "f4"
       ],
       "dataset_ids": [
@@ -46,29 +49,29 @@
     },
     "crowding": {
       "verdict": "yes",
-      "evidence": "Every payroll and HR vendor selling in the EU pitches pay gap reporting against the same 7 June 2027 date.",
+      "evidence": "Payroll and HR suites already hold the pay data that Art. 9 reporting uses, so every vendor in the category will pitch it.",
       "fact_refs": [
-        "f10",
-        "f11"
+        "f11",
+        "f12"
       ],
       "dataset_ids": []
     },
     "list_recipes": [
       {
-        "dataset_id": "fr_sirene",
-        "filter": "activitePrincipale NAF 55, 56, 47 or 41-43; trancheEffectifs 100-199 or 200-249",
-        "gap_evidence": "none in the data; staff band shows exposure to the 7 June 2027 reporting duty only",
-        "metric": "staff band and months left before 7 June 2027",
+        "dataset_id": "fr_france_travail_offres",
+        "filter": "codeNAF 55, 56, 47 or 41-43; trancheEffectifEtab 10-249 staff; dateCreation after 7 June 2026",
+        "gap_evidence": "live ads with an empty salaire field",
+        "metric": "share of the company's live ads without a salary",
         "signal_strength": "weak",
-        "caveat": "SIRENE shows exposure, not inaction, and its 100-199 band mixes 2027 reporters with 2031 reporters."
+        "caveat": "Employers can give starting pay before the interview or by other means, so an ad without salary does not prove non-compliance (Art. 5(1))."
       },
       {
-        "dataset_id": "fr_france_travail_offres",
-        "filter": "codeNAF 55, 56, 47 or 41-43; trancheEffectifEtab 10-249; dateCreation after 7 June 2026",
-        "gap_evidence": "salaire field empty or with no amount or range",
-        "metric": "share of the company's open ads with no salary amount or range",
+        "dataset_id": "fr_sirene",
+        "filter": "activitePrincipale NAF 55, 56, 47 or 41-43; trancheEffectifs bands covering 150-249 staff",
+        "gap_evidence": "none in the data; the staff band only shows the 7 June 2027 pay gap reporting duty applies",
+        "metric": "months left until the 7 June 2027 reporting deadline",
         "signal_strength": "weak",
-        "caveat": "Employers can give pay information before the interview or otherwise, so an ad without salary does not prove non-compliance."
+        "caveat": "SIRENE shows which companies fall under the 2027 reporting duty, not which ones have prepared for it."
       }
     ]
   }

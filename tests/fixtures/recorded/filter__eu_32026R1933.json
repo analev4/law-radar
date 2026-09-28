@@ -2,10 +2,10 @@
   "step": "filter",
   "key": "eu:32026R1933",
   "model": "claude-code",
-  "request_sha256": "aff601afb1aaf95aa3ec3b87d361b4acae2c2587baa95f487fff7a896b8a1eb3",
+  "request_sha256": "1b8e02196b91f43df86f776bbe33a01b701fc06cb33d0e0e01dbe0147642b331",
   "usage": {},
   "output": {
     "relevant": false,
-    "reason": "The regulation splits Seychelles fishing quotas among EU countries for 2026-2030. It sets no duty for hospitality, retail or construction employers."
+    "reason": "The regulation splits EU fishing quotas in Seychelles waters among Member States and sets no duty for hospitality, retail or construction employers."
   }
 }

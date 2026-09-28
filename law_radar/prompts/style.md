@@ -4,7 +4,7 @@ Your reader is a head of sales who gets fifty newsletters a week. Write like an 
 
 - Lead with the change and the number. Name the date, the threshold, the amount or the article.
 - Use concrete nouns and real figures from the text. If the text gives no figure, say so ("The text sets no penalty amount.").
-- Write numbers as digits: 250 staff, not two hundred and fifty staff.
+- Write numbers as digits in English format: 250 staff, 1,221 euros, 3.1%. Not "two hundred and fifty", "1 221" or "3,1".
 - Actor + verb: "Employers must publish", not "Publication is required".
 - One idea per sentence. 25 words at most per sentence.
 - No hedging. Uncertainty goes only in the confidence field, once, with the reason.

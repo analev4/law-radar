@@ -132,6 +132,15 @@ The same API also serves consolidated legislation (`/datosabiertos/api/legislaci
 
 ---
 
+## Dataset for list recipes: Spain, BDNS grants (companies only)
+
+Not a journal: this is a public dataset that list recipes can point to. It is in `datasets.yaml` as `es_bdns_concesiones`, and `law-radar bdns` exports it.
+
+- **Access:** `GET https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda`, with no key. Verified on 28 September 2026: JSON pages with `content`, `last` and `totalElements` (29,985,929 awards in total). Filters: `fechaDesde` and `fechaHasta` (dd/mm/yyyy), `descripcion` (text in the grant call), `numeroConvocatoria`. Fields per award: `beneficiario` (tax ID and name), `fechaConcesion`, `importe`, `instrumento`, `convocatoria`, `numeroConvocatoria`, `nivel1` to `nivel3`, and some others.
+- **Licence:** the [SNPSAP legal notice](https://www.infosubvenciones.es/bdnstrans/GE/es/avisolegal) allows commercial and non-commercial reuse. Documents with personal data may be reused only to scrutinise public administration, or for historical, statistical or scientific purposes after anonymisation. Attribution: "Origen de los datos: Intervención General de la Administración del Estado". If personal data is removed, say so and who did it. The API can be restricted in cases of abuse.
+- **Individuals:** they appear in the same list, with a masked ID and their name (for example `***2057** …`). `law_radar/datasets/bdns.py` keeps a record only when the beneficiary starts with a legal-entity tax ID (a letter A–H, J, N, P–S or U–W, then 7 digits and a check character). Everything else is dropped before anything is stored, and only an allowlist of fields is kept. The CSV starts with the attribution line and a note that individuals were removed by law-radar.
+- **Limits:** no sector code and no company size. It shows which companies received an aid, not which ones are eligible.
+
 ## How the pipeline treats all sources
 
 - **Polite client:** one shared HTTP client, about one request per second per host, a `User-Agent` of `law-radar/<version> (+<repo URL>)`, retries with backoff on 429 and 5xx, and no retry on 403 or WAF challenges (these are logged and skipped).

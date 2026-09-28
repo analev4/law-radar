@@ -2,40 +2,40 @@
   "step": "read",
   "key": "fr:JORFTEXT000053634597",
   "model": "claude-code",
-  "request_sha256": "206b61818225369001ae756c8ed0d5110ba6bba2090a5c9d2a675225e4668851",
+  "request_sha256": "51fa340e5e257115f7efb518f1312931126d858120de63e121f6899e626d5920",
   "usage": {},
   "output": {
     "headline": {
-      "text": "France pays employers up to EUR 4,500 per apprentice contract starting before 1 January 2027, and EUR 6,000 for disabled apprentices.",
+      "text": "Employers get up to 4,500 euros per apprenticeship contract starting before 1 January 2027, or 6,000 euros for disabled apprentices.",
       "fact_refs": [
-        "f1",
-        "f8",
-        "f12"
+        "f6",
+        "f10",
+        "f11"
       ]
     },
     "what_changed": [
       {
-        "text": "A new apprentice hiring aid (aide exceptionnelle) covers the first year of contracts signed from the day after publication and starting before 1 January 2027.",
+        "text": "A new decree creates an exceptional aid (aide exceptionnelle) for the first year of apprenticeship contracts starting before 1 January 2027.",
         "fact_refs": [
-          "f1",
-          "f2"
+          "f11"
         ]
       },
       {
-        "text": "Firms under 250 staff get up to EUR 4,500 for level 5 apprentices and EUR 2,000 for level 6 to 7 apprentices.",
+        "text": "Firms under 250 staff get up to 4,500 euros at level 5 and up to 2,000 euros at levels 6 to 7.",
         "fact_refs": [
-          "f3",
-          "f4",
-          "f8",
-          "f9"
+          "f1",
+          "f2",
+          "f6",
+          "f7"
         ]
       }
     ],
     "who": {
-      "text": "All French employers hiring apprentices, in every sector; ICP firms in the 10-49 and 50-249 bands fall in the under-250 cases.",
+      "text": "French employers of apprentices in all sectors qualify, including hospitality, retail and construction firms in the 10-49 and 50-249 bands.",
       "fact_refs": [
-        "f3",
-        "f4"
+        "f1",
+        "f2",
+        "f11"
       ]
     },
     "icp_match": {
@@ -53,31 +53,141 @@
         "HR manager",
         "Finance lead"
       ],
-      "basis": "explicit"
+      "basis": "inferred"
     },
     "money": {
-      "text": "The aid ranges from EUR 750 to EUR 6,000 per contract; firms with 250 or more staff lose it if the commitment arrives late.",
+      "text": "Under-250 firms get up to 4,500 euros per contract, or 6,000 euros for disabled apprentices, and must repay aid received without entitlement.",
       "fact_refs": [
-        "f11",
-        "f12",
-        "f16",
-        "f17"
+        "f1",
+        "f6",
+        "f10",
+        "f20"
       ]
     },
     "facts": [
       {
         "id": "f1",
-        "kind": "date",
-        "statement": "Only apprenticeship contracts that start before 1 January 2027 qualify, and the aid covers the first contract year.",
-        "date": "2027-01-01",
-        "date_kind": "deadline",
+        "kind": "threshold",
+        "statement": "Point 1° covers firms with under 250 staff training apprentices for a level 5 qualification.",
+        "date": null,
+        "date_kind": null,
         "citation": {
-          "article": "Art. 1(I)",
-          "quote": "Les contrats d'apprentissage dont la date de début d'exécution intervient avant le 1er janvier 2027 ouvrent droit à une aide exceptionnelle au titre de la première année d'exécution du contrat versée à l'employeur par l'Etat"
+          "article": "Article 1, I, 1°",
+          "quote": "1° Pour les contrats conclus par une entreprise de moins de deux cent cinquante salariés en vue de la préparation d'un diplôme ou d'un titre à finalité professionnelle équivalant au niveau 5 du cadre national des certifications professionnelles"
         }
       },
       {
         "id": "f2",
+        "kind": "threshold",
+        "statement": "Point 2° covers firms with under 250 staff training apprentices at level 6 to level 7.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Article 1, I, 2°",
+          "quote": "2° Pour les contrats conclus par une entreprise de moins de deux cent cinquante salariés en vue de la préparation d'un diplôme ou d'un titre à finalité professionnelle équivalant au moins au niveau 6 et, au plus, au niveau 7"
+        }
+      },
+      {
+        "id": "f3",
+        "kind": "threshold",
+        "statement": "Point 3° covers firms with 250 staff or more training apprentices at level 3 to level 4.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Article 1, I, 3°",
+          "quote": "3° Pour les contrats conclus par une entreprise de deux cent cinquante salariés et plus en vue de la préparation d'un diplôme ou d'un titre à finalité professionnelle équivalant au moins au niveau 3 et, au plus, au niveau 4"
+        }
+      },
+      {
+        "id": "f4",
+        "kind": "threshold",
+        "statement": "Point 4° covers firms with 250 staff or more training apprentices at level 5.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Article 1, I, 4°",
+          "quote": "4° Pour les contrats conclus par une entreprise de deux cent cinquante salariés et plus en vue de la préparation d'un diplôme ou d'un titre à finalité professionnelle équivalant au niveau 5"
+        }
+      },
+      {
+        "id": "f5",
+        "kind": "threshold",
+        "statement": "Point 5° covers firms with 250 staff or more training apprentices at level 6 to level 7.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Article 1, I, 5°",
+          "quote": "5° Pour les contrats conclus par une entreprise de deux cent cinquante salariés et plus en vue de la préparation d'un diplôme ou d'un titre à finalité professionnelle équivalant au moins au niveau 6 et, au plus, au niveau 7"
+        }
+      },
+      {
+        "id": "f6",
+        "kind": "amount",
+        "statement": "Employers get up to 4,500 euros per contract under point 1°.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Article 1, II",
+          "quote": "Le montant de l'aide est de 4 500 euros maximum pour les contrats mentionnés au 1° du I"
+        }
+      },
+      {
+        "id": "f7",
+        "kind": "amount",
+        "statement": "Employers get up to 2,000 euros per contract under points 2° and 3°.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Article 1, II",
+          "quote": "de 2 000 euros maximum pour les contrats mentionnés aux 2° et 3° du I"
+        }
+      },
+      {
+        "id": "f8",
+        "kind": "amount",
+        "statement": "Employers get up to 1,500 euros per contract under point 4°.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Article 1, II",
+          "quote": "de 1 500 euros maximum pour les contrats mentionnés au 4° du I"
+        }
+      },
+      {
+        "id": "f9",
+        "kind": "amount",
+        "statement": "Employers get up to 750 euros per contract under point 5°.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Article 1, II",
+          "quote": "de 750 euros maximum pour les contrats mentionnés au 5° du I"
+        }
+      },
+      {
+        "id": "f10",
+        "kind": "amount",
+        "statement": "The cap rises to 6,000 euros for any listed contract signed with a recognised disabled worker (travailleur handicapé).",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Article 1, II",
+          "quote": "Toutefois, ce montant est porté à 6 000 euros maximum pour les contrats mentionnés au I qui sont conclus avec une personne reconnue travailleur handicapé."
+        }
+      },
+      {
+        "id": "f11",
+        "kind": "date",
+        "statement": "The State pays an exceptional aid (aide exceptionnelle) for the first year of apprenticeship contracts starting before 1 January 2027.",
+        "date": "2027-01-01",
+        "date_kind": "deadline",
+        "citation": {
+          "article": "Article 1, I",
+          "quote": "Les contrats d'apprentissage dont la date de début d'exécution intervient avant le 1er janvier 2027 ouvrent droit à une aide exceptionnelle au titre de la première année d'exécution du contrat versée à l'employeur par l'Etat"
+        }
+      },
+      {
+        "id": "f12",
         "kind": "affected",
         "statement": "The aid applies to contracts signed from the day after the decree's publication.",
         "date": null,
@@ -88,241 +198,98 @@
         }
       },
       {
-        "id": "f3",
-        "kind": "threshold",
-        "statement": "Case 1°: firms under 250 staff hiring apprentices for a level 5 qualification.",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 1(I)(1°)",
-          "quote": "1° Pour les contrats conclus par une entreprise de moins de deux cent cinquante salariés en vue de la préparation d'un diplôme ou d'un titre à finalité professionnelle équivalant au niveau 5 du cadre national des certifications professionnelles"
-        }
-      },
-      {
-        "id": "f4",
-        "kind": "threshold",
-        "statement": "Case 2°: firms under 250 staff hiring apprentices for a level 6 to 7 qualification.",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 1(I)(2°)",
-          "quote": "2° Pour les contrats conclus par une entreprise de moins de deux cent cinquante salariés en vue de la préparation d'un diplôme ou d'un titre à finalité professionnelle équivalant au moins au niveau 6 et, au plus, au niveau 7"
-        }
-      },
-      {
-        "id": "f5",
-        "kind": "threshold",
-        "statement": "Case 3°: firms with 250 or more staff hiring apprentices for a level 3 to 4 qualification.",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 1(I)(3°)",
-          "quote": "3° Pour les contrats conclus par une entreprise de deux cent cinquante salariés et plus en vue de la préparation d'un diplôme ou d'un titre à finalité professionnelle équivalant au moins au niveau 3 et, au plus, au niveau 4"
-        }
-      },
-      {
-        "id": "f6",
-        "kind": "threshold",
-        "statement": "Case 4°: firms with 250 or more staff hiring apprentices for a level 5 qualification.",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 1(I)(4°)",
-          "quote": "4° Pour les contrats conclus par une entreprise de deux cent cinquante salariés et plus en vue de la préparation d'un diplôme ou d'un titre à finalité professionnelle équivalant au niveau 5"
-        }
-      },
-      {
-        "id": "f7",
-        "kind": "threshold",
-        "statement": "Case 5°: firms with 250 or more staff hiring apprentices for a level 6 to 7 qualification.",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 1(I)(5°)",
-          "quote": "5° Pour les contrats conclus par une entreprise de deux cent cinquante salariés et plus en vue de la préparation d'un diplôme ou d'un titre à finalité professionnelle équivalant au moins au niveau 6 et, au plus, au niveau 7"
-        }
-      },
-      {
-        "id": "f8",
-        "kind": "amount",
-        "statement": "Case 1° contracts get at most EUR 4,500 in aid.",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 1(II)",
-          "quote": "Le montant de l'aide est de 4 500 euros maximum pour les contrats mentionnés au 1° du I"
-        }
-      },
-      {
-        "id": "f9",
-        "kind": "amount",
-        "statement": "Case 2° and case 3° contracts get at most EUR 2,000 in aid.",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 1(II)",
-          "quote": "de 2 000 euros maximum pour les contrats mentionnés aux 2° et 3° du I"
-        }
-      },
-      {
-        "id": "f10",
-        "kind": "amount",
-        "statement": "Case 4° contracts get at most EUR 1,500 in aid.",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 1(II)",
-          "quote": "de 1 500 euros maximum pour les contrats mentionnés au 4° du I"
-        }
-      },
-      {
-        "id": "f11",
-        "kind": "amount",
-        "statement": "Case 5° contracts get at most EUR 750 in aid.",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 1(II)",
-          "quote": "de 750 euros maximum pour les contrats mentionnés au 5° du I"
-        }
-      },
-      {
-        "id": "f12",
-        "kind": "amount",
-        "statement": "The cap rises to EUR 6,000 in every case when the apprentice is a recognised disabled worker (travailleur handicapé).",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 1(II)",
-          "quote": "Toutefois, ce montant est porté à 6 000 euros maximum pour les contrats mentionnés au I qui sont conclus avec une personne reconnue travailleur handicapé."
-        }
-      },
-      {
         "id": "f13",
-        "kind": "affected",
-        "statement": "Employers cannot combine this aid with the single apprentice hiring aid (aide unique).",
+        "kind": "obligation",
+        "statement": "Employers cannot combine it with the standard apprentice hiring aid (aide unique) under Article L. 6243-1 of the Labour Code.",
         "date": null,
         "date_kind": null,
         "citation": {
-          "article": "Art. 1(IV)",
+          "article": "Article 1, IV",
           "quote": "L'aide mentionnée au I n'est pas cumulable avec l'aide unique aux employeurs d'apprentis mentionnée à l'article L. 6243-1 du code du travail."
         }
       },
       {
         "id": "f14",
         "kind": "obligation",
-        "statement": "Employers must send the contract to their skills operator (opérateur de compétences) within 6 months of signing.",
+        "statement": "Employers must send the contract to their skills operator (opérateur de compétences) within 6 months of signing to get the aid.",
         "date": null,
         "date_kind": null,
         "citation": {
-          "article": "Art. 1(VI)(1°)",
-          "quote": "La transmission du contrat par l'employeur à l'opérateur de compétences intervient au plus tard six mois après sa conclusion"
+          "article": "Article 1, VI, 1°",
+          "quote": "1° La transmission du contrat par l'employeur à l'opérateur de compétences intervient au plus tard six mois après sa conclusion"
         }
       },
       {
         "id": "f15",
         "kind": "obligation",
-        "statement": "For firms under 250 staff, the ministry's data transfer to the payment agency (ASP) counts as the award decision.",
+        "statement": "Below 250 staff, the ministry's transfer of contract data to the payment agency (Agence de services et de paiement) counts as the award.",
         "date": null,
         "date_kind": null,
         "citation": {
-          "article": "Art. 1(VII)",
+          "article": "Article 1, VII",
           "quote": "Cette transmission vaut décision d'attribution, à l'exception des entreprises d'au moins deux cent cinquante salariés"
         }
       },
       {
         "id": "f16",
         "kind": "obligation",
-        "statement": "Firms with 250 or more staff must send a sworn commitment to the payment agency within 8 months of signing.",
+        "statement": "The agency pays the aid each month, before wages are due, pending the employer's payroll declaration under Article L. 133-5-3.",
         "date": null,
         "date_kind": null,
         "citation": {
-          "article": "Art. 1(VIII)",
-          "quote": "l'employeur d'au moins deux cent cinquante salariés transmet l'engagement mentionné au premier alinéa du VII, attestant sur l'honneur qu'il va respecter les obligations prévues au présent article, dans un délai de huit mois à compter de la date de la conclusion du contrat à l'Agence de services et de paiement"
+          "article": "Article 1, X",
+          "quote": "L'aide est versée avant le paiement de la rémunération par l'employeur et chaque mois dans l'attente des données mentionnées dans la déclaration prévue à l'article L. 133-5-3 du code de la sécurité sociale effectuée par l'employeur."
         }
       },
       {
         "id": "f17",
         "kind": "penalty",
-        "statement": "If the commitment arrives late, the aid is not due.",
+        "statement": "If the employer's declaration data is missing, the aid is suspended the following month.",
         "date": null,
         "date_kind": null,
         "citation": {
-          "article": "Art. 1(VIII)",
-          "quote": "A défaut de transmission dans ce délai, l'aide n'est pas due."
+          "article": "Article 1, X",
+          "quote": "A défaut de transmission de ces données, le mois suivant, l'aide est suspendue."
         }
       },
       {
         "id": "f18",
         "kind": "obligation",
-        "statement": "The payment agency can run this commitment transmission online.",
+        "statement": "Firms with 250 staff or more must send a sworn commitment within 8 months of signing the contract.",
         "date": null,
         "date_kind": null,
         "citation": {
-          "article": "Art. 1(VIII)",
-          "quote": "Les modalités de cette transmission peuvent être mises en œuvre par l'Agence de services et de paiement par voie dématérialisée."
+          "article": "Article 1, VIII",
+          "quote": "Pour bénéficier de l'aide, l'employeur d'au moins deux cent cinquante salariés transmet l'engagement mentionné au premier alinéa du VII, attestant sur l'honneur qu'il va respecter les obligations prévues au présent article, dans un délai de huit mois à compter de la date de la conclusion du contrat"
         }
       },
       {
         "id": "f19",
-        "kind": "threshold",
-        "statement": "One route for large firms: apprentices and work-study staff reach at least 5% of headcount on 31 December of the year after signing.",
+        "kind": "obligation",
+        "statement": "The payment agency can demand any supporting document from employers, including the apprentices' payslips (bulletins de paie).",
         "date": null,
         "date_kind": null,
         "citation": {
-          "article": "Art. 1(VII)(1°)(a)",
-          "quote": "Soit l'ensemble des effectifs suivants représente au moins 5 % de l'effectif salarié au 31 décembre de l'année suivant celle de la conclusion du contrat d'apprentissage"
+          "article": "Article 1, XV",
+          "quote": "L'Agence de services et de paiement peut demander à l'employeur et à l'opérateur de compétences toute information et document complémentaire nécessaires au paiement et au contrôle du respect des conditions d'attribution de l'aide, y compris la transmission des bulletins de paie des salariés concernés."
         }
       },
       {
         "id": "f20",
-        "kind": "obligation",
-        "statement": "Firms with 250 or more staff that got the aid must file a sworn statement by 31 May of the second year after signing.",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 1(IX)",
-          "quote": "Au plus tard le 31 mai de la seconde année suivant celle de la conclusion du contrat d'apprentissage, l'entreprise d'au moins deux cent cinquante salariés qui a bénéficié de l'aide adresse à l'Agence de services et de paiement une déclaration sur l'honneur"
-        }
-      },
-      {
-        "id": "f21",
         "kind": "penalty",
-        "statement": "Without that sworn statement, the payment agency recovers the aid already paid.",
+        "statement": "Employers must repay any aid received without entitlement to the payment agency.",
         "date": null,
         "date_kind": null,
         "citation": {
-          "article": "Art. 1(IX)",
-          "quote": "A défaut, l'Agence de services et de paiement procède à la récupération des sommes versées au titre de l'aide."
-        }
-      },
-      {
-        "id": "f22",
-        "kind": "obligation",
-        "statement": "The aid is paid each month before salary payment, pending the employer's payroll declaration data.",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 1(X)",
-          "quote": "L'aide est versée avant le paiement de la rémunération par l'employeur et chaque mois dans l'attente des données mentionnées dans la déclaration prévue à l'article L. 133-5-3 du code de la sécurité sociale effectuée par l'employeur."
-        }
-      },
-      {
-        "id": "f23",
-        "kind": "penalty",
-        "statement": "If the payroll declaration data is missing, the aid is suspended the following month.",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 1(X)",
-          "quote": "A défaut de transmission de ces données, le mois suivant, l'aide est suspendue."
+          "article": "Article 1, XII",
+          "quote": "Les sommes indûment perçues sont remboursées à l'Agence de services et de paiement."
         }
       }
     ],
     "transposes": [],
     "confidence": {
       "level": "high",
-      "reason": "The decree states every amount, size threshold and condition directly; only the start date is set relative to publication."
+      "reason": "The decree states amounts, size thresholds and the 2027 cut-off directly, but its application date depends on a publication date the text does not give."
     }
   }
 }

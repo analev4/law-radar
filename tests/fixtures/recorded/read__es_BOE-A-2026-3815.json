@@ -2,36 +2,38 @@
   "step": "read",
   "key": "es:BOE-A-2026-3815",
   "model": "claude-code",
-  "request_sha256": "618de5db5206378900401a78fb27dc9e1e9906bff7167829b7ce11816b800e71",
+  "request_sha256": "58eb7f8f5a1d548e8d828796d519664b618bad8bbaae82b2779152a3c4938248",
   "usage": {},
   "output": {
     "headline": {
-      "text": "Spain sets the 2026 minimum wage (salario mínimo interprofesional) at 1 221 euros a month, payable from 1 January 2026.",
+      "text": "Spain raises the minimum wage (salario mínimo interprofesional) by 3.1% to 1,221 euros per month, backdated to 1 January 2026.",
       "fact_refs": [
         "f1",
-        "f9"
+        "f3",
+        "f14"
       ]
     },
     "what_changed": [
       {
-        "text": "The minimum wage rises 3,1 percent over the 2025 level to 1 221 euros a month or 40,70 euros a day.",
+        "text": "The minimum rises to 1,221 euros per month or 40.70 euros per day, 3.1% above the 2025 level.",
         "fact_refs": [
           "f1",
-          "f11"
+          "f3"
         ]
       },
       {
-        "text": "Employers must lift any annual pay below the 17 094 euros floor, while pay already above the minimum stays unchanged.",
+        "text": "Employers must lift any annual pay package below 17,094 euros to that floor; higher packages absorb the rise.",
         "fact_refs": [
-          "f2",
+          "f4",
           "f7",
           "f8"
         ]
       }
     ],
     "who": {
-      "text": "Every Spanish employer in agriculture, industry and services is covered, including hospitality, retail and construction firms of every size.",
+      "text": "Every Spanish employer with minimum-wage staff is covered, with no size threshold, including hospitality, retail and construction firms and their HR and finance leads.",
       "fact_refs": [
+        "f2",
         "f1"
       ]
     },
@@ -52,28 +54,50 @@
       "basis": "explicit"
     },
     "money": {
-      "text": "The text sets no penalty amount; the cost is the pay rise to 1 221 euros a month and a 17 094 euros annual floor.",
+      "text": "The text sets no penalty amount; the pay floor is 1,221 euros per month and 17,094 euros per year.",
       "fact_refs": [
         "f1",
-        "f2"
+        "f4"
       ]
     },
     "facts": [
       {
         "id": "f1",
         "kind": "amount",
-        "statement": "The minimum wage is 40,70 euros a day or 1 221 euros a month in all sectors, regardless of sex or age (Art. 1).",
+        "statement": "The minimum wage (salario mínimo interprofesional) is 40.70 euros per day or 1,221 euros per month.",
         "date": null,
         "date_kind": null,
         "citation": {
           "article": "Art. 1",
-          "quote": "El salario mínimo para cualesquiera actividades en la agricultura, en la industria y en los servicios, sin distinción de sexo ni edad de las personas trabajadoras, queda fijado en 40,70 euros/día o 1 221 euros/mes"
+          "quote": "queda fijado en 40,70 euros/día o 1 221 euros/mes, según el salario esté fijado por días o por meses."
         }
       },
       {
         "id": "f2",
+        "kind": "affected",
+        "statement": "The minimum wage covers every worker in agriculture, industry and services, regardless of sex or age.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 1",
+          "quote": "El salario mínimo para cualesquiera actividades en la agricultura, en la industria y en los servicios, sin distinción de sexo ni edad de las personas trabajadoras"
+        }
+      },
+      {
+        "id": "f3",
+        "kind": "amount",
+        "statement": "The new amounts are 3.1% higher than the 2025 minimum wage.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Preamble",
+          "quote": "Las nuevas cuantías representan un incremento del 3,1 por ciento respecto de las previstas en el Real Decreto 87/2025, de 11 de febrero, por el que se fija el salario mínimo interprofesional para 2025"
+        }
+      },
+      {
+        "id": "f4",
         "kind": "threshold",
-        "statement": "The annual minimum used for comparison, including salary supplements, cannot fall below 17 094 euros (Art. 3(1)).",
+        "statement": "The annual comparison floor can never be lower than 17,094 euros.",
         "date": null,
         "date_kind": null,
         "citation": {
@@ -82,31 +106,9 @@
         }
       },
       {
-        "id": "f3",
-        "kind": "amount",
-        "statement": "Staff on short fixed-term contracts (contratos de duración determinada) get at least 57,82 euros per legal working day (Art. 4(1)).",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 4(1)",
-          "quote": "sin que la cuantía del salario profesional pueda resultar inferior a 57,82 euros por jornada legal en la actividad."
-        }
-      },
-      {
-        "id": "f4",
-        "kind": "amount",
-        "statement": "Domestic workers (empleadas y empleados de hogar) paid by the hour get at least 9,55 euros per hour worked (Art. 4(2)).",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 4(2)",
-          "quote": "el salario mínimo de dichas empleadas y empleados de hogar será de 9,55 euros por hora efectivamente trabajada."
-        }
-      },
-      {
         "id": "f5",
         "kind": "obligation",
-        "statement": "Only cash pay counts toward the minimum wage; pay in kind (salario en especie) cannot reduce the cash amount (Art. 1).",
+        "statement": "Only cash pay counts toward the minimum wage; pay in kind (salario en especie) can never reduce the cash amount.",
         "date": null,
         "date_kind": null,
         "citation": {
@@ -117,7 +119,7 @@
       {
         "id": "f6",
         "kind": "obligation",
-        "statement": "Staff working fewer than the legal hours receive the minimum wage pro rata (Art. 1).",
+        "statement": "Workers on shorter hours than the legal working day receive the minimum wage pro rata.",
         "date": null,
         "date_kind": null,
         "citation": {
@@ -128,18 +130,7 @@
       {
         "id": "f7",
         "kind": "obligation",
-        "statement": "Employers must raise agreed salaries that fall below the annual minimum total by the amount needed to reach it (Art. 3(3)).",
-        "date": null,
-        "date_kind": null,
-        "citation": {
-          "article": "Art. 3(3)",
-          "quote": "debiendo, en consecuencia, ser incrementados los salarios profesionales inferiores al indicado total anual en la cuantía necesaria para equipararse a este."
-        }
-      },
-      {
-        "id": "f8",
-        "kind": "obligation",
-        "statement": "Salaries already above the minimum on an annual basis keep their structure and amount (Art. 3(1)).",
+        "statement": "Pay packages already above the minimum wage in annual total keep their structure and amount.",
         "date": null,
         "date_kind": null,
         "citation": {
@@ -148,65 +139,87 @@
         }
       },
       {
-        "id": "f9",
-        "kind": "date",
-        "statement": "The new minimum wage covers 1 January to 31 December 2026 and is payable with effect from 1 January 2026 (Final provision 3).",
-        "date": "2026-01-01",
-        "date_kind": "application",
+        "id": "f8",
+        "kind": "obligation",
+        "statement": "Employers must raise any professional salary below the annual total by the amount needed to match it.",
+        "date": null,
+        "date_kind": null,
         "citation": {
-          "article": "Final provision 3",
-          "quote": "surtirá efectos durante el período comprendido entre el 1 de enero y el 31 de diciembre de 2026, procediendo, en consecuencia, el abono del salario mínimo fijado en este con efectos desde el 1 de enero de 2026."
+          "article": "Art. 3(3)",
+          "quote": "debiendo, en consecuencia, ser incrementados los salarios profesionales inferiores al indicado total anual en la cuantía necesaria para equipararse a este."
+        }
+      },
+      {
+        "id": "f9",
+        "kind": "amount",
+        "statement": "Short fixed-term workers (contratos de duración determinada) get at least 57.82 euros per legal working day.",
+        "date": null,
+        "date_kind": null,
+        "citation": {
+          "article": "Art. 4(1)",
+          "quote": "sin que la cuantía del salario profesional pueda resultar inferior a 57,82 euros por jornada legal en la actividad."
         }
       },
       {
         "id": "f10",
-        "kind": "date",
-        "statement": "The decree enters into force the day after its publication in the Official State Gazette (Boletín Oficial del Estado) (Final provision 3).",
-        "date": "2026-02-20",
-        "date_kind": "entry_into_force",
+        "kind": "obligation",
+        "statement": "Short fixed-term workers also receive a pro-rata share of Sunday, holiday and bonus pay on top of the minimum wage.",
+        "date": null,
+        "date_kind": null,
         "citation": {
-          "article": "Final provision 3",
-          "quote": "Este real decreto entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado»"
+          "article": "Art. 4(1)",
+          "quote": "Las personas trabajadoras con contratos de trabajo de duración determinada cuyos servicios a una misma empresa no excedan de ciento veinte días percibirán, conjuntamente con el salario mínimo a que se refiere el artículo 1, la parte proporcional de la retribución de los domingos y festivos"
         }
       },
       {
         "id": "f11",
         "kind": "amount",
-        "statement": "The new amounts are 3,1 percent higher than those set for 2025 (Preamble).",
+        "statement": "Hourly domestic workers (empleadas y empleados de hogar) earn at least 9.55 euros per hour worked.",
         "date": null,
         "date_kind": null,
         "citation": {
-          "article": "Preamble",
-          "quote": "Las nuevas cuantías representan un incremento del 3,1 por ciento respecto de las previstas en el Real Decreto 87/2025, de 11 de febrero"
+          "article": "Art. 4(2)",
+          "quote": "el salario mínimo de dichas empleadas y empleados de hogar será de 9,55 euros por hora efectivamente trabajada."
         }
       },
       {
         "id": "f12",
         "kind": "obligation",
-        "statement": "Employers can offset the increase against all annual full-time earnings workers already receive under laws, agreements and contracts (Art. 3(2)).",
+        "statement": "Private contracts that use the minimum wage only as a reference keep the old amount, unless the parties agree otherwise.",
         "date": null,
         "date_kind": null,
         "citation": {
-          "article": "Art. 3(2)",
-          "quote": "Estas percepciones son compensables con los ingresos que por todos los conceptos viniesen percibiendo las personas trabajadoras en cómputo anual y jornada completa"
+          "article": "Transitional provision, point 1(b)",
+          "quote": "A cualesquiera contratos y pactos de naturaleza privada vigentes a la fecha de entrada en vigor de este real decreto que utilicen el salario mínimo interprofesional como referencia a cualquier efecto, salvo que las partes acuerden la aplicación de las nuevas cuantías del salario mínimo interprofesional."
         }
       },
       {
         "id": "f13",
-        "kind": "affected",
-        "statement": "Private contracts that use the minimum wage as a reference for other purposes keep the old amount unless the parties agree otherwise (Transitional provision 1(b)).",
+        "kind": "date",
+        "statement": "The new amounts apply from 1 January to 31 December 2026.",
+        "date": "2026-01-01",
+        "date_kind": "application",
+        "citation": {
+          "article": "Final provision 3",
+          "quote": "surtirá efectos durante el período comprendido entre el 1 de enero y el 31 de diciembre de 2026"
+        }
+      },
+      {
+        "id": "f14",
+        "kind": "obligation",
+        "statement": "Employers must pay the new minimum wage with effect from 1 January 2026.",
         "date": null,
         "date_kind": null,
         "citation": {
-          "article": "Transitional provision 1(b)",
-          "quote": "A cualesquiera contratos y pactos de naturaleza privada vigentes a la fecha de entrada en vigor de este real decreto que utilicen el salario mínimo interprofesional como referencia a cualquier efecto, salvo que las partes acuerden la aplicación de las nuevas cuantías del salario mínimo interprofesional."
+          "article": "Final provision 3",
+          "quote": "procediendo, en consecuencia, el abono del salario mínimo fijado en este con efectos desde el 1 de enero de 2026."
         }
       }
     ],
     "transposes": [],
     "confidence": {
       "level": "high",
-      "reason": "The decree states every amount and date explicitly; only the entry-into-force date comes from source metadata."
+      "reason": "The decree states every amount, the annual floor and the application period directly in its articles."
     }
   }
 }

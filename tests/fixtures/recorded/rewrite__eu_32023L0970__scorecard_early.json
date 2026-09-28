@@ -2,12 +2,12 @@
   "step": "rewrite",
   "key": "eu:32023L0970__scorecard_early",
   "model": "claude-code",
-  "request_sha256": "ce898d7fd91aa9942ae2a2642766782c370c84db327c6c5db7f1d50a84dae0d5",
+  "request_sha256": "a3bb8e3862e3fe16014d320ba6111f6c0b0287590b147b0b8bc3498e98fa5fe7",
   "usage": {},
   "output": {
-    "text": "SIRENE monthly files and France Travail ads are available now, before the 7 June 2027 deadline for employers with 150 to 249 workers.",
+    "text": "Live job ads and monthly SIRENE files are available now, before the 7 June 2027 reporting deadline for employers with 150 to 249 staff.",
     "fact_refs": [
-      "f11"
+      "f12"
     ]
   }
 }

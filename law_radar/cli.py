@@ -1,4 +1,4 @@
-"""Command line: law-radar run | digest-step | record-fixtures | issue | notify | site | lint | schema"""
+"""Command line: law-radar run | digest-step | record-fixtures | issue | notify | site | bdns | lint | schema"""
 from __future__ import annotations
 
 import argparse
@@ -306,6 +306,25 @@ def cmd_site(args: argparse.Namespace) -> int:
 
 
 # ---------------------------------------------------------------------------
+# datasets: build a list from a catalogue dataset (companies only)
+# ---------------------------------------------------------------------------
+
+def cmd_bdns(args: argparse.Namespace) -> int:
+    from .datasets import bdns
+    client = PoliteClient()
+    try:
+        raw = bdns.fetch(client, since=args.since, until=args.until, text=args.text,
+                         call_number=args.call, max_pages=args.max_pages)
+        rows, dropped = bdns.company_only(raw)
+    finally:
+        client.close()
+    path = bdns.export_csv(rows, Path(args.out))
+    print(f"{len(rows)} company grant(s) written to {path}; {dropped} record(s) about individuals dropped.")
+    print(bdns.ATTRIBUTION)
+    return 0
+
+
+# ---------------------------------------------------------------------------
 
 def cmd_lint(args: argparse.Namespace) -> int:
     errors = lint(args.text, args.sentences)
@@ -370,6 +389,15 @@ def main(argv: Optional[List[str]] = None) -> int:
     si.add_argument("--digests", default=str(ROOT / "digests"))
     si.add_argument("--out", default=str(ROOT / "site"))
     si.set_defaults(func=cmd_site)
+
+    bd = sub.add_parser("bdns", help="Spain: grants awarded to companies (BDNS), as CSV. Individuals are dropped")
+    bd.add_argument("--since", type=_date, help="grants awarded from this date (YYYY-MM-DD)")
+    bd.add_argument("--until", type=_date)
+    bd.add_argument("--text", help="words to search in the grant call's description")
+    bd.add_argument("--call", help="BDNS call number (numeroConvocatoria)")
+    bd.add_argument("--max-pages", type=int, default=5, help="pages of 50 records (default 5)")
+    bd.add_argument("--out", default=str(ROOT / ".cache" / "lists" / "bdns.csv"))
+    bd.set_defaults(func=cmd_bdns)
 
     li = sub.add_parser("lint", help="check a sentence against the writing rules")
     li.add_argument("text")

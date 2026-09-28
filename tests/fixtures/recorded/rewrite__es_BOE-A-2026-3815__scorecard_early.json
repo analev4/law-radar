@@ -2,12 +2,13 @@
   "step": "rewrite",
   "key": "es:BOE-A-2026-3815__scorecard_early",
   "model": "claude-code",
-  "request_sha256": "49ec4da1a17f026b8ac476ad1c7cbd76397122c8bb135edeee6233f2121a4f3a",
+  "request_sha256": "83acf619ba25872db2adbbf88017b922d864e6458b176bbbe94ddd3b32af5ae5",
   "usage": {},
   "output": {
-    "text": "No catalogue dataset covers Spain, and the new minimum wage took effect on 1 January 2026.",
+    "text": "Employers had to pay the new rates from 1 January 2026, so the buying moment has already passed.",
     "fact_refs": [
-      "f9"
+      "f13",
+      "f14"
     ]
   }
 }

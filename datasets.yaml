@@ -36,3 +36,19 @@
   verified: >-
     Publisher, licence, update cadence and the NAF activity code from the data.gouv.fr dataset page.
     The employee size band field name is from INSEE's schema, not checked on that page.
+
+- id: es_bdns_concesiones
+  market: ES
+  name: BDNS grants awarded (concesiones), companies only
+  publisher: Intervención General de la Administración del Estado (SNPSAP)
+  url: https://www.infosubvenciones.es/bdnstrans/GE/es/concesiones
+  access: REST API, no key (/bdnstrans/api/concesiones/busqueda), filters by award date, call text and call number; `law-radar bdns` exports company rows as CSV
+  licence: SNPSAP reuse conditions. Commercial reuse allowed. Data about individuals only for scrutiny of public administration, so law-radar drops individuals
+  names_companies: true
+  timing: Daily; awards stay published for 4 years
+  fields: [beneficiario (tax ID and company name), fechaConcesion, importe, instrumento, convocatoria, numeroConvocatoria, nivel1, nivel2, nivel3]
+  notes: No sector code and no company size. Individuals appear with a masked ID and their name; law-radar keeps legal-entity tax IDs only. Attribution - Origen de los datos, Intervención General de la Administración del Estado.
+  verified_on: "2026-09-28"
+  verified: >-
+    Field names and filters from live API calls on 28 September 2026. Reuse conditions read on the SNPSAP legal notice (avisolegal).
+    The masked format for individuals seen on live records.

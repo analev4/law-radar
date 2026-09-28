@@ -2,10 +2,10 @@
   "step": "filter",
   "key": "fr:JORFTEXT000053634597",
   "model": "claude-code",
-  "request_sha256": "582c4d20ac3d28d8ab89cfd7afa88f1e15ae9a5a1f55744a168373ef97c71cf9",
+  "request_sha256": "437d0cf903ce2968dd7e7b734d1fd1ef4fc5500cf8a6b34173e6d426d4c6b11b",
   "usage": {},
   "output": {
     "relevant": true,
-    "reason": "Employers with under 250 staff get a state apprentice hiring aid (aide exceptionnelle) for contracts starting before 1 January 2027."
+    "reason": "France pays companies under 250 staff an apprentice hiring aid (aide exceptionnelle) for first-year contracts starting before 1 January 2027."
   }
 }

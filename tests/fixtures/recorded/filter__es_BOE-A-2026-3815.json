@@ -2,10 +2,10 @@
   "step": "filter",
   "key": "es:BOE-A-2026-3815",
   "model": "claude-code",
-  "request_sha256": "b1f7fca464e31a429ef7ecabc7691f1e48004ade3aae22f403e225dd81672c67",
+  "request_sha256": "b90112ddf5fd46bb8f45135e3cf6d0931ae73af779b2d284d08e07709b9df2c9",
   "usage": {},
   "output": {
     "relevant": true,
-    "reason": "Spain raises the minimum wage (salario mínimo interprofesional) by 3.1% from 1 January 2026, changing payroll for all employers, including hospitality, retail and construction."
+    "reason": "Spain raises the minimum wage (salario mínimo interprofesional) by 3.1% from 1 January 2026, changing payroll for hospitality, retail and construction employers."
   }
 }

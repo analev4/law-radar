@@ -60,3 +60,8 @@ def test_abbreviations_do_not_split_sentences():
 def test_banned_words_match_whole_words_only():
     assert lint("The Leverhulme centre published the text.") == []       # contains "leve" but not "leverage"
     assert lint("Employers must unlock nothing.") != []
+
+
+def test_french_code_articles_do_not_split_sentences():
+    text = "Employers cannot combine it with the single aid (aide unique) under Article L. 6243-1 of the Labour Code."
+    assert lint(text, expected_sentences=1) == []
