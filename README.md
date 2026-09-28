@@ -127,7 +127,7 @@ A real entry, from the golden test run with the Ledgerly ICP: Décret n° 2026-1
 >
 > **Confidence:** high. The decree states amounts, size thresholds and the 2027 cut-off directly, but its application date depends on a publication date the text does not give.
 
-The first live week is in [digests/2026-39.md](digests/2026-39.md). It holds 24 keyword matches from 345 texts; one law was read and cited, with a `/digest` run capped at 3 texts.
+The first live week is in [digests/2026-39.md](digests/2026-39.md): 24 keyword matches from 345 texts. A `/digest` run capped at 3 texts, one per market, read and cited two laws: a French order on construction firms' bad-weather contributions, and a Spanish notice confirming a decree-law for Ceuta. The relevance filter rejected the EU text.
 
 **Building the list.** Recipes point to datasets in [`datasets.yaml`](datasets.yaml), each checked for access, fields and licence. For Spain, `law-radar bdns --since 2026-09-01 --text contratación` exports grants awarded to companies from the national grants database. Records about individuals are dropped by tax ID before anything is saved, because its licence only allows reuse of personal data for scrutiny of public administration.
 
