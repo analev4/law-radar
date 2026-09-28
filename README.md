@@ -159,7 +159,7 @@ The first live week is in [digests/2026-39.md](digests/2026-39.md): 24 keyword m
 4. **Not legal advice.** The tool flags and summarises. Every output says so.
 5. **No personal data.** It reads laws, not people. Sections about named people (appointments, naturalisations) are never read, quotes that name a person are dropped, and datasets are filtered to companies.
 6. **Configurable by anyone.** Everything about your ICP lives in one file.
-7. **AI only where it earns its place.** Fetching, filtering by keyword, dedupe, scheduling and publishing are plain code. `--no-ai` works at zero cost.
+7. **Model calls are limited to filtering, reading and scoring.** Fetching, dedupe, keyword filtering, validation, scheduling and publishing are plain code. `--no-ai` runs with no model calls.
 
 ## Adding a source
 
@@ -168,7 +168,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md#writing-a-source-adapter). In short: check
 ## Limits
 
 - **Not legal advice.** law-radar reports what the fetched text says. Read the source before acting.
-- **One text, one view.** A decree can change one scheme while another still applies. Example: Décret n° 2026-168 sets the "aide exceptionnelle" (€4,500 for a level 5 apprentice in a company under 250 staff), while the separate "aide unique" pays €5,000 for companies under 250 staff at CAP to Bac level. That amount was set by Article 1 of Décret n° 2025-174 of 22 February 2025, which rewrote Code du travail D6243-2, and is listed on [service-public.fr, F23556](https://entreprendre.service-public.gouv.fr/vosdroits/F23556). The digest of the 2026 decree mentions only what that decree says.
+- **Each entry covers one text only.** A decree can change one aid scheme while a separate scheme, set by another text, still applies. Example: Décret n° 2026-168 sets the "aide exceptionnelle" (€4,500 for a level 5 apprentice in a company under 250 staff), while the separate "aide unique" pays €5,000 for companies under 250 staff at CAP to Bac level. That amount was set by Article 1 of Décret n° 2025-174 of 22 February 2025, which rewrote Code du travail D6243-2, and is listed on [service-public.fr, F23556](https://entreprendre.service-public.gouv.fr/vosdroits/F23556). The entry for the 2026 decree reports only what that decree says and does not cross-reference other texts.
 - **The checks cover quotes, not meaning.** The validator proves that each quote is real, sits in the cited article, and supports every number and date in the sentence. It can't prove that a summary sentence captures the whole meaning of the quote.
 - **Test answers were recorded with Claude Code.** The golden tests replay answers written in Claude Code sessions. Each request was answered by a fresh subagent that saw only that request, not the tests. Each recording stores a fingerprint of its request, so a changed prompt forces a new recording. `/digest` uses the same path.
 - **Datasets are thin.** Recipes use only the datasets in `datasets.yaml`. Spain has no public dataset that names companies with their size, so Spanish laws score lower on "findable".
