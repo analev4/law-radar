@@ -2,12 +2,12 @@
  "week": "2026-W40",
  "window": {
   "since": "2026-09-24",
-  "until": "2026-09-28"
+  "until": "2026-10-02"
  },
  "counts": {
-  "fetched": 222,
-  "new": 75,
-  "keyword_pass": 4
+  "fetched": 531,
+  "new": 348,
+  "keyword_pass": 22
  },
  "documents": [
   {
@@ -154,6 +154,586 @@
     ],
     "section": [
      "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054912621",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054912621",
+   "title": "Arrêté du 28 septembre 2026 modifiant l'arrêté du 30 décembre 2019 fixant la liste nationale des organismes habilités à percevoir le solde de la taxe d'apprentissage",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-09-30",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054912621",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20260930-215413.tar.gz#JORFTEXT000054912621",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère du travail et des solidarités"
+    ],
+    "department": [
+     "Ministère du travail et des solidarités"
+    ],
+    "nor": [
+     "TRSD2625342A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054913057",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054913057",
+   "title": "Arrêté du 22 septembre 2026 autorisant au titre de l'année 2027 l'ouverture de premiers concours internes pour l'accès à l'échelle de rémunération des professeurs des écoles des maîtres contractuels et agréés des établissements d'enseignement privés sous contrat",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-09-30",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054913057",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20260930-215413.tar.gz#JORFTEXT000054913057",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'éducation nationale"
+    ],
+    "department": [
+     "Ministère de l'éducation nationale"
+    ],
+    "nor": [
+     "MENH2620412A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054913076",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054913076",
+   "title": "Arrêté du 22 septembre 2026 autorisant au titre de l'année 2027 l'ouverture de concours externes organisés à titre transitoire conformément aux dispositions du décret n° 2025-352 du 17 avril 2025 modifiant les conditions de recrutement et de formation des corps enseignants, du personnel d'éducation et des maîtres de l'enseignement privé sous contrat du ministère chargé de l'éducation nationale et de concours externe spéciaux (langues régionales) d'accès à l'échelle de rémunération des professeurs des écoles des établissements d'enseignement privés sous contrat",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-09-30",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054913076",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20260930-215413.tar.gz#JORFTEXT000054913076",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'éducation nationale"
+    ],
+    "department": [
+     "Ministère de l'éducation nationale"
+    ],
+    "nor": [
+     "MENH2620416A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054913099",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054913099",
+   "title": "Arrêté du 22 septembre 2026 autorisant au titre de l'année 2027 l'ouverture du concours externe organisé à titre transitoire conformément aux dispositions du décret n° 2025-352 du 17 avril 2025 modifiant les conditions de recrutement et de formation des corps enseignants, du personnel d'éducation et des maîtres de l'enseignement privé sous contrat du ministère chargé de l'éducation nationale, d'accès à l'échelle de rémunération des professeurs des écoles des établissements d'enseignement privés sous contrat en Polynésie française",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-09-30",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054913099",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20260930-215413.tar.gz#JORFTEXT000054913099",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'éducation nationale"
+    ],
+    "department": [
+     "Ministère de l'éducation nationale"
+    ],
+    "nor": [
+     "MENH2620477A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054913389",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054913389",
+   "title": "Arrêté du 22 septembre 2026 autorisant au titre de l'année 2027 l'ouverture de concours externes organisés à titre transitoire conformément aux dispositions du décret n° 2025-352 du 17 avril 2025 modifiant les conditions de recrutement et de formation des corps enseignants, du personnel d'éducation et des maîtres de l'enseignement privé sous contrat du ministère chargé de l'éducation nationale d'accès à des listes d'aptitude aux fonctions de maître dans les établissements d'enseignement privés sous contrat du second degré (CAFEP) et de concours internes d'accès aux échelles de rémunération de professeurs du second degré (CAER)",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-09-30",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054913389",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20260930-215413.tar.gz#JORFTEXT000054913389",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'éducation nationale"
+    ],
+    "department": [
+     "Ministère de l'éducation nationale"
+    ],
+    "nor": [
+     "MENH2620519A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054913463",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054913463",
+   "title": "Arrêté du 22 septembre 2026 autorisant au titre de l'année 2027 l'ouverture de concours externes, de concours externes spéciaux (langues régionales), de seconds concours internes, de seconds concours internes spéciaux et de troisièmes concours pour l'accès à l'échelle de rémunération des professeurs des écoles des établissements d'enseignement privés sous contrat",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-09-30",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054913463",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20260930-215413.tar.gz#JORFTEXT000054913463",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'éducation nationale"
+    ],
+    "department": [
+     "Ministère de l'éducation nationale"
+    ],
+    "nor": [
+     "MENH2621202A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054913584",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054913584",
+   "title": "Arrêté du 22 septembre 2026 autorisant au titre de l'année 2027 l'ouverture du concours externe d'accès à l'échelle de rémunération des professeurs des écoles des établissements d'enseignement privés sous contrat en Polynésie française",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-09-30",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054913584",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20260930-215413.tar.gz#JORFTEXT000054913584",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'éducation nationale"
+    ],
+    "department": [
+     "Ministère de l'éducation nationale"
+    ],
+    "nor": [
+     "MENH2624980A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054914264",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054914264",
+   "title": "Arrêté du 22 septembre 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale de la coopération maritime (salariés non navigants, cadres et non cadres) (n° 2494)",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-09-30",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054914264",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20260930-215413.tar.gz#JORFTEXT000054914264",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Conventions collectives",
+     "Ministère du travail et des solidarités"
+    ],
+    "department": [
+     "Ministère du travail et des solidarités"
+    ],
+    "nor": [
+     "TRST2623896A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054914294",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054914294",
+   "title": "Arrêté du 22 septembre 2026 portant extension d'un accord conclu dans le cadre de la convention collective nationale des salariés des cabinets d'avocats (n° 3253)",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-09-30",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054914294",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20260930-215413.tar.gz#JORFTEXT000054914294",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Conventions collectives",
+     "Ministère du travail et des solidarités"
+    ],
+    "department": [
+     "Ministère du travail et des solidarités"
+    ],
+    "nor": [
+     "TRST2625107A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054930440",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054930440",
+   "title": "Arrêté du 22 septembre 2026 modifiant l'arrêté du 13 avril 2012 fixant la rémunération des intervenants participant à titre d'activité accessoire à des activités liées au fonctionnement de jurys d'examens conduisant à la délivrance de diplômes ou certificats relevant du ministre chargé de l'éducation nationale",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-01",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054930440",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261001-214554.tar.gz#JORFTEXT000054930440",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'éducation nationale"
+    ],
+    "department": [
+     "Ministère de l'éducation nationale"
+    ],
+    "nor": [
+     "MENF2621963A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054930447",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054930447",
+   "title": "Décret n° 2026-909 du 30 septembre 2026 fixant la limite maximale de la rémunération annuelle servant de base au calcul des indemnités journalières dues au titre d'arrêts de travail résultant d'un accident du travail ou d'une maladie professionnelle et relatif à la procédure de fixation de la participation des assurés",
+   "language": "fr",
+   "doc_type": "Décret",
+   "published": "2026-10-01",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054930447",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261001-214554.tar.gz#JORFTEXT000054930447",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de la santé, des familles, de l'autonomie et des personnes handicapées"
+    ],
+    "department": [
+     "Ministère de la santé, des familles, de l'autonomie et des personnes handicapées"
+    ],
+    "nor": [
+     "SFHS2621736D"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054930854",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054930854",
+   "title": "Arrêté du 21 septembre 2026 portant extension d'un avenant à la convention collective nationale de la coopération maritime (salariés non navigants, cadres et non cadres) (n° 2494)",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-01",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054930854",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261001-214554.tar.gz#JORFTEXT000054930854",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Conventions collectives",
+     "Ministère du travail et des solidarités"
+    ],
+    "department": [
+     "Ministère du travail et des solidarités"
+    ],
+    "nor": [
+     "TRST2624985A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054939254",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054939254",
+   "title": "Arrêté du 23 septembre 2026 portant extension d'un avenant à la convention collective nationale des salariés des cabinets d'avocats (n° 3253)",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-02",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054939254",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261002-023011.tar.gz#JORFTEXT000054939254",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Conventions collectives",
+     "Ministère du travail et des solidarités"
+    ],
+    "department": [
+     "Ministère du travail et des solidarités"
+    ],
+    "nor": [
+     "TRST2622929A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054939317",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054939317",
+   "title": "Arrêté du 29 septembre 2026 portant extension d'un avenant à la convention collective de la branche du secteur des particuliers employeurs et de l'emploi à domicile (n° 3239)",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-02",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054939317",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261002-023011.tar.gz#JORFTEXT000054939317",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Conventions collectives",
+     "Ministère du travail et des solidarités"
+    ],
+    "department": [
+     "Ministère du travail et des solidarités"
+    ],
+    "nor": [
+     "TRST2622494A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-20265",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-20265",
+   "title": "Real Decreto-ley 25/2026, de 29 de septiembre, por el que se adoptan y se prorrogan determinadas medidas en el marco del Plan Integral de Respuesta a la Crisis en Oriente Medio.",
+   "language": "es",
+   "doc_type": "Real Decreto-ley",
+   "published": "2026-09-30",
+   "entry_into_force": "2026-10-01",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20265",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20265",
+   "classification": {
+    "materias": [
+     "158",
+     "420",
+     "599",
+     "619",
+     "822",
+     "1625",
+     "8003",
+     "1734",
+     "2503",
+     "3677",
+     "3729",
+     "3889",
+     "4075",
+     "4102",
+     "4105",
+     "4518",
+     "5645",
+     "5646",
+     "5665",
+     "5709",
+     "6827",
+     "6909",
+     "6933",
+     "6936",
+     "6937"
+    ],
+    "materias_labels": [
+     "Agricultura",
+     "Ayudas",
+     "Canarias",
+     "Carburantes y combustibles",
+     "Certificados",
+     "Consumo de energía",
+     "Contrato de concesión de obras públicas",
+     "Corporación de Reservas Estratégicas de Productos Petrolíferos",
+     "Dinero electrónico",
+     "Ferrocarriles",
+     "Flota pesquera",
+     "Gas",
+     "Impuesto Especial sobre Hidrocarburos",
+     "Impuesto sobre el Valor Añadido",
+     "Impuesto sobre la Electricidad",
+     "Inversiones",
+     "Política económica",
+     "Política energética",
+     "Precios",
+     "Procedimiento sancionador",
+     "Tarifas",
+     "Trabajadores",
+     "Transportes aéreos",
+     "Transportes marítimos",
+     "Transportes por carretera"
+    ],
+    "department": [
+     "Jefatura del Estado"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Medidas urgentes"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": [
+    "32015L0849"
+   ]
+  },
+  {
+   "id": "es:BOE-A-2026-20371",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-20371",
+   "title": "Resolución de 18 de septiembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de modificación del Convenio colectivo de F. Faiges, SL.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-09-30",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20371",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20371",
+   "classification": {
+    "materias": [
+     "48",
+     "1684",
+     "5723"
+    ],
+    "materias_labels": [
+     "Aceites vegetales",
+     "Convenios colectivos",
+     "Producción alimentaria"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-20372",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-20372",
+   "title": "Resolución de 18 de septiembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el II Convenio colectivo del Grupo Colt en España.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-09-30",
+   "entry_into_force": "2026-07-01",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20372",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20372",
+   "classification": {
+    "materias": [
+     "1684",
+     "6854"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Telecomunicaciones"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-20461",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-20461",
+   "title": "Resolución de 21 de septiembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el VI Convenio colectivo de Servicios Logísticos de Combustibles de Aviación, SL.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-10-01",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20461",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20461",
+   "classification": {
+    "materias": [
+     "1684",
+     "4000",
+     "6933"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Hidrocarburos",
+     "Transportes aéreos"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
     ]
    },
    "transposes": []
