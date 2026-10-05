@@ -1,0 +1,118 @@
+{
+ "week": "2026-W41",
+ "window": {
+  "since": "2026-10-01",
+  "until": "2026-10-05"
+ },
+ "counts": {
+  "fetched": 222,
+  "new": 89,
+  "keyword_pass": 2
+ },
+ "documents": [
+  {
+   "id": "fr:JORFTEXT000054945469",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054945469",
+   "title": "Arrêté du 24 septembre 2026 modifiant l'arrêté du 8 avril 2025 fixant la liste des emplois d'encadrement de l'enseignement et de la formation professionnelle agricoles",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-03",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054945469",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261003-211138.tar.gz#JORFTEXT000054945469",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "department": [
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "nor": [
+     "AGRS2625108A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-20528",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-20528",
+   "title": "Ley 4/2026, de 1 de octubre, por la que se modifican el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social, aprobado por el Real Decreto Legislativo 1/2013, de 29 de noviembre, y la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, para la extensión y refuerzo de los derechos de las personas con discapacidad a la inclusión, la autonomía y la accesibilidad universal conforme al artículo 49 de la Constitución Española.",
+   "language": "es",
+   "doc_type": "Ley",
+   "published": "2026-10-03",
+   "entry_into_force": "2026-10-23",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20528",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-20528",
+   "classification": {
+    "materias": [
+     "35",
+     "85",
+     "329",
+     "420",
+     "470",
+     "802",
+     "2463",
+     "5023",
+     "4051",
+     "5278",
+     "5434",
+     "7891",
+     "5709",
+     "5774",
+     "7854",
+     "5873",
+     "6015",
+     "6521",
+     "5231",
+     "6657",
+     "6800",
+     "6909",
+     "7162"
+    ],
+    "materias_labels": [
+     "Acceso a la información",
+     "Administración Local",
+     "Asistencia social",
+     "Ayudas",
+     "Barreras arquitectónicas",
+     "Centros especiales de empleo",
+     "Derechos de los ciudadanos",
+     "Discapacidad",
+     "Igualdad de oportunidades",
+     "Organización de la Administración del Estado",
+     "Patrimonio Histórico Español",
+     "Patrimonio protegido",
+     "Procedimiento sancionador",
+     "Propiedad Horizontal",
+     "Protección de datos personales",
+     "Real Patronato sobre Discapacidad",
+     "Registros administrativos",
+     "Seguros",
+     "Servicios Sociales de las Comunidades Autónomas",
+     "Sistema Nacional de Salud",
+     "Subvenciones",
+     "Trabajadores",
+     "Viviendas"
+    ],
+    "department": [
+     "Jefatura del Estado"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Personas con discapacidad"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  }
+ ]
+}
