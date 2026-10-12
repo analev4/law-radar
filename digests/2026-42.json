@@ -1,0 +1,265 @@
+{
+  "schema_version": "1.0",
+  "week": "2026-W42",
+  "window": {
+    "since": "2026-10-04",
+    "until": "2026-10-12"
+  },
+  "mode": "no-ai",
+  "generated_by": "no-ai",
+  "icp": {
+    "name": "Ledgerly",
+    "config_sha256": "0c3a5d5e5015adc50b1e028d0832c2f4be493cfa3e5d230b7766532b3e7c0eef"
+  },
+  "nothing_relevant": false,
+  "entries": [
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-21167",
+      "market": "ES",
+      "doc_type": "Orden",
+      "title_original": "Orden EFD/1073/2026, de 5 de octubre, por la que se actualizan determinados estándares de competencias profesionales de las familias profesionales Agraria; Artes Gráficas; Artes y Artesanías; Energía y Agua; Edificación y Obra Civil; Fabricación Mecánica; Industrias Alimentarias; Madera, Mueble y Corcho; Química; Textil, Confección y Piel; y Vidrio y Cerámica recogidos en el Catálogo Nacional de Estándares de Competencias Profesionales.",
+      "published": "2026-10-12",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21167",
+      "matched_keywords": [
+        "formación profesional"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-21165",
+      "market": "ES",
+      "doc_type": "Acuerdo Internacional",
+      "title_original": "Acuerdo internacional administrativo entre el Ministerio de Educación, Formación Profesional y Deportes del Reino de España y las Escuelas Europeas para regular la implantación y financiación del catalán como otra lengua nacional (ONL) en el Sistema de Escuelas Europeas, hecho en Bruselas y Madrid el 27 y 31 de agosto de 2026.",
+      "published": "2026-10-12",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21165",
+      "matched_keywords": [
+        "formación profesional"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000054971011",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 8 octobre 2026 fixant les règles de facturation et les modalités de rémunération des professionnels de santé et des centres de santé en application de l'article L. 4211-4 du code de la santé publique",
+      "published": "2026-10-11",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054971011",
+      "matched_keywords": [
+        "rémunération*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-21086",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 28 de septiembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de prórroga y modificación del Convenio Colectivo del Grupo Parcial Moeve.",
+      "published": "2026-10-09",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21086",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-21085",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 28 de septiembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo estatal de estaciones de servicio.",
+      "published": "2026-10-09",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21085",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-21084",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 28 de septiembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Severiano Servicio Móvil, SAU.",
+      "published": "2026-10-09",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21084",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-20978",
+      "market": "ES",
+      "doc_type": "Orden",
+      "title_original": "Orden DEF/1064/2026, de 2 de octubre, por la que se modifica la Orden DEF/1363/2016, de 28 de julio, por la que se regulan la jornada y el régimen de horario habitual en el lugar de destino de los miembros de las Fuerzas Armadas.",
+      "published": "2026-10-09",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20978",
+      "matched_keywords": [
+        "jornada"
+      ],
+      "matched_codes": [
+        "materia:4553"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000054961035",
+      "market": "FR",
+      "doc_type": "Décret",
+      "title_original": "Décret n° 2026-931 du 6 octobre 2026 fixant la valeur de service du point de retraite dans le régime de retraite complémentaire obligatoire des non-salariés agricoles",
+      "published": "2026-10-08",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054961035",
+      "matched_keywords": [
+        "salarié*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000054960935",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 1er octobre 2026 portant répartition des voix au sein du collège des organisations syndicales de salariés et du collège des organisations professionnelles d'employeurs du Conseil national de l'orientation et de la formation professionnelles pour le développement des compétences",
+      "published": "2026-10-08",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054960935",
+      "matched_keywords": [
+        "employeur*",
+        "salarié*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-20971",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 28 de septiembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de empresas de elaboración de productos del mar con procesos de congelación y refrigeración.",
+      "published": "2026-10-08",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20971",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-20970",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 28 de septiembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el VI Convenio colectivo sectorial estatal de servicios externos auxiliares y atención al cliente en empresas de servicios ferroviarios.",
+      "published": "2026-10-08",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-20970",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000054956322",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 2 octobre 2026 portant agrément de l'instance paritaire nationale nommée association nationale pour la certification paritaire interprofessionnelle et l'évolution professionnelle en application de l'article L. 6323-17-5-1 du code du travail",
+      "published": "2026-10-07",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054956322",
+      "matched_keywords": [
+        "code du travail"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000054956315",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 30 septembre 2026 modifiant l'arrêté du 20 mai 1980 fixant la liste des commissions, conseils ou comités administratifs ou paritaires appelés à traiter des problèmes d'emploi et de formation ou jurys d'examen donnant droit à autorisation d'absence de la part des employeurs",
+      "published": "2026-10-07",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054956315",
+      "matched_keywords": [
+        "employeur*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000054956301",
+      "market": "FR",
+      "doc_type": "Décret",
+      "title_original": "Décret n° 2026-929 du 6 octobre 2026 fixant les conditions d'application de l'article L. 6112-5 du code du travail relatif à l'établissement de la liste des compétences correspondant à l'exercice d'un mandat électif local et à la certification sanctionnant l'acquisition de ces compétences",
+      "published": "2026-10-07",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054956301",
+      "matched_keywords": [
+        "code du travail"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "eu:32026R2214",
+      "market": "EU",
+      "doc_type": "Regulation",
+      "title_original": "Commission Implementing Regulation (EU) 2026/2214 of 5 October 2026 correcting certain language versions of Implementing Regulation (EU) 2024/2215 establishing, pursuant to Regulation (EU) 2024/573 of the European Parliament and of the Council, minimum requirements for the issuance of certificates to natural and legal persons and the conditions for the mutual recognition of such certificates, as regards stationary refrigeration, air conditioning and heat pump equipment, organic Rankine cycles and refrigeration units of refrigerated trucks, refrigerated trailers, refrigerated light-duty vehicles, intermodal containers and train wagons containing fluorinated greenhouse gases or their alternatives",
+      "published": "2026-10-06",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R2214",
+      "matched_keywords": [
+        "vocational"
+      ],
+      "matched_codes": []
+    }
+  ],
+  "run": {
+    "sources": [
+      {
+        "id": "eu",
+        "fetched": 51,
+        "new": 36,
+        "errors": []
+      },
+      {
+        "id": "fr",
+        "fetched": 172,
+        "new": 155,
+        "errors": []
+      },
+      {
+        "id": "es",
+        "fetched": 37,
+        "new": 37,
+        "errors": []
+      }
+    ],
+    "counts": {
+      "fetched": 260,
+      "new": 228,
+      "keyword_pass": 15,
+      "deferred_by_cap": 0,
+      "model_pass": 0,
+      "read": 0,
+      "published": 15,
+      "facts_dropped": 0,
+      "fields_not_generated": 0
+    },
+    "cost": {
+      "by_model": {},
+      "estimated_usd": 0.0,
+      "price_table_date": ""
+    }
+  },
+  "disclaimer": "Not legal advice. law-radar flags and summarises official texts. Read the source before acting.",
+  "attribution": "Sources: EUR-Lex / Publications Office of the EU (CC BY 4.0); DILA, Journal officiel (Licence Ouverte 2.0); Basado en datos de la Agencia Estatal Boletín Oficial del Estado."
+}
