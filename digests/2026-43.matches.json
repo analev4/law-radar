@@ -1,0 +1,464 @@
+{
+ "week": "2026-W43",
+ "window": {
+  "since": "2026-10-11",
+  "until": "2026-10-19"
+ },
+ "counts": {
+  "fetched": 257,
+  "new": 225,
+  "keyword_pass": 13
+ },
+ "documents": [
+  {
+   "id": "fr:JORFTEXT000054979559",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054979559",
+   "title": "Décret n° 2026-951 du 13 octobre 2026 généralisant le calcul des taux de cotisation au titre des accidents du travail et des maladies professionnelles au niveau de l'entreprise",
+   "language": "fr",
+   "doc_type": "Décret",
+   "published": "2026-10-14",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054979559",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261014-214049.tar.gz#JORFTEXT000054979559",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère du travail et des solidarités"
+    ],
+    "department": [
+     "Ministère du travail et des solidarités"
+    ],
+    "nor": [
+     "TRSS2625216D"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054988419",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054988419",
+   "title": "Arrêté du 14 octobre 2026 fixant le montant de la répartition entre départements des crédits du Fonds national d'action sanitaire et sociale de la Mutualité sociale agricole destinés à la prise en charge des cotisations sociales des personnes non salariées des professions agricoles et des employeurs de main-d'œuvre agricole",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-16",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054988419",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261016-213852.tar.gz#JORFTEXT000054988419",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "department": [
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "nor": [
+     "AGRS2627280A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054988660",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054988660",
+   "title": "Arrêté du 13 octobre 2026 portant extension d'accords régionaux (Provence-Alpes-Côte d'Azur) conclus dans le cadre des conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 modifié (entreprises occupant jusqu'à 10 salariés et entreprises occupant plus de 10 salariés) (nos 1596 et 1597) et de la convention collective nationale des employés, techniciens et agents de maîtrise du bâtiment (n° 2609)",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-16",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054988660",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261016-213852.tar.gz#JORFTEXT000054988660",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Conventions collectives",
+     "Ministère du travail et des solidarités"
+    ],
+    "department": [
+     "Ministère du travail et des solidarités"
+    ],
+    "nor": [
+     "TRST2623892A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054993196",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054993196",
+   "title": "Arrêté du 15 octobre 2026 relatif aux modalités de délivrance de l'habilitation mentionnée à l'article R. 6113-16 du code du travail et aux conditions de présentation d'une demande d'habilitation",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-18",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054993196",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261018-205213.tar.gz#JORFTEXT000054993196",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'intérieur"
+    ],
+    "department": [
+     "Ministère de l'intérieur"
+    ],
+    "nor": [
+     "INTB2626502A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054993358",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054993358",
+   "title": "Arrêté du 12 octobre 2026 modifiant l'arrêté du 23 mars 2022 relatif à la délivrance de titres de formation professionnelle maritime aux marins relevant de l'activité de course au large",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-18",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054993358",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261018-205213.tar.gz#JORFTEXT000054993358",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de la transition écologique, de la biodiversité et des négociations internationales sur le climat et la nature"
+    ],
+    "department": [
+     "Ministère de la transition écologique, de la biodiversité et des négociations internationales sur le climat et la nature"
+    ],
+    "nor": [
+     "TECM2627187A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000054993725",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054993725",
+   "title": "Arrêté du 16 octobre 2026 relatif aux dispositions de l'avenant à l'accord interprofessionnel triennal 2025-2028 portant sur les taux de cotisations interprofessionnelles du bureau interprofessionnel du vin de Bourgogne applicables pour la période du 1er août 2026 au 31 juillet 2027",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-18",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054993725",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261018-205213.tar.gz#JORFTEXT000054993725",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "department": [
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "nor": [
+     "AGRT2621848A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-21254",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-21254",
+   "title": "Resolución de 8 de octubre de 2026, de la Dirección General de Trabajo, por la que se publica relación de fiestas laborales para el año 2027.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-10-13",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21254",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21254",
+   "classification": {
+    "materias": [
+     "1320",
+     "2480",
+     "3687",
+     "6909",
+     "6910"
+    ],
+    "materias_labels": [
+     "Comunidades Autónomas",
+     "Descanso laboral",
+     "Fiestas",
+     "Trabajadores",
+     "Trabajo"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Calendario laboral"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-21317",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-21317",
+   "title": "Ley Orgánica 4/2026, de 13 de octubre, por la que se modifica el artículo ochenta de la Ley Orgánica 1/1979, de 26 de septiembre, General Penitenciaria para reconocer, a efectos legales, el carácter de agentes de la autoridad a los funcionarios de la Administración Penitenciaria.",
+   "language": "es",
+   "doc_type": "Ley Orgánica",
+   "published": "2026-10-14",
+   "entry_into_force": "2026-10-15",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21317",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21317",
+   "classification": {
+    "materias": [
+     "3159",
+     "3845",
+     "3857",
+     "4303"
+    ],
+    "materias_labels": [
+     "Empleados públicos",
+     "Funcionarios Civiles del Estado",
+     "Funcionarios públicos",
+     "Instituciones penitenciarias"
+    ],
+    "department": [
+     "Jefatura del Estado"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Administración Penitenciaria"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-21427",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-21427",
+   "title": "Resolución de 2 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo del sector de pastas, papel y cartón.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-10-14",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21427",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21427",
+   "classification": {
+    "materias": [
+     "270",
+     "1364",
+     "1684",
+     "3805",
+     "4155"
+    ],
+    "materias_labels": [
+     "Arbitraje laboral",
+     "Conflictos colectivos de trabajo",
+     "Convenios colectivos",
+     "Formación profesional",
+     "Industria papelera"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": [
+    "32009L0038"
+   ]
+  },
+  {
+   "id": "es:BOE-A-2026-21428",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-21428",
+   "title": "Resolución de 2 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el XVIII Convenio colectivo de la Organización Nacional de Ciegos y su personal.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-10-14",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21428",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21428",
+   "classification": {
+    "materias": [
+     "270",
+     "1364",
+     "1684",
+     "5321"
+    ],
+    "materias_labels": [
+     "Arbitraje laboral",
+     "Conflictos colectivos de trabajo",
+     "Convenios colectivos",
+     "Organización Nacional de Ciegos"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-21451",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-21451",
+   "title": "Real Decreto 828/2026, de 14 de octubre, por el que se regula la concesión directa de subvenciones para la financiación de las acciones de los Centros de Referencia Nacional (CRN) en el ámbito de la formación profesional, con cargo al Plan de Trabajo Anual 2026.",
+   "language": "es",
+   "doc_type": "Real Decreto",
+   "published": "2026-10-15",
+   "entry_into_force": "2026-10-16",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21451",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21451",
+   "classification": {
+    "materias": [
+     "420",
+     "784",
+     "1320",
+     "3322",
+     "3805",
+     "3861",
+     "4428",
+     "6800"
+    ],
+    "materias_labels": [
+     "Ayudas",
+     "Centros de enseñanza",
+     "Comunidades Autónomas",
+     "Escuela de Organización Industrial",
+     "Formación profesional",
+     "Fundaciones",
+     "Instituto Nacional de las Artes Escénicas y de la Música",
+     "Subvenciones"
+    ],
+    "department": [
+     "Ministerio de Educación, Formación Profesional y Deportes"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Subvenciones"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-21452",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-21452",
+   "title": "Real Decreto 829/2026, de 14 de octubre, por el que se regula la concesión directa de diversas subvenciones en el ámbito del Ministerio de Educación, Formación Profesional y Deportes.",
+   "language": "es",
+   "doc_type": "Real Decreto",
+   "published": "2026-10-15",
+   "entry_into_force": "2026-10-16",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21452",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21452",
+   "classification": {
+    "materias": [
+     "352",
+     "1311",
+     "5023",
+     "3117",
+     "5454",
+     "6800"
+    ],
+    "materias_labels": [
+     "Asociaciones",
+     "Comunicación Audiovisual",
+     "Discapacidad",
+     "Educación Especial",
+     "Ministerio de Educación Formación Profesional y Deportes",
+     "Subvenciones"
+    ],
+    "department": [
+     "Ministerio de Educación, Formación Profesional y Deportes"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Subvenciones"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-21756",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-21756",
+   "title": "Resolución de 6 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el I Convenio colectivo de trabajo de Carglass, SLU.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-10-19",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21756",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21756",
+   "classification": {
+    "materias": [
+     "388",
+     "1684",
+     "6824"
+    ],
+    "materias_labels": [
+     "Componentes de vehículos",
+     "Convenios colectivos",
+     "Talleres de reparación de automóviles"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  }
+ ]
+}
