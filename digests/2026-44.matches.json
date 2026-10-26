@@ -1,0 +1,594 @@
+{
+ "week": "2026-W44",
+ "window": {
+  "since": "2026-10-18",
+  "until": "2026-10-26"
+ },
+ "counts": {
+  "fetched": 332,
+  "new": 282,
+  "keyword_pass": 14
+ },
+ "documents": [
+  {
+   "id": "fr:JORFTEXT000054999216",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000054999216",
+   "title": "Arrêté du 14 octobre 2026 relatif aux dispositions de l'avenant à l'accord interprofessionnel triennal relatif aux cotisations destinées à financer les actions du BNIC et les dépenses de publicité collective ainsi que les études économiques et techniques (campagne 2026-2027)",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-20",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054999216",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261020-214622.tar.gz#JORFTEXT000054999216",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "department": [
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "nor": [
+     "AGRT2625333A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055002724",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055002724",
+   "title": "Arrêté du 14 octobre 2026 relatif aux dispositions de l'accord interprofessionnel relatif à la cotisation professionnelle destinée à financer la recherche et développement/transition environnementale (campagne 2026-2027)",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-21",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055002724",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261021-213023.tar.gz#JORFTEXT000055002724",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "department": [
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "nor": [
+     "AGRT2625335A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055006091",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055006091",
+   "title": "Arrêté du 2 octobre 2026 modifiant l'arrêté du 12 novembre 2024 relatif aux critères d'affectation du solde de la taxe d'apprentissage mentionnés à l'article R. 6241-28 du code du travail",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-22",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055006091",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261022-214745.tar.gz#JORFTEXT000055006091",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'éducation nationale"
+    ],
+    "department": [
+     "Ministère de l'éducation nationale"
+    ],
+    "nor": [
+     "MENE2620120A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055009263",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055009263",
+   "title": "Arrêté du 20 octobre 2026 relatif aux dispositions de l'accord interprofessionnel relatif à la cotisation professionnelle destinée à financer la lutte contre la flavescence dorée (campagne 2026-2027)",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-23",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055009263",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261023-215041.tar.gz#JORFTEXT000055009263",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "department": [
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "nor": [
+     "AGRT2625336A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055011887",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055011887",
+   "title": "Arrêté du 22 octobre 2026 relatif à l'avenant n° 9 modifiant les dispositions de l'article 7 de l'accord interprofessionnel triennal 2026-2027-2028 d'Inter Rhône portant sur le montant des cotisations de l'AOC Saint-Joseph pour les années 2027 et 2028",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-24",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055011887",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261024-214209.tar.gz#JORFTEXT000055011887",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "department": [
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "nor": [
+     "AGRT2626006A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-21788",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-21788",
+   "title": "Resolución de 16 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de convalidación del Real Decreto-ley 25/2026, de 29 de septiembre, por el que se adoptan y se prorrogan determinadas medidas en el marco del Plan Integral de Respuesta a la Crisis en Oriente Medio.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-10-20",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21788",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21788",
+   "classification": {
+    "materias": [
+     "158",
+     "420",
+     "599",
+     "619",
+     "822",
+     "1625",
+     "8003",
+     "1734",
+     "2503",
+     "3677",
+     "3729",
+     "3889",
+     "4075",
+     "4102",
+     "4105",
+     "4518",
+     "5645",
+     "5646",
+     "5665",
+     "5709",
+     "6827",
+     "6909",
+     "6933",
+     "6936",
+     "6937"
+    ],
+    "materias_labels": [
+     "Agricultura",
+     "Ayudas",
+     "Canarias",
+     "Carburantes y combustibles",
+     "Certificados",
+     "Consumo de energía",
+     "Contrato de concesión de obras públicas",
+     "Corporación de Reservas Estratégicas de Productos Petrolíferos",
+     "Dinero electrónico",
+     "Ferrocarriles",
+     "Flota pesquera",
+     "Gas",
+     "Impuesto Especial sobre Hidrocarburos",
+     "Impuesto sobre el Valor Añadido",
+     "Impuesto sobre la Electricidad",
+     "Inversiones",
+     "Política económica",
+     "Política energética",
+     "Precios",
+     "Procedimiento sancionador",
+     "Tarifas",
+     "Trabajadores",
+     "Transportes aéreos",
+     "Transportes marítimos",
+     "Transportes por carretera"
+    ],
+    "department": [
+     "Cortes Generales"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Medidas urgentes"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-21872",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-21872",
+   "title": "Real Decreto-ley 31/2026, de 20 de octubre, para la mejora de la acción protectora de la Seguridad Social y de otras normas sociales.",
+   "language": "es",
+   "doc_type": "Real Decreto-ley",
+   "published": "2026-10-21",
+   "entry_into_force": "2026-10-21",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21872",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21872",
+   "classification": {
+    "materias": [
+     "329",
+     "1754",
+     "3193",
+     "3842",
+     "4124",
+     "4136",
+     "4925",
+     "5066",
+     "5541",
+     "5935",
+     "6499",
+     "6875",
+     "6909"
+    ],
+    "materias_labels": [
+     "Asistencia social",
+     "Cotización a la Seguridad Social",
+     "Enfermedades",
+     "Función Pública",
+     "Incapacidades laborales",
+     "Indemnizaciones",
+     "Menores",
+     "Mujer",
+     "Pensiones",
+     "Régimen General de la Seguridad Social",
+     "Seguridad Social",
+     "Terrorismo",
+     "Trabajadores"
+    ],
+    "department": [
+     "Jefatura del Estado"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Medidas urgentes"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-21874",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-21874",
+   "title": "Orden EFD/1098/2026, de 15 de octubre, por la que se modifica la Orden EDU/2157/2010, de 30 de julio, por la que se regula el currículo mixto de las enseñanzas acogidas al Acuerdo entre el Gobierno de España y el Gobierno de Francia relativo a la doble titulación de Bachiller y de Baccalauréat en centros docentes españoles, así como los requisitos para su obtención.",
+   "language": "es",
+   "doc_type": "Orden",
+   "published": "2026-10-21",
+   "entry_into_force": "2026-11-10",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21874",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21874",
+   "classification": {
+    "materias": [
+     "71",
+     "426",
+     "2263",
+     "6028",
+     "6165",
+     "4021",
+     "6893"
+    ],
+    "materias_labels": [
+     "Acuerdos internacionales",
+     "Bachillerato",
+     "Currículo",
+     "España",
+     "Francia",
+     "Homologación de títulos académicos",
+     "Títulos académicos y profesionales"
+    ],
+    "department": [
+     "Ministerio de Educación, Formación Profesional y Deportes"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Programas educativos"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-21956",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-21956",
+   "title": "Real Decreto 856/2026, de 21 de octubre, por el que se regula la concesión directa de subvenciones a diversas entidades para actuaciones en materia de refuerzo de la protección y asistencia a las víctimas de violencia contra las mujeres en la ciudad de Ceuta.",
+   "language": "es",
+   "doc_type": "Real Decreto",
+   "published": "2026-10-22",
+   "entry_into_force": "2026-10-23",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21956",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-21956",
+   "classification": {
+    "materias": [
+     "417",
+     "420",
+     "828",
+     "1768",
+     "4662",
+     "4272",
+     "5066",
+     "6800",
+     "6943",
+     "7928"
+    ],
+    "materias_labels": [
+     "Ayuda humanitaria",
+     "Ayudas",
+     "Ceuta",
+     "Cruz Roja Española",
+     "Igualdad de género",
+     "Inmigración",
+     "Mujer",
+     "Subvenciones",
+     "Trata de seres humanos",
+     "Violencia de género"
+    ],
+    "department": [
+     "Ministerio de Igualdad"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Subvenciones"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-22080",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-22080",
+   "title": "Real Decreto 846/2026, de 21 de octubre, por el que se modifican el Real Decreto 665/1997, de 12 de mayo, sobre la protección de los trabajadores contra los riesgos relacionados con la exposición a agentes cancerígenos, mutágenos o reprotóxicos durante el trabajo, y el Real Decreto 374/2001, de 6 de abril, sobre la protección de la salud y seguridad de los trabajadores contra los riesgos relacionados con los agentes químicos durante el trabajo.",
+   "language": "es",
+   "doc_type": "Real Decreto",
+   "published": "2026-10-23",
+   "entry_into_force": "2026-10-24",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22080",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22080",
+   "classification": {
+    "materias": [
+     "40",
+     "3193",
+     "4830",
+     "5628",
+     "6264",
+     "6496",
+     "6814",
+     "6909"
+    ],
+    "materias_labels": [
+     "Accidentes de trabajo y enfermedades profesionales",
+     "Enfermedades",
+     "Madera",
+     "Plomo",
+     "Salud",
+     "Seguridad e higiene en el trabajo",
+     "Sustancias peligrosas",
+     "Trabajadores"
+    ],
+    "department": [
+     "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Prevención de riesgos laborales"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": [
+    "32017L2398",
+    "32024L0869",
+    "32014L0027",
+    "32004L0037"
+   ]
+  },
+  {
+   "id": "es:BOE-A-2026-22081",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-22081",
+   "title": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto.",
+   "language": "es",
+   "doc_type": "Real Decreto",
+   "published": "2026-10-23",
+   "entry_into_force": "2026-10-24",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22081",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22081",
+   "classification": {
+    "materias": [
+     "35",
+     "40",
+     "230",
+     "4446",
+     "4736",
+     "5703",
+     "6015",
+     "6496",
+     "6814",
+     "6909"
+    ],
+    "materias_labels": [
+     "Acceso a la información",
+     "Accidentes de trabajo y enfermedades profesionales",
+     "Análisis",
+     "Instituto Nacional de Seguridad e Higiene en el Trabajo",
+     "Laboratorios",
+     "Procedimiento administrativo",
+     "Registros administrativos",
+     "Seguridad e higiene en el trabajo",
+     "Sustancias peligrosas",
+     "Trabajadores"
+    ],
+    "department": [
+     "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Prevención de riesgos laborales"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": [
+    "32023L2668",
+    "32009L0148"
+   ]
+  },
+  {
+   "id": "es:BOE-A-2026-22282",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-22282",
+   "title": "Resolución de 15 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el VIII Convenio colectivo de Grupo Generali España.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-10-24",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22282",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22282",
+   "classification": {
+    "materias": [
+     "1684",
+     "3229",
+     "6521"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Entidades aseguradoras",
+     "Seguros"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-22424",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-22424",
+   "title": "Resolución de 15 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de modificación parcial del IX Convenio colectivo de Decathlon España, SA.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-10-26",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22424",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22424",
+   "classification": {
+    "materias": [
+     "1684",
+     "2425",
+     "3442"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Deporte",
+     "Establecimientos comerciales"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-22425",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-22425",
+   "title": "Resolución de 15 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de modificación del Convenio colectivo de Unidades Globales de Telefónica en España.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-10-26",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22425",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22425",
+   "classification": {
+    "materias": [
+     "1684",
+     "6859"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Telefónica de España"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  }
+ ]
+}

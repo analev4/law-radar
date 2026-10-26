@@ -1,0 +1,258 @@
+{
+  "schema_version": "1.0",
+  "week": "2026-W44",
+  "window": {
+    "since": "2026-10-18",
+    "until": "2026-10-26"
+  },
+  "mode": "no-ai",
+  "generated_by": "no-ai",
+  "icp": {
+    "name": "Ledgerly",
+    "config_sha256": "0c3a5d5e5015adc50b1e028d0832c2f4be493cfa3e5d230b7766532b3e7c0eef"
+  },
+  "nothing_relevant": false,
+  "entries": [
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-22425",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 15 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de modificación del Convenio colectivo de Unidades Globales de Telefónica en España.",
+      "published": "2026-10-26",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22425",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-22424",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 15 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de modificación parcial del IX Convenio colectivo de Decathlon España, SA.",
+      "published": "2026-10-26",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22424",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000055011887",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 22 octobre 2026 relatif à l'avenant n° 9 modifiant les dispositions de l'article 7 de l'accord interprofessionnel triennal 2026-2027-2028 d'Inter Rhône portant sur le montant des cotisations de l'AOC Saint-Joseph pour les années 2027 et 2028",
+      "published": "2026-10-24",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055011887",
+      "matched_keywords": [
+        "cotisation*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-22282",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 15 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el VIII Convenio colectivo de Grupo Generali España.",
+      "published": "2026-10-24",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22282",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000055009263",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 20 octobre 2026 relatif aux dispositions de l'accord interprofessionnel relatif à la cotisation professionnelle destinée à financer la lutte contre la flavescence dorée (campagne 2026-2027)",
+      "published": "2026-10-23",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055009263",
+      "matched_keywords": [
+        "cotisation*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-22081",
+      "market": "ES",
+      "doc_type": "Real Decreto",
+      "title_original": "Real Decreto 847/2026, de 21 de octubre, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto.",
+      "published": "2026-10-23",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22081",
+      "matched_keywords": [
+        "trabajador*"
+      ],
+      "matched_codes": [
+        "materia:6909"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-22080",
+      "market": "ES",
+      "doc_type": "Real Decreto",
+      "title_original": "Real Decreto 846/2026, de 21 de octubre, por el que se modifican el Real Decreto 665/1997, de 12 de mayo, sobre la protección de los trabajadores contra los riesgos relacionados con la exposición a agentes cancerígenos, mutágenos o reprotóxicos durante el trabajo, y el Real Decreto 374/2001, de 6 de abril, sobre la protección de la salud y seguridad de los trabajadores contra los riesgos relacionados con los agentes químicos durante el trabajo.",
+      "published": "2026-10-23",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22080",
+      "matched_keywords": [
+        "trabajador*"
+      ],
+      "matched_codes": [
+        "materia:6909"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000055006091",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 2 octobre 2026 modifiant l'arrêté du 12 novembre 2024 relatif aux critères d'affectation du solde de la taxe d'apprentissage mentionnés à l'article R. 6241-28 du code du travail",
+      "published": "2026-10-22",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055006091",
+      "matched_keywords": [
+        "apprenti*",
+        "apprentissage",
+        "code du travail"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-21956",
+      "market": "ES",
+      "doc_type": "Real Decreto",
+      "title_original": "Real Decreto 856/2026, de 21 de octubre, por el que se regula la concesión directa de subvenciones a diversas entidades para actuaciones en materia de refuerzo de la protección y asistencia a las víctimas de violencia contra las mujeres en la ciudad de Ceuta.",
+      "published": "2026-10-22",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21956",
+      "matched_keywords": [],
+      "matched_codes": [
+        "materia:4662"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000055002724",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 14 octobre 2026 relatif aux dispositions de l'accord interprofessionnel relatif à la cotisation professionnelle destinée à financer la recherche et développement/transition environnementale (campagne 2026-2027)",
+      "published": "2026-10-21",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055002724",
+      "matched_keywords": [
+        "cotisation*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-21874",
+      "market": "ES",
+      "doc_type": "Orden",
+      "title_original": "Orden EFD/1098/2026, de 15 de octubre, por la que se modifica la Orden EDU/2157/2010, de 30 de julio, por la que se regula el currículo mixto de las enseñanzas acogidas al Acuerdo entre el Gobierno de España y el Gobierno de Francia relativo a la doble titulación de Bachiller y de Baccalauréat en centros docentes españoles, así como los requisitos para su obtención.",
+      "published": "2026-10-21",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21874",
+      "matched_keywords": [
+        "formación profesional"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-21872",
+      "market": "ES",
+      "doc_type": "Real Decreto-ley",
+      "title_original": "Real Decreto-ley 31/2026, de 20 de octubre, para la mejora de la acción protectora de la Seguridad Social y de otras normas sociales.",
+      "published": "2026-10-21",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21872",
+      "matched_keywords": [
+        "cotizaci*",
+        "trabajador*"
+      ],
+      "matched_codes": [
+        "materia:1754",
+        "materia:6499",
+        "materia:6909"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000054999216",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 14 octobre 2026 relatif aux dispositions de l'avenant à l'accord interprofessionnel triennal relatif aux cotisations destinées à financer les actions du BNIC et les dépenses de publicité collective ainsi que les études économiques et techniques (campagne 2026-2027)",
+      "published": "2026-10-20",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054999216",
+      "matched_keywords": [
+        "cotisation*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-21788",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 16 de octubre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de convalidación del Real Decreto-ley 25/2026, de 29 de septiembre, por el que se adoptan y se prorrogan determinadas medidas en el marco del Plan Integral de Respuesta a la Crisis en Oriente Medio.",
+      "published": "2026-10-20",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21788",
+      "matched_keywords": [
+        "trabajador*"
+      ],
+      "matched_codes": [
+        "materia:6909"
+      ]
+    }
+  ],
+  "run": {
+    "sources": [
+      {
+        "id": "eu",
+        "fetched": 55,
+        "new": 47,
+        "errors": []
+      },
+      {
+        "id": "fr",
+        "fetched": 243,
+        "new": 204,
+        "errors": []
+      },
+      {
+        "id": "es",
+        "fetched": 34,
+        "new": 31,
+        "errors": []
+      }
+    ],
+    "counts": {
+      "fetched": 332,
+      "new": 282,
+      "keyword_pass": 14,
+      "deferred_by_cap": 0,
+      "model_pass": 0,
+      "read": 0,
+      "published": 14,
+      "facts_dropped": 0,
+      "fields_not_generated": 0
+    },
+    "cost": {
+      "by_model": {},
+      "estimated_usd": 0.0,
+      "price_table_date": ""
+    }
+  },
+  "disclaimer": "Not legal advice. law-radar flags and summarises official texts. Read the source before acting.",
+  "attribution": "Sources: EUR-Lex / Publications Office of the EU (CC BY 4.0); DILA, Journal officiel (Licence Ouverte 2.0); Basado en datos de la Agencia Estatal Boletín Oficial del Estado."
+}
