@@ -1,0 +1,803 @@
+{
+ "week": "2026-W45",
+ "window": {
+  "since": "2026-10-25",
+  "until": "2026-11-02"
+ },
+ "counts": {
+  "fetched": 344,
+  "new": 312,
+  "keyword_pass": 22
+ },
+ "documents": [
+  {
+   "id": "eu:32026R2359",
+   "source": "eu",
+   "market": "EU",
+   "native_id": "32026R2359",
+   "title": "Regulation (EU) 2026/2359 of the European Parliament and of the Council of 7 October 2026 amending Regulation (EC) No 883/2004 on the coordination of social security systems and Regulation (EC) No 987/2009 laying down the procedure for implementing Regulation (EC) No 883/2004 (Text with relevance for the EEA and Switzerland)",
+   "language": "en",
+   "doc_type": "Regulation",
+   "published": "2026-10-27",
+   "entry_into_force": "2026-11-01",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R2359",
+   "text_url": "http://publications.europa.eu/resource/celex/32026R2359",
+   "classification": {
+    "eurovoc": [
+     "1634",
+     "5283",
+     "5986",
+     "3332",
+     "4028",
+     "2604",
+     "3359",
+     "7946"
+    ],
+    "eurovoc_labels": [
+     "free movement of workers",
+     "EU Member State",
+     "unemployed person",
+     "unemployment insurance",
+     "social-security harmonisation",
+     "family benefit",
+     "social security legislation",
+     "care allowance"
+    ],
+    "directory": [
+     "05204020",
+     "052050"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "eu:32026D2453",
+   "source": "eu",
+   "market": "EU",
+   "native_id": "32026D2453",
+   "title": "Decision (EU) 2026/2453 of the European Parliament and of the Council of 7 October 2026 on the mobilisation of the European Globalisation Adjustment Fund for Displaced Workers following an application from Spain – EGF/2026/002 ES/Galicia automotive ancillary",
+   "language": "en",
+   "doc_type": "Decision",
+   "published": "2026-10-29",
+   "entry_into_force": "2026-10-07",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D2453",
+   "text_url": "http://publications.europa.eu/resource/celex/32026D2453",
+   "classification": {
+    "eurovoc": [
+     "1410",
+     "1646",
+     "5158",
+     "8549",
+     "863",
+     "763",
+     "3516",
+     "723",
+     "6125",
+     "1127",
+     "1401",
+     "3820"
+    ],
+    "eurovoc_labels": [
+     "mechanical engineering",
+     "dismissal",
+     "general budget (EU)",
+     "European Globalisation Adjustment Fund",
+     "Spain",
+     "commitment of expenditure",
+     "reintegration into working life",
+     "employment aid",
+     "globalisation",
+     "Galicia",
+     "electrical engineering",
+     "metallurgical industry"
+    ],
+    "directory": [
+     "05203020"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "eu:32026D2455",
+   "source": "eu",
+   "market": "EU",
+   "native_id": "32026D2455",
+   "title": "Decision (EU) 2026/2455 of the European Parliament and of the Council of 7 October 2026 on the mobilisation of the European Globalisation Adjustment Fund for Displaced Workers following an application from Belgium – EGF/2026/001 BE/Cora",
+   "language": "en",
+   "doc_type": "Decision",
+   "published": "2026-10-29",
+   "entry_into_force": "2026-10-07",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D2455",
+   "text_url": "http://publications.europa.eu/resource/celex/32026D2455",
+   "classification": {
+    "eurovoc": [
+     "1646",
+     "4839",
+     "5158",
+     "8549",
+     "3039",
+     "4539",
+     "763",
+     "3084",
+     "3516",
+     "5",
+     "723",
+     "6125"
+    ],
+    "eurovoc_labels": [
+     "dismissal",
+     "Belgium",
+     "general budget (EU)",
+     "European Globalisation Adjustment Fund",
+     "Brussels region",
+     "land transport",
+     "commitment of expenditure",
+     "Walloon region (Belgium)",
+     "reintegration into working life",
+     "retail trade",
+     "employment aid",
+     "globalisation"
+    ],
+    "directory": [
+     "05203020"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "eu:32026D2456",
+   "source": "eu",
+   "market": "EU",
+   "native_id": "32026D2456",
+   "title": "Decision (EU) 2026/2456 of the European Parliament and of the Council of 7 October 2026 on the mobilisation of the European Globalisation Adjustment Fund for Displaced Workers following an application from Finland – EGF/2026/003 FI/Valmet Automotive",
+   "language": "en",
+   "doc_type": "Decision",
+   "published": "2026-10-29",
+   "entry_into_force": "2026-10-07",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D2456",
+   "text_url": "http://publications.europa.eu/resource/celex/32026D2456",
+   "classification": {
+    "eurovoc": [
+     "1019",
+     "1361",
+     "1646",
+     "5158",
+     "8549",
+     "763",
+     "3516",
+     "723",
+     "6125",
+     "7881"
+    ],
+    "eurovoc_labels": [
+     "Finland",
+     "motor vehicle industry",
+     "dismissal",
+     "general budget (EU)",
+     "European Globalisation Adjustment Fund",
+     "commitment of expenditure",
+     "reintegration into working life",
+     "employment aid",
+     "globalisation",
+     "Western Finland"
+    ],
+    "directory": [
+     "05203020"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "eu:32026L2450",
+   "source": "eu",
+   "market": "EU",
+   "native_id": "32026L2450",
+   "title": "Directive (EU) 2026/2450 of the European Parliament and of the Council of 21 October 2026 amending Directive 2004/37/EC on the protection of workers from the risks related to exposure to carcinogens, mutagens or reprotoxic substances at work (Text with EEA relevance)",
+   "language": "en",
+   "doc_type": "Directive",
+   "published": "2026-10-30",
+   "entry_into_force": "2026-11-19",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026L2450",
+   "text_url": "http://publications.europa.eu/resource/celex/32026L2450",
+   "classification": {
+    "eurovoc": [
+     "1854",
+     "3135",
+     "3730",
+     "4039",
+     "5234",
+     "4307",
+     "7135"
+    ],
+    "eurovoc_labels": [
+     "disease prevention",
+     "toxic substance",
+     "health risk",
+     "occupational safety",
+     "safety standard",
+     "carcinogenic substance",
+     "reproductive health"
+    ],
+    "directory": [
+     "05202010"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055017990",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055017990",
+   "title": "Arrêté du 21 octobre 2026 modifiant l'arrêté du 9 novembre 2017 fixant le montant des rémunérations dues en contrepartie des services rendus par la direction de l'information légale et administrative",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-27",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055017990",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261027-211214.tar.gz#JORFTEXT000055017990",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Premier ministre"
+    ],
+    "department": [
+     "Premier ministre"
+    ],
+    "nor": [
+     "PRMX2627766A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055018122",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055018122",
+   "title": "Arrêté du 22 octobre 2026 relatif à l'avenant n° 5 modifiant les dispositions de l'article 7 de l'accord interprofessionnel triennal 2026-2027-2028 d'Inter Rhône et portant sur le montant des cotisations de l'AOC Saint-Joseph pour l'année 2026",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-27",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055018122",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261027-211214.tar.gz#JORFTEXT000055018122",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "department": [
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "nor": [
+     "AGRT2626005A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055020072",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055020072",
+   "title": "Décret n° 2026-995 du 27 octobre 2026 portant création d'une aide exceptionnelle à destination des entreprises de moins de deux cent cinquante salariés ayant subi des dommages lors des troubles urbains intervenus en marge des manifestations des 17 et 18 octobre 2026",
+   "language": "fr",
+   "doc_type": "Décret",
+   "published": "2026-10-28",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055020072",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261028-212713.tar.gz#JORFTEXT000055020072",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère du travail et des solidarités"
+    ],
+    "department": [
+     "Ministère du travail et des solidarités"
+    ],
+    "nor": [
+     "TRSD2627962D"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055023061",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055023061",
+   "title": "Décret n° 2026-1001 du 26 octobre 2026 relatif aux droits des ressortissants étrangers autorisés à travailler en France, aux conditions d'octroi d'une carte de séjour pluriannuelle aux travailleurs hautement qualifiés et aux membres de leur famille et à la dispense d'autorisation de travail pour les ressortissants étrangers détachés en France par un employeur britannique",
+   "language": "fr",
+   "doc_type": "Décret",
+   "published": "2026-10-29",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055023061",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261029-215000.tar.gz#JORFTEXT000055023061",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'intérieur"
+    ],
+    "department": [
+     "Ministère de l'intérieur"
+    ],
+    "nor": [
+     "INTV2619006D"
+    ]
+   },
+   "transposes": [
+    "32024L1233",
+    "32021L1883"
+   ]
+  },
+  {
+   "id": "fr:JORFTEXT000055030082",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055030082",
+   "title": "Arrêté du 14 octobre 2026 déterminant pour l'année 2026 le nombre d'usagers inscrits dans les bibliothèques accueillant du public pour le prêt et le montant de la part de la rémunération au titre du prêt en bibliothèque à la charge de l'Etat",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-30",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055030082",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261030-214909.tar.gz#JORFTEXT000055030082",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de la culture"
+    ],
+    "department": [
+     "Ministère de la culture"
+    ],
+    "nor": [
+     "MICE2623289A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055037422",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055037422",
+   "title": "Arrêté du 22 octobre 2026 relatif aux régies des établissements publics locaux d'enseignement et de formation professionnelle agricoles",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-31",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055037422",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261031-212257.tar.gz#JORFTEXT000055037422",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "department": [
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "nor": [
+     "AGRE2625206A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055037883",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055037883",
+   "title": "Arrêté du 22 octobre 2026 portant extension d'accords régionaux (Hauts-de-France) conclus dans le cadre des conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 (entreprises occupant jusqu'à 10 salariés et entreprises occupant plus de 10 salariés) (nos 1596 et 1597) et de la convention collective nationale des employés, techniciens et agents de maîtrise du bâtiment (n° 2609)",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-10-31",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055037883",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261031-212257.tar.gz#JORFTEXT000055037883",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Conventions collectives",
+     "Ministère du travail et des solidarités"
+    ],
+    "department": [
+     "Ministère du travail et des solidarités"
+    ],
+    "nor": [
+     "TRST2627911A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-22595",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-22595",
+   "title": "Resolución de 15 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de la Industria del Calzado.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-10-28",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22595",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22595",
+   "classification": {
+    "materias": [
+     "574",
+     "1684"
+    ],
+    "materias_labels": [
+     "Calzado",
+     "Convenios colectivos"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-22596",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-22596",
+   "title": "Resolución de 15 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el VII Convenio colectivo de Nokia Transformation Engineering & Consulting Services Spain, SLU.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-10-28",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22596",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22596",
+   "classification": {
+    "materias": [
+     "1684",
+     "6854"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Telecomunicaciones"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-22611",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-22611",
+   "title": "Real Decreto 920/2026, de 28 de octubre, por el que se regula la concesión directa de subvenciones a Administraciones Públicas y otras entidades para la ejecución de actuaciones de relevancia deportiva y de interés público durante el ejercicio 2026.",
+   "language": "es",
+   "doc_type": "Real Decreto",
+   "published": "2026-10-29",
+   "entry_into_force": "2026-10-30",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22611",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22611",
+   "classification": {
+    "materias": [
+     "93",
+     "352",
+     "367",
+     "1551",
+     "2425",
+     "3861",
+     "6800"
+    ],
+    "materias_labels": [
+     "Administraciones Públicas",
+     "Asociaciones",
+     "Asociaciones deportivas",
+     "Consejo Superior de Deportes",
+     "Deporte",
+     "Fundaciones",
+     "Subvenciones"
+    ],
+    "department": [
+     "Ministerio de Educación, Formación Profesional y Deportes"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Subvenciones"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-22612",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-22612",
+   "title": "Real Decreto 921/2026, de 28 de octubre, por el que se regula la concesión directa de subvenciones a entidades locales para la ejecución de inversiones en infraestructuras públicas de relevancia deportiva y de interés público durante el ejercicio 2026.",
+   "language": "es",
+   "doc_type": "Real Decreto",
+   "published": "2026-10-29",
+   "entry_into_force": "2026-10-30",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22612",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22612",
+   "classification": {
+    "materias": [
+     "421",
+     "1551",
+     "2425",
+     "3250",
+     "6800"
+    ],
+    "materias_labels": [
+     "Ayuntamientos",
+     "Consejo Superior de Deportes",
+     "Deporte",
+     "Instalaciones deportivas",
+     "Subvenciones"
+    ],
+    "department": [
+     "Ministerio de Educación, Formación Profesional y Deportes"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Subvenciones"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-22613",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-22613",
+   "title": "Real Decreto 924/2026, de 28 de octubre, por el que se modifica el Real Decreto 1184/2020, de 29 de diciembre, por el que se establecen las metodologías de cálculo de los cargos del sistema gasista, de las retribuciones reguladas de los almacenamientos subterráneos básicos y de los cánones aplicados por su uso.",
+   "language": "es",
+   "doc_type": "Real Decreto",
+   "published": "2026-10-29",
+   "entry_into_force": "2026-10-29",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22613",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22613",
+   "classification": {
+    "materias": [
+     "207",
+     "619",
+     "1258",
+     "2845",
+     "3069",
+     "3889",
+     "4165",
+     "6020",
+     "6836"
+    ],
+    "materias_labels": [
+     "Almacenes",
+     "Carburantes y combustibles",
+     "Comisión Nacional de los Mercados y la Competencia",
+     "Dirección General de Política Energética y Minas",
+     "Distribución de energía",
+     "Gas",
+     "Información",
+     "Reglamentaciones técnicas",
+     "Tasas"
+    ],
+    "department": [
+     "Ministerio para la Transición Ecológica y el Reto Demográfico"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Sector gasista"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-22619",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-22619",
+   "title": "Real Decreto 931/2026, de 28 de octubre, por el que se regula la concesión directa de subvenciones a la Federación Española de Municipios y Provincias (FEMP) y a la Fundación ANAR para el desarrollo de actuaciones en materia de prevención y lucha contra la violencia de género y otras formas de violencia contra las mujeres.",
+   "language": "es",
+   "doc_type": "Real Decreto",
+   "published": "2026-10-29",
+   "entry_into_force": "2026-10-30",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22619",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22619",
+   "classification": {
+    "materias": [
+     "329",
+     "420",
+     "3805",
+     "4662",
+     "5066",
+     "6800",
+     "6943",
+     "7928"
+    ],
+    "materias_labels": [
+     "Asistencia social",
+     "Ayudas",
+     "Formación profesional",
+     "Igualdad de género",
+     "Mujer",
+     "Subvenciones",
+     "Trata de seres humanos",
+     "Violencia de género"
+    ],
+    "department": [
+     "Ministerio de Igualdad"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Subvenciones"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-22677",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-22677",
+   "title": "Resolución de 19 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Unidad Editorial Información General, SL.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-10-29",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22677",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22677",
+   "classification": {
+    "materias": [
+     "1684",
+     "5671"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Prensa"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-22678",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-22678",
+   "title": "Resolución de 19 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Unidad Editorial Información Económica, SL.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-10-29",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22678",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22678",
+   "classification": {
+    "materias": [
+     "1684",
+     "5671"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Prensa"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-22679",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-22679",
+   "title": "Resolución de 19 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de prórroga y aprobación de las tablas salariales para los años 2026, 2027 y 2028 del Convenio colectivo marco de la Unión General de Trabajadoras y Trabajadores 2021-2025.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-10-29",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22679",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22679",
+   "classification": {
+    "materias": [
+     "1684",
+     "6649"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Sindicatos"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-22792",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-22792",
+   "title": "Orden TED/1149/2026, de 30 de octubre, por la que se establecen los cargos del sistema gasista y la retribución y los cánones de los almacenamientos subterráneos básicos para el año de gas 2027.",
+   "language": "es",
+   "doc_type": "Orden",
+   "published": "2026-10-31",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22792",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-22792",
+   "classification": {
+    "materias": [],
+    "materias_labels": [],
+    "department": [
+     "Ministerio para la Transición Ecológica y el Reto Demográfico"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Sistema gasista"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  }
+ ]
+}

@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0",
+  "week": "2026-W45",
+  "window": {
+    "since": "2026-10-25",
+    "until": "2026-11-02"
+  },
+  "mode": "no-ai",
+  "generated_by": "no-ai",
+  "icp": {
+    "name": "Ledgerly",
+    "config_sha256": "0c3a5d5e5015adc50b1e028d0832c2f4be493cfa3e5d230b7766532b3e7c0eef"
+  },
+  "nothing_relevant": false,
+  "entries": [
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000055037883",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 22 octobre 2026 portant extension d'accords régionaux (Hauts-de-France) conclus dans le cadre des conventions collectives nationales des ouvriers employés par les entreprises du bâtiment visées et non visées par le décret du 1er mars 1962 (entreprises occupant jusqu'à 10 salariés et entreprises occupant plus de 10 salariés) (nos 1596 et 1597) et de la convention collective nationale des employés, techniciens et agents de maîtrise du bâtiment (n° 2609)",
+      "published": "2026-10-31",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055037883",
+      "matched_keywords": [
+        "salarié*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000055037422",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 22 octobre 2026 relatif aux régies des établissements publics locaux d'enseignement et de formation professionnelle agricoles",
+      "published": "2026-10-31",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055037422",
+      "matched_keywords": [
+        "formation professionnelle"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-22792",
+      "market": "ES",
+      "doc_type": "Orden",
+      "title_original": "Orden TED/1149/2026, de 30 de octubre, por la que se establecen los cargos del sistema gasista y la retribución y los cánones de los almacenamientos subterráneos básicos para el año de gas 2027.",
+      "published": "2026-10-31",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22792",
+      "matched_keywords": [
+        "retribuci*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000055030082",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 14 octobre 2026 déterminant pour l'année 2026 le nombre d'usagers inscrits dans les bibliothèques accueillant du public pour le prêt et le montant de la part de la rémunération au titre du prêt en bibliothèque à la charge de l'Etat",
+      "published": "2026-10-30",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055030082",
+      "matched_keywords": [
+        "rémunération*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "eu:32026L2450",
+      "market": "EU",
+      "doc_type": "Directive",
+      "title_original": "Directive (EU) 2026/2450 of the European Parliament and of the Council of 21 October 2026 amending Directive 2004/37/EC on the protection of workers from the risks related to exposure to carcinogens, mutagens or reprotoxic substances at work (Text with EEA relevance)",
+      "published": "2026-10-30",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026L2450",
+      "matched_keywords": [
+        "worker*"
+      ],
+      "matched_codes": [
+        "directory:05202010"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000055023061",
+      "market": "FR",
+      "doc_type": "Décret",
+      "title_original": "Décret n° 2026-1001 du 26 octobre 2026 relatif aux droits des ressortissants étrangers autorisés à travailler en France, aux conditions d'octroi d'une carte de séjour pluriannuelle aux travailleurs hautement qualifiés et aux membres de leur famille et à la dispense d'autorisation de travail pour les ressortissants étrangers détachés en France par un employeur britannique",
+      "published": "2026-10-29",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055023061",
+      "matched_keywords": [
+        "employeur*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "eu:32026D2456",
+      "market": "EU",
+      "doc_type": "Decision",
+      "title_original": "Decision (EU) 2026/2456 of the European Parliament and of the Council of 7 October 2026 on the mobilisation of the European Globalisation Adjustment Fund for Displaced Workers following an application from Finland – EGF/2026/003 FI/Valmet Automotive",
+      "published": "2026-10-29",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D2456",
+      "matched_keywords": [
+        "employ*",
+        "worker*"
+      ],
+      "matched_codes": [
+        "directory:05203020"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "eu:32026D2455",
+      "market": "EU",
+      "doc_type": "Decision",
+      "title_original": "Decision (EU) 2026/2455 of the European Parliament and of the Council of 7 October 2026 on the mobilisation of the European Globalisation Adjustment Fund for Displaced Workers following an application from Belgium – EGF/2026/001 BE/Cora",
+      "published": "2026-10-29",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D2455",
+      "matched_keywords": [
+        "employ*",
+        "worker*"
+      ],
+      "matched_codes": [
+        "directory:05203020"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "eu:32026D2453",
+      "market": "EU",
+      "doc_type": "Decision",
+      "title_original": "Decision (EU) 2026/2453 of the European Parliament and of the Council of 7 October 2026 on the mobilisation of the European Globalisation Adjustment Fund for Displaced Workers following an application from Spain – EGF/2026/002 ES/Galicia automotive ancillary",
+      "published": "2026-10-29",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D2453",
+      "matched_keywords": [
+        "employ*",
+        "worker*"
+      ],
+      "matched_codes": [
+        "directory:05203020"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-22679",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 19 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de prórroga y aprobación de las tablas salariales para los años 2026, 2027 y 2028 del Convenio colectivo marco de la Unión General de Trabajadoras y Trabajadores 2021-2025.",
+      "published": "2026-10-29",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22679",
+      "matched_keywords": [
+        "convenio colectivo",
+        "salari*",
+        "trabajador*"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-22678",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 19 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Unidad Editorial Información Económica, SL.",
+      "published": "2026-10-29",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22678",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-22677",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 19 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Unidad Editorial Información General, SL.",
+      "published": "2026-10-29",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22677",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-22619",
+      "market": "ES",
+      "doc_type": "Real Decreto",
+      "title_original": "Real Decreto 931/2026, de 28 de octubre, por el que se regula la concesión directa de subvenciones a la Federación Española de Municipios y Provincias (FEMP) y a la Fundación ANAR para el desarrollo de actuaciones en materia de prevención y lucha contra la violencia de género y otras formas de violencia contra las mujeres.",
+      "published": "2026-10-29",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22619",
+      "matched_keywords": [
+        "formación profesional"
+      ],
+      "matched_codes": [
+        "materia:3805",
+        "materia:4662"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-22613",
+      "market": "ES",
+      "doc_type": "Real Decreto",
+      "title_original": "Real Decreto 924/2026, de 28 de octubre, por el que se modifica el Real Decreto 1184/2020, de 29 de diciembre, por el que se establecen las metodologías de cálculo de los cargos del sistema gasista, de las retribuciones reguladas de los almacenamientos subterráneos básicos y de los cánones aplicados por su uso.",
+      "published": "2026-10-29",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22613",
+      "matched_keywords": [
+        "retribuci*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-22612",
+      "market": "ES",
+      "doc_type": "Real Decreto",
+      "title_original": "Real Decreto 921/2026, de 28 de octubre, por el que se regula la concesión directa de subvenciones a entidades locales para la ejecución de inversiones en infraestructuras públicas de relevancia deportiva y de interés público durante el ejercicio 2026.",
+      "published": "2026-10-29",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22612",
+      "matched_keywords": [
+        "formación profesional"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-22611",
+      "market": "ES",
+      "doc_type": "Real Decreto",
+      "title_original": "Real Decreto 920/2026, de 28 de octubre, por el que se regula la concesión directa de subvenciones a Administraciones Públicas y otras entidades para la ejecución de actuaciones de relevancia deportiva y de interés público durante el ejercicio 2026.",
+      "published": "2026-10-29",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22611",
+      "matched_keywords": [
+        "formación profesional"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000055020072",
+      "market": "FR",
+      "doc_type": "Décret",
+      "title_original": "Décret n° 2026-995 du 27 octobre 2026 portant création d'une aide exceptionnelle à destination des entreprises de moins de deux cent cinquante salariés ayant subi des dommages lors des troubles urbains intervenus en marge des manifestations des 17 et 18 octobre 2026",
+      "published": "2026-10-28",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055020072",
+      "matched_keywords": [
+        "salarié*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-22596",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 15 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el VII Convenio colectivo de Nokia Transformation Engineering & Consulting Services Spain, SLU.",
+      "published": "2026-10-28",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22596",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-22595",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 15 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de la Industria del Calzado.",
+      "published": "2026-10-28",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22595",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000055018122",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 22 octobre 2026 relatif à l'avenant n° 5 modifiant les dispositions de l'article 7 de l'accord interprofessionnel triennal 2026-2027-2028 d'Inter Rhône et portant sur le montant des cotisations de l'AOC Saint-Joseph pour l'année 2026",
+      "published": "2026-10-27",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055018122",
+      "matched_keywords": [
+        "cotisation*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000055017990",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 21 octobre 2026 modifiant l'arrêté du 9 novembre 2017 fixant le montant des rémunérations dues en contrepartie des services rendus par la direction de l'information légale et administrative",
+      "published": "2026-10-27",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055017990",
+      "matched_keywords": [
+        "rémunération*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "eu:32026R2359",
+      "market": "EU",
+      "doc_type": "Regulation",
+      "title_original": "Regulation (EU) 2026/2359 of the European Parliament and of the Council of 7 October 2026 amending Regulation (EC) No 883/2004 on the coordination of social security systems and Regulation (EC) No 987/2009 laying down the procedure for implementing Regulation (EC) No 883/2004 (Text with relevance for the EEA and Switzerland)",
+      "published": "2026-10-27",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R2359",
+      "matched_keywords": [
+        "social security",
+        "worker*"
+      ],
+      "matched_codes": [
+        "directory:05204020",
+        "directory:052050"
+      ]
+    }
+  ],
+  "run": {
+    "sources": [
+      {
+        "id": "eu",
+        "fetched": 63,
+        "new": 55,
+        "errors": []
+      },
+      {
+        "id": "fr",
+        "fetched": 253,
+        "new": 231,
+        "errors": []
+      },
+      {
+        "id": "es",
+        "fetched": 28,
+        "new": 26,
+        "errors": []
+      }
+    ],
+    "counts": {
+      "fetched": 344,
+      "new": 312,
+      "keyword_pass": 22,
+      "deferred_by_cap": 0,
+      "model_pass": 0,
+      "read": 0,
+      "published": 22,
+      "facts_dropped": 0,
+      "fields_not_generated": 0
+    },
+    "cost": {
+      "by_model": {},
+      "estimated_usd": 0.0,
+      "price_table_date": ""
+    }
+  },
+  "disclaimer": "Not legal advice. law-radar flags and summarises official texts. Read the source before acting.",
+  "attribution": "Sources: EUR-Lex / Publications Office of the EU (CC BY 4.0); DILA, Journal officiel (Licence Ouverte 2.0); Basado en datos de la Agencia Estatal Boletín Oficial del Estado."
+}
