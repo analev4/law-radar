@@ -1,0 +1,262 @@
+{
+  "schema_version": "1.0",
+  "week": "2026-W46",
+  "window": {
+    "since": "2026-11-01",
+    "until": "2026-11-09"
+  },
+  "mode": "no-ai",
+  "generated_by": "no-ai",
+  "icp": {
+    "name": "Ledgerly",
+    "config_sha256": "0c3a5d5e5015adc50b1e028d0832c2f4be493cfa3e5d230b7766532b3e7c0eef"
+  },
+  "nothing_relevant": false,
+  "entries": [
+    {
+      "kind": "no-ai",
+      "id": "eu:32026D1814",
+      "market": "EU",
+      "doc_type": "Decision",
+      "title_original": "Commission Delegated Decision (EU) 2026/1814 of 24 July 2026 amending and correcting Directive 2005/36/EC of the European Parliament and of the Council as regards evidence of formal qualifications and the titles of training courses (notified under document C(2026) 5051)",
+      "published": "2026-11-09",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D1814",
+      "matched_keywords": [
+        "vocational"
+      ],
+      "matched_codes": [
+        "directory:0510"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000055070507",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 6 novembre 2026 portant extension d'un accord régional sur la mise en place d'un régime Frais de santé des entreprises de travaux et services agricoles ruraux des Hauts-de-France au profit des salariés ne relevant pas des articles 2.1 et 2.2 de l'accord national interprofessionnel relatif à la prévoyance des cadres du 17 novembre 2017",
+      "published": "2026-11-08",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055070507",
+      "matched_keywords": [
+        "salarié*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23364",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 27 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el III Convenio colectivo de LogiRAIL, S.M.E., SA.",
+      "published": "2026-11-07",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23364",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23271",
+      "market": "ES",
+      "doc_type": "Ley",
+      "title_original": "Ley del Principado de Asturias 7/2026, de 15 de octubre, para la erradicación de la discriminación y para la igualdad real y efectiva de derechos de las personas lesbianas, gais, trans, bisexuales e intersexuales y de sus familias.",
+      "published": "2026-11-06",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23271",
+      "matched_keywords": [],
+      "matched_codes": [
+        "materia:4662"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23266",
+      "market": "ES",
+      "doc_type": "Real Decreto",
+      "title_original": "Real Decreto 951/2026, de 4 de noviembre, por el que se modifica el Real Decreto 1146/2006, de 6 de octubre, por el que se regula la relación laboral especial de residencia para la formación de especialistas en Ciencias de la Salud.",
+      "published": "2026-11-06",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23266",
+      "matched_keywords": [
+        "jornada"
+      ],
+      "matched_codes": [
+        "materia:4553"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23264",
+      "market": "ES",
+      "doc_type": "Acuerdo Internacional",
+      "title_original": "Acuerdo entre el Principado de Andorra y el Reino de España en materia de acceso a la educación secundaria postobligatoria y a la educación superior no universitaria, hecho en Madrid y Andorra la Vella el 23 de julio de 2026.",
+      "published": "2026-11-06",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23264",
+      "matched_keywords": [
+        "formación profesional"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "eu:32026R2401",
+      "market": "EU",
+      "doc_type": "Regulation",
+      "title_original": "Commission Implementing Regulation (EU) 2026/2401 of 29 October 2026 setting out the list and description of variables and their technical specifications, statistical classifications, breakdowns, and precision targets for the topic structure of labour costs pursuant to Regulation (EU) 2025/941 of the European Parliament and of the Council",
+      "published": "2026-11-05",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R2401",
+      "matched_keywords": [
+        "employ*",
+        "remunerat*",
+        "wage*"
+      ],
+      "matched_codes": [
+        "directory:0507",
+        "eurovoc:3273"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "eu:32026D2493",
+      "market": "EU",
+      "doc_type": "Decision",
+      "title_original": "Decision (EU) 2026/2493 of the European Parliament and of the Council of 21 October 2026 on the mobilisation of the European Globalisation Adjustment Fund for Displaced Workers following an application from Finland – EGF/2026/004 FI/Etelä-Suomi and Helsinki-Uusimaa paper",
+      "published": "2026-11-05",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D2493",
+      "matched_keywords": [
+        "employ*",
+        "worker*"
+      ],
+      "matched_codes": [
+        "directory:05203020"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23241",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 26 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de modificación del VII Convenio colectivo de Airbus Defence and Space, SAU; Airbus Operations, SL, y Airbus Helicopters España, SA.",
+      "published": "2026-11-05",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23241",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23240",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 19 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Unidad Editorial, SA.",
+      "published": "2026-11-05",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23240",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23239",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 19 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Unidad Editorial Información Deportiva, SL.",
+      "published": "2026-11-05",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23239",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23180",
+      "market": "ES",
+      "doc_type": "Decreto-ley",
+      "title_original": "Decreto-ley 3/2026, de 7 de agosto, por el cual se establecen medidas urgentes en materia de educación.",
+      "published": "2026-11-05",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23180",
+      "matched_keywords": [
+        "retribuci*"
+      ],
+      "matched_codes": [
+        "materia:6230"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23176",
+      "market": "ES",
+      "doc_type": "Real Decreto",
+      "title_original": "Real Decreto 957/2026, de 4 de noviembre, de desarrollo del régimen jurídico de la prestación económica por cuidado de menores afectados por cáncer u otra enfermedad grave en el sistema de la Seguridad Social.",
+      "published": "2026-11-05",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23176",
+      "matched_keywords": [
+        "jornada"
+      ],
+      "matched_codes": [
+        "materia:4553",
+        "materia:6499"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23105",
+      "market": "ES",
+      "doc_type": "Orden",
+      "title_original": "Orden EFD/1158/2026, de 28 de octubre, por la que se regula la organización y funcionamiento de la inspección educativa en el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.",
+      "published": "2026-11-04",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23105",
+      "matched_keywords": [
+        "formación profesional"
+      ],
+      "matched_codes": []
+    }
+  ],
+  "run": {
+    "sources": [
+      {
+        "id": "eu",
+        "fetched": 29,
+        "new": 29,
+        "errors": []
+      },
+      {
+        "id": "fr",
+        "fetched": 23,
+        "new": 23,
+        "errors": []
+      },
+      {
+        "id": "es",
+        "fetched": 32,
+        "new": 32,
+        "errors": []
+      }
+    ],
+    "counts": {
+      "fetched": 84,
+      "new": 84,
+      "keyword_pass": 14,
+      "deferred_by_cap": 0,
+      "model_pass": 0,
+      "read": 0,
+      "published": 14,
+      "facts_dropped": 0,
+      "fields_not_generated": 0
+    },
+    "cost": {
+      "by_model": {},
+      "estimated_usd": 0.0,
+      "price_table_date": ""
+    }
+  },
+  "disclaimer": "Not legal advice. law-radar flags and summarises official texts. Read the source before acting.",
+  "attribution": "Sources: EUR-Lex / Publications Office of the EU (CC BY 4.0); DILA, Journal officiel (Licence Ouverte 2.0); Basado en datos de la Agencia Estatal Boletín Oficial del Estado."
+}

@@ -1,0 +1,558 @@
+{
+ "week": "2026-W46",
+ "window": {
+  "since": "2026-11-01",
+  "until": "2026-11-09"
+ },
+ "counts": {
+  "fetched": 84,
+  "new": 84,
+  "keyword_pass": 14
+ },
+ "documents": [
+  {
+   "id": "eu:32026D2493",
+   "source": "eu",
+   "market": "EU",
+   "native_id": "32026D2493",
+   "title": "Decision (EU) 2026/2493 of the European Parliament and of the Council of 21 October 2026 on the mobilisation of the European Globalisation Adjustment Fund for Displaced Workers following an application from Finland – EGF/2026/004 FI/Etelä-Suomi and Helsinki-Uusimaa paper",
+   "language": "en",
+   "doc_type": "Decision",
+   "published": "2026-11-05",
+   "entry_into_force": "2026-11-05",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D2493",
+   "text_url": "http://publications.europa.eu/resource/celex/32026D2493",
+   "classification": {
+    "eurovoc": [
+     "1019",
+     "1375",
+     "1646",
+     "5158",
+     "8549",
+     "763",
+     "3516",
+     "723",
+     "6125",
+     "6251"
+    ],
+    "eurovoc_labels": [
+     "Finland",
+     "pulp and paper industry",
+     "dismissal",
+     "general budget (EU)",
+     "European Globalisation Adjustment Fund",
+     "commitment of expenditure",
+     "reintegration into working life",
+     "employment aid",
+     "globalisation",
+     "Southern Finland"
+    ],
+    "directory": [
+     "05203020"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "eu:32026R2401",
+   "source": "eu",
+   "market": "EU",
+   "native_id": "32026R2401",
+   "title": "Commission Implementing Regulation (EU) 2026/2401 of 29 October 2026 setting out the list and description of variables and their technical specifications, statistical classifications, breakdowns, and precision targets for the topic structure of labour costs pursuant to Regulation (EU) 2025/941 of the European Parliament and of the Council",
+   "language": "en",
+   "doc_type": "Regulation",
+   "published": "2026-11-05",
+   "entry_into_force": "2026-11-25",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R2401",
+   "text_url": "http://publications.europa.eu/resource/celex/32026R2401",
+   "classification": {
+    "eurovoc": [
+     "1737",
+     "1895",
+     "3537",
+     "6030",
+     "616",
+     "4258",
+     "4262",
+     "3273",
+     "279"
+    ],
+    "eurovoc_labels": [
+     "labour force",
+     "statistical method",
+     "employment statistics",
+     "data collection",
+     "exchange of information",
+     "EU statistics",
+     "economic statistics",
+     "remuneration of work",
+     "wage cost"
+    ],
+    "directory": [
+     "131020",
+     "0507"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "eu:32026D1814",
+   "source": "eu",
+   "market": "EU",
+   "native_id": "32026D1814",
+   "title": "Commission Delegated Decision (EU) 2026/1814 of 24 July 2026 amending and correcting Directive 2005/36/EC of the European Parliament and of the Council as regards evidence of formal qualifications and the titles of training courses (notified under document C(2026) 5051)",
+   "language": "en",
+   "doc_type": "Decision",
+   "published": "2026-11-09",
+   "entry_into_force": "2026-11-09",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D1814",
+   "text_url": "http://publications.europa.eu/resource/celex/32026D1814",
+   "classification": {
+    "eurovoc": [
+     "1638",
+     "206",
+     "2932",
+     "5283",
+     "532",
+     "6099",
+     "2789",
+     "4167"
+    ],
+    "eurovoc_labels": [
+     "freedom to provide services",
+     "administrative cooperation",
+     "recognition of diplomas",
+     "EU Member State",
+     "right of establishment",
+     "recognition of vocational training qualifications",
+     "health care profession",
+     "town-planning profession"
+    ],
+    "directory": [
+     "0610",
+     "0510",
+     "062050"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055070507",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055070507",
+   "title": "Arrêté du 6 novembre 2026 portant extension d'un accord régional sur la mise en place d'un régime Frais de santé des entreprises de travaux et services agricoles ruraux des Hauts-de-France au profit des salariés ne relevant pas des articles 2.1 et 2.2 de l'accord national interprofessionnel relatif à la prévoyance des cadres du 17 novembre 2017",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-11-08",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055070507",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261108-210452.tar.gz#JORFTEXT000055070507",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Conventions collectives",
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "department": [
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "nor": [
+     "AGRS2628818A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23105",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23105",
+   "title": "Orden EFD/1158/2026, de 28 de octubre, por la que se regula la organización y funcionamiento de la inspección educativa en el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.",
+   "language": "es",
+   "doc_type": "Orden",
+   "published": "2026-11-04",
+   "entry_into_force": "2026-11-24",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23105",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23105",
+   "classification": {
+    "materias": [
+     "784",
+     "1956",
+     "3114",
+     "3202",
+     "3857",
+     "4280"
+    ],
+    "materias_labels": [
+     "Centros de enseñanza",
+     "Cuerpo de Inspectores de Educación",
+     "Educación",
+     "Enseñanza",
+     "Funcionarios públicos",
+     "Inspección educativa"
+    ],
+    "department": [
+     "Ministerio de Educación, Formación Profesional y Deportes"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Organización"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23176",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23176",
+   "title": "Real Decreto 957/2026, de 4 de noviembre, de desarrollo del régimen jurídico de la prestación económica por cuidado de menores afectados por cáncer u otra enfermedad grave en el sistema de la Seguridad Social.",
+   "language": "es",
+   "doc_type": "Real Decreto",
+   "published": "2026-11-05",
+   "entry_into_force": "2027-01-05",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23176",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23176",
+   "classification": {
+    "materias": [
+     "327",
+     "420",
+     "3193",
+     "3807",
+     "4553",
+     "4925",
+     "5703",
+     "6499"
+    ],
+    "materias_labels": [
+     "Asistencia sanitaria",
+     "Ayudas",
+     "Enfermedades",
+     "Formularios administrativos",
+     "Jornada laboral",
+     "Menores",
+     "Procedimiento administrativo",
+     "Seguridad Social"
+    ],
+    "department": [
+     "Ministerio de Inclusión, Seguridad Social y Migraciones"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Seguridad Social. Prestaciones"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23180",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23180",
+   "title": "Decreto-ley 3/2026, de 7 de agosto, por el cual se establecen medidas urgentes en materia de educación.",
+   "language": "es",
+   "doc_type": "Decreto-ley",
+   "published": "2026-11-05",
+   "entry_into_force": "2026-08-12",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23180",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23180",
+   "classification": {
+    "materias": [
+     "433",
+     "784",
+     "787",
+     "8053",
+     "3114",
+     "3842",
+     "6230"
+    ],
+    "materias_labels": [
+     "Baleares",
+     "Centros de enseñanza",
+     "Centros de enseñanza privada",
+     "Ciencias de la Salud",
+     "Educación",
+     "Función Pública",
+     "Retribuciones"
+    ],
+    "department": [
+     "Comunidad Autónoma de las Illes Balears"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Educación"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23239",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23239",
+   "title": "Resolución de 19 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Unidad Editorial Información Deportiva, SL.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-11-05",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23239",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23239",
+   "classification": {
+    "materias": [
+     "1684",
+     "5671"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Prensa"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23240",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23240",
+   "title": "Resolución de 19 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Unidad Editorial, SA.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-11-05",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23240",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23240",
+   "classification": {
+    "materias": [
+     "1684",
+     "5671"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Prensa"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23241",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23241",
+   "title": "Resolución de 26 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de modificación del VII Convenio colectivo de Airbus Defence and Space, SAU; Airbus Operations, SL, y Airbus Helicopters España, SA.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-11-05",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23241",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23241",
+   "classification": {
+    "materias": [
+     "100",
+     "1684",
+     "4148"
+    ],
+    "materias_labels": [
+     "Aeronaves",
+     "Convenios colectivos",
+     "Industria del armamento"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23264",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23264",
+   "title": "Acuerdo entre el Principado de Andorra y el Reino de España en materia de acceso a la educación secundaria postobligatoria y a la educación superior no universitaria, hecho en Madrid y Andorra la Vella el 23 de julio de 2026.",
+   "language": "es",
+   "doc_type": "Acuerdo Internacional",
+   "published": "2026-11-06",
+   "entry_into_force": "2026-09-23",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23264",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23264",
+   "classification": {
+    "materias": [
+     "71",
+     "5691",
+     "426",
+     "1689",
+     "3124",
+     "3217",
+     "4021",
+     "6893"
+    ],
+    "materias_labels": [
+     "Acuerdos internacionales",
+     "Andorra",
+     "Bachillerato",
+     "Cooperación educativa",
+     "Educación Secundaria",
+     "Enseñanza de Formación Profesional",
+     "Homologación de títulos académicos",
+     "Títulos académicos y profesionales"
+    ],
+    "department": [
+     "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Acuerdos internacionales administrativos"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23266",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23266",
+   "title": "Real Decreto 951/2026, de 4 de noviembre, por el que se modifica el Real Decreto 1146/2006, de 6 de octubre, por el que se regula la relación laboral especial de residencia para la formación de especialistas en Ciencias de la Salud.",
+   "language": "es",
+   "doc_type": "Real Decreto",
+   "published": "2026-11-06",
+   "entry_into_force": "2026-11-07",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23266",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23266",
+   "classification": {
+    "materias": [
+     "8053",
+     "8729",
+     "4553",
+     "8114",
+     "6657",
+     "6910"
+    ],
+    "materias_labels": [
+     "Ciencias de la Salud",
+     "Formación Sanitaria Especializada",
+     "Jornada laboral",
+     "Servicios Públicos de Salud",
+     "Sistema Nacional de Salud",
+     "Trabajo"
+    ],
+    "department": [
+     "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Especialidades sanitarias"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23271",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23271",
+   "title": "Ley del Principado de Asturias 7/2026, de 15 de octubre, para la erradicación de la discriminación y para la igualdad real y efectiva de derechos de las personas lesbianas, gais, trans, bisexuales e intersexuales y de sus familias.",
+   "language": "es",
+   "doc_type": "Ley",
+   "published": "2026-11-06",
+   "entry_into_force": "2026-12-23",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23271",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23271",
+   "classification": {
+    "materias": [
+     "379",
+     "4662",
+     "5281"
+    ],
+    "materias_labels": [
+     "Asturias",
+     "Igualdad de género",
+     "Organización de las Comunidades Autónomas"
+    ],
+    "department": [
+     "Comunidad Autónoma del Principado de Asturias"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Derecho a la igualdad"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": [
+    "32000L0078"
+   ]
+  },
+  {
+   "id": "es:BOE-A-2026-23364",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23364",
+   "title": "Resolución de 27 de octubre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el III Convenio colectivo de LogiRAIL, S.M.E., SA.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-11-07",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23364",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23364",
+   "classification": {
+    "materias": [],
+    "materias_labels": [],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  }
+ ]
+}
