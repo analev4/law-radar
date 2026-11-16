@@ -1,0 +1,262 @@
+{
+  "schema_version": "1.0",
+  "week": "2026-W47",
+  "window": {
+    "since": "2026-11-08",
+    "until": "2026-11-16"
+  },
+  "mode": "no-ai",
+  "generated_by": "no-ai",
+  "icp": {
+    "name": "Ledgerly",
+    "config_sha256": "0c3a5d5e5015adc50b1e028d0832c2f4be493cfa3e5d230b7766532b3e7c0eef"
+  },
+  "nothing_relevant": false,
+  "entries": [
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23894",
+      "market": "ES",
+      "doc_type": "Orden",
+      "title_original": "Orden EFD/1217/2026, de 11 de noviembre, por la que se aprueba el Reglamento de Funcionamiento de la Comisión Estatal Estratégica de la Formación Profesional.",
+      "published": "2026-11-16",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23894",
+      "matched_keywords": [
+        "formación profesional"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000055088553",
+      "market": "FR",
+      "doc_type": "Décret",
+      "title_original": "Décret n° 2026-1048 du 13 novembre 2026 modifiant la composition de la Commission nationale de la négociation collective maritime, de l'emploi et de la formation professionnelle",
+      "published": "2026-11-15",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055088553",
+      "matched_keywords": [
+        "formation professionnelle"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000055087850",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 9 novembre 2026 fixant les modalités de calcul et de paiement de la cotisation additionnelle due à la Caisse de garantie du logement locatif social",
+      "published": "2026-11-14",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055087850",
+      "matched_keywords": [
+        "cotisation*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23882",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 3 de noviembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el IV Convenio colectivo de Grupo EDP España 2026-2027.",
+      "published": "2026-11-14",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23882",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23881",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 3 de noviembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo del sector de harinas panificables y sémolas para los años 2026, 2027, 2028 y 2029.",
+      "published": "2026-11-14",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23881",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23880",
+      "market": "ES",
+      "doc_type": "Resolución",
+      "title_original": "Resolución de 3 de noviembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo derivado del Convenio colectivo de Provivienda.",
+      "published": "2026-11-14",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23880",
+      "matched_keywords": [
+        "convenio colectivo"
+      ],
+      "matched_codes": [
+        "materia:1684"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23824",
+      "market": "ES",
+      "doc_type": "Orden",
+      "title_original": "Orden EFD/1213/2026, de 6 de noviembre, por la que se regula la asignación de materias optativas en Educación Secundaria Obligatoria y en Bachillerato a las especialidades de los cuerpos de catedráticos de enseñanza secundaria y de profesores de enseñanza secundaria, en el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.",
+      "published": "2026-11-14",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23824",
+      "matched_keywords": [
+        "formación profesional"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "eu:32026R2501",
+      "market": "EU",
+      "doc_type": "Regulation",
+      "title_original": "Commission Regulation (EU) 2026/2501 of 12 November 2026 amending Annex XVII to Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) as regards lead in certain fishing tackle",
+      "published": "2026-11-13",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R2501",
+      "matched_keywords": [],
+      "matched_codes": [
+        "directory:05202010"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "eu:32026D2510",
+      "market": "EU",
+      "doc_type": "Decision",
+      "title_original": "Commission Decision (EU) 2026/2510 of 12 November 2026 confirming the participation of Ireland in Council Decision (EU) 2023/1076 on the conclusion, on behalf of the European Union, of the Council of Europe Convention on preventing and combating violence against women and domestic violence with regard to matters related to judicial cooperation in criminal matters, asylum and non-refoulement",
+      "published": "2026-11-13",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D2510",
+      "matched_keywords": [],
+      "matched_codes": [
+        "directory:05200520"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "eu:32026R1436",
+      "market": "EU",
+      "doc_type": "Regulation",
+      "title_original": "Commission Delegated Regulation (EU) 2026/1436 of 1 July 2026 supplementing Directive (EU) 2024/2841 of the European Parliament and of the Council as regards setting the QR code on the physical version of the European Disability Card and setting the QR code and establishing common technical specifications that ensure the security of the physical version of the European Parking Card for persons with disabilities, as well as interoperability matters",
+      "published": "2026-11-12",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1436",
+      "matched_keywords": [],
+      "matched_codes": [
+        "directory:0520"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000055078906",
+      "market": "FR",
+      "doc_type": "Arrêté",
+      "title_original": "Arrêté du 6 novembre 2026 portant extension d'un accord régional sur la mise en place d'un régime de prévoyance des entreprises de travaux et services agricoles ruraux des Hauts-de-France au profit des salariés ne relevant pas des articles 2.1 et 2.2 de l'accord national interprofessionnel relatif à la prévoyance des cadres du 17 novembre 2017",
+      "published": "2026-11-11",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055078906",
+      "matched_keywords": [
+        "salarié*"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23606",
+      "market": "ES",
+      "doc_type": "Real Decreto",
+      "title_original": "Real Decreto 956/2026, de 4 de noviembre, por el que se regula la estructura y funcionamiento del Centro para la Innovación y el Desarrollo de la Educación a Distancia.",
+      "published": "2026-11-11",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23606",
+      "matched_keywords": [
+        "formación profesional"
+      ],
+      "matched_codes": []
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23604",
+      "market": "ES",
+      "doc_type": "Real Decreto-ley",
+      "title_original": "Real Decreto-ley 35/2026, de 10 de noviembre, de medidas urgentes para el reconocimiento y protección a las familias monoparentales y otras medidas de apoyo a familias.",
+      "published": "2026-11-11",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23604",
+      "matched_keywords": [],
+      "matched_codes": [
+        "materia:6499"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "es:BOE-A-2026-23603",
+      "market": "ES",
+      "doc_type": "Real Decreto-ley",
+      "title_original": "Real Decreto-ley 34/2026, de 10 de noviembre, de medidas urgentes para el refuerzo de la seguridad operacional en el transporte ferroviario y la protección social del personal ferroviario.",
+      "published": "2026-11-11",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23603",
+      "matched_keywords": [
+        "jornada",
+        "trabajador*"
+      ],
+      "matched_codes": [
+        "materia:4553",
+        "materia:6909"
+      ]
+    },
+    {
+      "kind": "no-ai",
+      "id": "fr:JORFTEXT000055075486",
+      "market": "FR",
+      "doc_type": "Décret",
+      "title_original": "Décret n° 2026-1037 du 6 novembre 2026 relatif aux conditions et modalités dérogatoires de calcul de la réduction générale dégressive unique prévues au III bis de l'article L. 241-13 du code de la sécurité sociale en fonction du salaire minimum national professionnel",
+      "published": "2026-11-10",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075486",
+      "matched_keywords": [
+        "salaire*"
+      ],
+      "matched_codes": []
+    }
+  ],
+  "run": {
+    "sources": [
+      {
+        "id": "eu",
+        "fetched": 74,
+        "new": 71,
+        "errors": []
+      },
+      {
+        "id": "fr",
+        "fetched": 181,
+        "new": 160,
+        "errors": []
+      },
+      {
+        "id": "es",
+        "fetched": 43,
+        "new": 36,
+        "errors": []
+      }
+    ],
+    "counts": {
+      "fetched": 298,
+      "new": 267,
+      "keyword_pass": 15,
+      "deferred_by_cap": 0,
+      "model_pass": 0,
+      "read": 0,
+      "published": 15,
+      "facts_dropped": 0,
+      "fields_not_generated": 0
+    },
+    "cost": {
+      "by_model": {},
+      "estimated_usd": 0.0,
+      "price_table_date": ""
+    }
+  },
+  "disclaimer": "Not legal advice. law-radar flags and summarises official texts. Read the source before acting.",
+  "attribution": "Sources: EUR-Lex / Publications Office of the EU (CC BY 4.0); DILA, Journal officiel (Licence Ouverte 2.0); Basado en datos de la Agencia Estatal Boletín Oficial del Estado."
+}

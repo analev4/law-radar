@@ -1,0 +1,575 @@
+{
+ "week": "2026-W47",
+ "window": {
+  "since": "2026-11-08",
+  "until": "2026-11-16"
+ },
+ "counts": {
+  "fetched": 298,
+  "new": 267,
+  "keyword_pass": 15
+ },
+ "documents": [
+  {
+   "id": "eu:32026R1436",
+   "source": "eu",
+   "market": "EU",
+   "native_id": "32026R1436",
+   "title": "Commission Delegated Regulation (EU) 2026/1436 of 1 July 2026 supplementing Directive (EU) 2024/2841 of the European Parliament and of the Council as regards setting the QR code on the physical version of the European Disability Card and setting the QR code and establishing common technical specifications that ensure the security of the physical version of the European Parking Card for persons with disabilities, as well as interoperability matters",
+   "language": "en",
+   "doc_type": "Regulation",
+   "published": "2026-11-12",
+   "entry_into_force": "2026-12-02",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1436",
+   "text_url": "http://publications.europa.eu/resource/celex/32026R1436",
+   "classification": {
+    "eurovoc": [
+     "1231",
+     "1633",
+     "3346",
+     "5429",
+     "3645",
+     "5684",
+     "3364"
+    ],
+    "eurovoc_labels": [
+     "disabled person",
+     "free movement of persons",
+     "European social policy",
+     "parking area",
+     "technical specification",
+     "systems interconnection",
+     "health card"
+    ],
+    "directory": [
+     "0520"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "eu:32026D2510",
+   "source": "eu",
+   "market": "EU",
+   "native_id": "32026D2510",
+   "title": "Commission Decision (EU) 2026/2510 of 12 November 2026 confirming the participation of Ireland in Council Decision (EU) 2023/1076 on the conclusion, on behalf of the European Union, of the Council of Europe Convention on preventing and combating violence against women and domestic violence with regard to matters related to judicial cooperation in criminal matters, asylum and non-refoulement",
+   "language": "en",
+   "doc_type": "Decision",
+   "published": "2026-11-13",
+   "entry_into_force": "2026-11-16",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D2510",
+   "text_url": "http://publications.europa.eu/resource/celex/32026D2510",
+   "classification": {
+    "eurovoc": [
+     "1504",
+     "2901",
+     "3472",
+     "3913",
+     "5597",
+     "585",
+     "454",
+     "5550",
+     "6727",
+     "950"
+    ],
+    "eurovoc_labels": [
+     "Ireland",
+     "ratification of an agreement",
+     "European convention",
+     "gender equality",
+     "right of asylum",
+     "women's rights",
+     "sexual discrimination",
+     "judicial cooperation in criminal matters in the EU",
+     "help for victims",
+     "removal"
+    ],
+    "directory": [
+     "193020",
+     "05200520",
+     "113070"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "eu:32026R2501",
+   "source": "eu",
+   "market": "EU",
+   "native_id": "32026R2501",
+   "title": "Commission Regulation (EU) 2026/2501 of 12 November 2026 amending Annex XVII to Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) as regards lead in certain fishing tackle",
+   "language": "en",
+   "doc_type": "Regulation",
+   "published": "2026-11-13",
+   "entry_into_force": "2026-12-03",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R2501",
+   "text_url": "http://publications.europa.eu/resource/celex/32026R2501",
+   "classification": {
+    "eurovoc": [
+     "2081",
+     "2428",
+     "2825",
+     "3135",
+     "3730",
+     "4036",
+     "5396",
+     "997",
+     "3434",
+     "2305"
+    ],
+    "eurovoc_labels": [
+     "marketing standard",
+     "lead",
+     "environmental protection",
+     "toxic substance",
+     "health risk",
+     "product safety",
+     "hunting",
+     "fishing net",
+     "firearms and munitions",
+     "freshwater fishing"
+    ],
+    "directory": [
+     "05202010",
+     "133018",
+     "15102050"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055075486",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055075486",
+   "title": "Décret n° 2026-1037 du 6 novembre 2026 relatif aux conditions et modalités dérogatoires de calcul de la réduction générale dégressive unique prévues au III bis de l'article L. 241-13 du code de la sécurité sociale en fonction du salaire minimum national professionnel",
+   "language": "fr",
+   "doc_type": "Décret",
+   "published": "2026-11-10",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075486",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261110-213159.tar.gz#JORFTEXT000055075486",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'action et des comptes publics"
+    ],
+    "department": [
+     "Ministère de l'action et des comptes publics"
+    ],
+    "nor": [
+     "CPPS2619226D"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055078906",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055078906",
+   "title": "Arrêté du 6 novembre 2026 portant extension d'un accord régional sur la mise en place d'un régime de prévoyance des entreprises de travaux et services agricoles ruraux des Hauts-de-France au profit des salariés ne relevant pas des articles 2.1 et 2.2 de l'accord national interprofessionnel relatif à la prévoyance des cadres du 17 novembre 2017",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-11-11",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055078906",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261111-211545.tar.gz#JORFTEXT000055078906",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Conventions collectives",
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "department": [
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "nor": [
+     "AGRS2628816A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055087850",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055087850",
+   "title": "Arrêté du 9 novembre 2026 fixant les modalités de calcul et de paiement de la cotisation additionnelle due à la Caisse de garantie du logement locatif social",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-11-14",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055087850",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261114-210430.tar.gz#JORFTEXT000055087850",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de la ville et du logement"
+    ],
+    "department": [
+     "Ministère de la ville et du logement"
+    ],
+    "nor": [
+     "VLOL2629038A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055088553",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055088553",
+   "title": "Décret n° 2026-1048 du 13 novembre 2026 modifiant la composition de la Commission nationale de la négociation collective maritime, de l'emploi et de la formation professionnelle",
+   "language": "fr",
+   "doc_type": "Décret",
+   "published": "2026-11-15",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055088553",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261115-205552.tar.gz#JORFTEXT000055088553",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de la transition écologique, de la biodiversité et des négociations internationales sur le climat et la nature"
+    ],
+    "department": [
+     "Ministère de la transition écologique, de la biodiversité et des négociations internationales sur le climat et la nature"
+    ],
+    "nor": [
+     "TECM2615827D"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23603",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23603",
+   "title": "Real Decreto-ley 34/2026, de 10 de noviembre, de medidas urgentes para el refuerzo de la seguridad operacional en el transporte ferroviario y la protección social del personal ferroviario.",
+   "language": "es",
+   "doc_type": "Real Decreto-ley",
+   "published": "2026-11-11",
+   "entry_into_force": "2026-11-11",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23603",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23603",
+   "classification": {
+    "materias": [
+     "1337",
+     "3677",
+     "4553",
+     "4555",
+     "7921",
+     "6497",
+     "6909"
+    ],
+    "materias_labels": [
+     "Conductores de vehículos de motor",
+     "Ferrocarriles",
+     "Jornada laboral",
+     "Jubilación",
+     "Red Ferroviaria de Interés General",
+     "Seguridad industrial",
+     "Trabajadores"
+    ],
+    "department": [
+     "Jefatura del Estado"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Medidas urgentes"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23604",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23604",
+   "title": "Real Decreto-ley 35/2026, de 10 de noviembre, de medidas urgentes para el reconocimiento y protección a las familias monoparentales y otras medidas de apoyo a familias.",
+   "language": "es",
+   "doc_type": "Real Decreto-ley",
+   "published": "2026-11-11",
+   "entry_into_force": "2026-11-12",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23604",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23604",
+   "classification": {
+    "materias": [
+     "204",
+     "329",
+     "420",
+     "3076",
+     "3599",
+     "3602",
+     "3790",
+     "4925",
+     "5686",
+     "6499",
+     "6931"
+    ],
+    "materias_labels": [
+     "Alimentos entre parientes",
+     "Asistencia social",
+     "Ayudas",
+     "Divorcio",
+     "Familia",
+     "Familias numerosas",
+     "Fondos de dinero",
+     "Menores",
+     "Presupuestos Generales del Estado",
+     "Seguridad Social",
+     "Transporte público"
+    ],
+    "department": [
+     "Jefatura del Estado"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Medidas urgentes"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23606",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23606",
+   "title": "Real Decreto 956/2026, de 4 de noviembre, por el que se regula la estructura y funcionamiento del Centro para la Innovación y el Desarrollo de la Educación a Distancia.",
+   "language": "es",
+   "doc_type": "Real Decreto",
+   "published": "2026-11-11",
+   "entry_into_force": "2026-11-12",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23606",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23606",
+   "classification": {
+    "materias": [
+     "766",
+     "3203",
+     "5454",
+     "5278"
+    ],
+    "materias_labels": [
+     "Centro para la Innovación y Desarrollo de la Educación a Distancia",
+     "Enseñanza a Distancia",
+     "Ministerio de Educación Formación Profesional y Deportes",
+     "Organización de la Administración del Estado"
+    ],
+    "department": [
+     "Ministerio de Educación, Formación Profesional y Deportes"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Organización"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23824",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23824",
+   "title": "Orden EFD/1213/2026, de 6 de noviembre, por la que se regula la asignación de materias optativas en Educación Secundaria Obligatoria y en Bachillerato a las especialidades de los cuerpos de catedráticos de enseñanza secundaria y de profesores de enseñanza secundaria, en el ámbito de gestión del Ministerio de Educación, Formación Profesional y Deportes.",
+   "language": "es",
+   "doc_type": "Orden",
+   "published": "2026-11-14",
+   "entry_into_force": "2026-12-04",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23824",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23824",
+   "classification": {
+    "materias": [
+     "426",
+     "1852",
+     "2263",
+     "3125",
+     "5454",
+     "5752"
+    ],
+    "materias_labels": [
+     "Bachillerato",
+     "Cuerpo de Catedráticos de Enseñanza Secundaria",
+     "Currículo",
+     "Educación Secundaria Obligatoria",
+     "Ministerio de Educación Formación Profesional y Deportes",
+     "Profesorado"
+    ],
+    "department": [
+     "Ministerio de Educación, Formación Profesional y Deportes"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Educación"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23880",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23880",
+   "title": "Resolución de 3 de noviembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo derivado del Convenio colectivo de Provivienda.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-11-14",
+   "entry_into_force": "2027-01-01",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23880",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23880",
+   "classification": {
+    "materias": [
+     "1684",
+     "7162"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Viviendas"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23881",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23881",
+   "title": "Resolución de 3 de noviembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo del sector de harinas panificables y sémolas para los años 2026, 2027, 2028 y 2029.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-11-14",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23881",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23881",
+   "classification": {
+    "materias": [
+     "1684",
+     "3988",
+     "6530"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Harinas",
+     "Sémolas"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23882",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23882",
+   "title": "Resolución de 3 de noviembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el IV Convenio colectivo de Grupo EDP España 2026-2027.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-11-14",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23882",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23882",
+   "classification": {
+    "materias": [
+     "1684",
+     "3188",
+     "3889"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Energía eléctrica",
+     "Gas"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-23894",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-23894",
+   "title": "Orden EFD/1217/2026, de 11 de noviembre, por la que se aprueba el Reglamento de Funcionamiento de la Comisión Estatal Estratégica de la Formación Profesional.",
+   "language": "es",
+   "doc_type": "Orden",
+   "published": "2026-11-16",
+   "entry_into_force": "2026-11-17",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23894",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-23894",
+   "classification": {
+    "materias": [
+     "1232",
+     "1478",
+     "3217",
+     "5454",
+     "5278"
+    ],
+    "materias_labels": [
+     "Comisiones de Control y Seguimiento",
+     "Consejo General de Formación Profesional",
+     "Enseñanza de Formación Profesional",
+     "Ministerio de Educación Formación Profesional y Deportes",
+     "Organización de la Administración del Estado"
+    ],
+    "department": [
+     "Ministerio de Educación, Formación Profesional y Deportes"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Comisión Estatal Estratégica de la Formación Profesional. Reglamento"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  }
+ ]
+}
