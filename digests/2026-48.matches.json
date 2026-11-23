@@ -1,0 +1,1059 @@
+{
+ "week": "2026-W48",
+ "window": {
+  "since": "2026-11-15",
+  "until": "2026-11-23"
+ },
+ "counts": {
+  "fetched": 406,
+  "new": 362,
+  "keyword_pass": 26
+ },
+ "documents": [
+  {
+   "id": "eu:32026R2530",
+   "source": "eu",
+   "market": "EU",
+   "native_id": "32026R2530",
+   "title": "Commission Regulation (EU) 2026/2530 of 16 November 2026 amending Annex XVII to Regulation (EC) No 1907/2006 of the European Parliament and of the Council concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) as regards lead in gunshot",
+   "language": "en",
+   "doc_type": "Regulation",
+   "published": "2026-11-17",
+   "entry_into_force": "2026-12-07",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R2530",
+   "text_url": "http://publications.europa.eu/resource/celex/32026R2530",
+   "classification": {
+    "eurovoc": [
+     "2081",
+     "2428",
+     "2825",
+     "3135",
+     "3730",
+     "5451",
+     "4036",
+     "5396",
+     "2745",
+     "3434"
+    ],
+    "eurovoc_labels": [
+     "marketing standard",
+     "lead",
+     "environmental protection",
+     "toxic substance",
+     "health risk",
+     "market approval",
+     "product safety",
+     "hunting",
+     "sports equipment",
+     "firearms and munitions"
+    ],
+    "directory": [
+     "05202010",
+     "133018",
+     "15102050"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "eu:22026D2447",
+   "source": "eu",
+   "market": "EU",
+   "native_id": "22026D2447",
+   "title": "Decision of the EEA Joint Committee No 215/2026 of 10 July 2026 amending Annex XIII (Transport) to the EEA Agreement [2026/2447]",
+   "language": "en",
+   "doc_type": "Decision",
+   "published": "2026-11-19",
+   "entry_into_force": "2026-07-11",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22026D2447",
+   "text_url": "http://publications.europa.eu/resource/celex/22026D2447",
+   "classification": {
+    "eurovoc": [
+     "4047",
+     "4509",
+     "4511",
+     "4533",
+     "5618",
+     "2349",
+     "2868",
+     "6345",
+     "5498",
+     "5870",
+     "2325",
+     "5324"
+    ],
+    "eurovoc_labels": [
+     "road safety",
+     "carriage of goods",
+     "carriage of passengers",
+     "road transport",
+     "European Economic Area",
+     "drivers",
+     "professional qualifications",
+     "continuing vocational training",
+     "codification of EU law",
+     "revision of an agreement",
+     "driving licence",
+     "driving instruction"
+    ],
+    "directory": [
+     "11401010"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055094916",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055094916",
+   "title": "Arrêté du 5 novembre 2026 portant extension de l'accord interprofessionnel conclu le 16 juin 2026 dans le cadre du Comité national pour la promotion de l'œuf (CNPO) relatif à l'établissement des cotisations dans le secteur des œufs de consommation",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-11-17",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055094916",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261117-212708.tar.gz#JORFTEXT000055094916",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "department": [
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "nor": [
+     "AGRT2624920A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055102946",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055102946",
+   "title": "Arrêté du 6 novembre 2026 portant extension d'un avenant à un accord conclu dans le cadre de la convention collective nationale de la branche du secteur des particuliers employeurs et de l'emploi à domicile (n° 3239)",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-11-19",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055102946",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261119-214726.tar.gz#JORFTEXT000055102946",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Conventions collectives",
+     "Ministère du travail et des solidarités"
+    ],
+    "department": [
+     "Ministère du travail et des solidarités"
+    ],
+    "nor": [
+     "TRST2629060A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055111851",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055111851",
+   "title": "Arrêté du 10 novembre 2026 relatif aux modalités de collecte des cotisations interprofessionnelles dues à l'importation au profit de l'Association réunionnaise interprofessionnelle du bétail de la viande et du lait (ARIBEV)",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-11-20",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055111851",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261120-222218.tar.gz#JORFTEXT000055111851",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère de l'action et des comptes publics"
+    ],
+    "department": [
+     "Ministère de l'action et des comptes publics"
+    ],
+    "nor": [
+     "CPPD2625030A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055112242",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055112242",
+   "title": "Arrêté du 18 novembre 2026 portant extension d'un avenant à l'accord départemental instituant une assurance complémentaire frais de santé et un régime de prévoyance pour les salariés agricoles non cadres des Bouches-du-Rhône",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-11-20",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055112242",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261120-222218.tar.gz#JORFTEXT000055112242",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Conventions collectives",
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "department": [
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "nor": [
+     "AGRS2628977A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055118180",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055118180",
+   "title": "Décret n° 2026-1069 du 19 novembre 2026 modifiant le décret n° 2009-552 du 19 mai 2009 relatif au groupe d'experts sur le salaire minimum de croissance prévu par l'article 24 de la loi n° 2008-1258 du 3 décembre 2008 en faveur des revenus du travail",
+   "language": "fr",
+   "doc_type": "Décret",
+   "published": "2026-11-21",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055118180",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261121-212437.tar.gz#JORFTEXT000055118180",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Textes généraux",
+     "Ministère du travail et des solidarités"
+    ],
+    "department": [
+     "Ministère du travail et des solidarités"
+    ],
+    "nor": [
+     "TRST2627748D"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055118802",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055118802",
+   "title": "Arrêté du 18 novembre 2026 portant extension d'un accord relatif à la constitution d'une commission paritaire nationale de l'emploi et de la formation professionnelle des entreprises des activités hippiques",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-11-21",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055118802",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261121-212437.tar.gz#JORFTEXT000055118802",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Conventions collectives",
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "department": [
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "nor": [
+     "AGRS2628979A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "fr:JORFTEXT000055118812",
+   "source": "fr",
+   "market": "FR",
+   "native_id": "JORFTEXT000055118812",
+   "title": "Arrêté du 18 novembre 2026 portant extension d'un avenant à un accord collectif concernant l'instauration d'une cotisation patronale destinée à financer un fonds mutualiste dans le cadre de l'inaptitude professionnelle du salarié dans les branches production agricole-coopératives d'utilisation de matériels agricoles et établissements de travaux agricoles en Nouvelle-Aquitaine",
+   "language": "fr",
+   "doc_type": "Arrêté",
+   "published": "2026-11-21",
+   "entry_into_force": null,
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055118812",
+   "text_url": "https://echanges.dila.gouv.fr/OPENDATA/JORF/JORF_20261121-212437.tar.gz#JORFTEXT000055118812",
+   "classification": {
+    "headings": [
+     "Journal officiel \"Lois et Décrets\"",
+     "Décrets, arrêtés, circulaires",
+     "Conventions collectives",
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "department": [
+     "Ministère de l'agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+    ],
+    "nor": [
+     "AGRS2628980A"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-24119",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24119",
+   "title": "Real Decreto-ley 37/2026, de 17 de noviembre, por el que se aprueban medidas urgentes en materia de retribuciones del personal al servicio del sector público.",
+   "language": "es",
+   "doc_type": "Real Decreto-ley",
+   "published": "2026-11-18",
+   "entry_into_force": "2026-11-19",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24119",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24119",
+   "classification": {
+    "materias": [
+     "1758",
+     "3159",
+     "3842",
+     "3857",
+     "6230"
+    ],
+    "materias_labels": [
+     "Créditos Extraordinarios y Suplementarios",
+     "Empleados públicos",
+     "Función Pública",
+     "Funcionarios públicos",
+     "Retribuciones"
+    ],
+    "department": [
+     "Jefatura del Estado"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Medidas urgentes"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-24120",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24120",
+   "title": "Real Decreto-ley 38/2026, de 17 de noviembre, por el que se adoptan medidas relativas a los recursos de los sistemas de financiación territorial y medidas fiscales urgentes para evitar la tributación del salario mínimo interprofesional de 2027 en el Impuesto sobre la Renta de las Personas Físicas.",
+   "language": "es",
+   "doc_type": "Real Decreto-ley",
+   "published": "2026-11-18",
+   "entry_into_force": "2026-11-19",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24120",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24120",
+   "classification": {
+    "materias": [
+     "329",
+     "599",
+     "826",
+     "828",
+     "1759",
+     "5023",
+     "3713",
+     "4107",
+     "4316",
+     "8113",
+     "4950",
+     "5876",
+     "6256",
+     "6315",
+     "6800"
+    ],
+    "materias_labels": [
+     "Asistencia social",
+     "Canarias",
+     "Cesión de Tributos",
+     "Ceuta",
+     "Créditos Presupuestarios",
+     "Discapacidad",
+     "Financiación de las Comunidades Autónomas",
+     "Impuesto sobre la Renta de las Personas Físicas",
+     "Instituto de Comercio Exterior",
+     "Instituto de Mayores y Servicios Sociales",
+     "Migraciones",
+     "Recaudación",
+     "Salario Mínimo Interprofesional",
+     "Secretaría de Estado de Hacienda",
+     "Subvenciones"
+    ],
+    "department": [
+     "Jefatura del Estado"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Medidas urgentes"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-24121",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24121",
+   "title": "Real Decreto-ley 39/2026, de 17 de noviembre, por el que se modifican el texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre; el Real Decreto 902/2020, de 13 de octubre, de igualdad retributiva entre mujeres y hombres; la Ley 3/2023, de 28 de febrero, de Empleo; y el Real Decreto 723/2026, de 9 de septiembre, por el que se transpone la Directiva (UE) 2019/1152 del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a unas condiciones laborales transparentes y previsibles en la Unión Europea.",
+   "language": "es",
+   "doc_type": "Real Decreto-ley",
+   "published": "2026-11-18",
+   "entry_into_force": "2026-11-19",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24121",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24121",
+   "classification": {
+    "materias": [
+     "35",
+     "385",
+     "1262",
+     "1640",
+     "1667",
+     "1684",
+     "3159",
+     "3455",
+     "3478",
+     "3685",
+     "4029",
+     "4662",
+     "4051",
+     "4171",
+     "5542",
+     "6015",
+     "6047",
+     "6230",
+     "6909"
+    ],
+    "materias_labels": [
+     "Acceso a la información",
+     "Auditoría de Cuentas",
+     "Comités consultivos",
+     "Contratación administrativa",
+     "Contratos de trabajo",
+     "Convenios colectivos",
+     "Empleados públicos",
+     "Estadística",
+     "Estatuto de los Trabajadores",
+     "Ficheros con datos personales",
+     "Horas extraordinarias",
+     "Igualdad de género",
+     "Igualdad de oportunidades",
+     "Infracciones",
+     "Pequeña y Mediana Empresa",
+     "Registros administrativos",
+     "Relaciones Laborales",
+     "Retribuciones",
+     "Trabajadores"
+    ],
+    "department": [
+     "Jefatura del Estado"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Medidas urgentes"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": [
+    "32019L1152",
+    "32023L0970"
+   ]
+  },
+  {
+   "id": "es:BOE-A-2026-24189",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24189",
+   "title": "Real Decreto 1013/2026, de 18 de noviembre, por el que se fija el salario mínimo interprofesional para 2027.",
+   "language": "es",
+   "doc_type": "Real Decreto",
+   "published": "2026-11-19",
+   "entry_into_force": "2027-01-01",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24189",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24189",
+   "classification": {
+    "materias": [
+     "6256"
+    ],
+    "materias_labels": [
+     "Salario Mínimo Interprofesional"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Salario mínimo interprofesional"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-24292",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24292",
+   "title": "Resolución de 18 de noviembre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de convalidación del Real Decreto-ley 31/2026, de 20 de octubre, para la mejora de la acción protectora de la Seguridad Social y de otras normas sociales.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-11-20",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24292",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24292",
+   "classification": {
+    "materias": [
+     "329",
+     "1754",
+     "3193",
+     "3842",
+     "4124",
+     "4136",
+     "4925",
+     "5066",
+     "5541",
+     "5935",
+     "6499"
+    ],
+    "materias_labels": [
+     "Asistencia social",
+     "Cotización a la Seguridad Social",
+     "Enfermedades",
+     "Función Pública",
+     "Incapacidades laborales",
+     "Indemnizaciones",
+     "Menores",
+     "Mujer",
+     "Pensiones",
+     "Régimen General de la Seguridad Social",
+     "Seguridad Social"
+    ],
+    "department": [
+     "Cortes Generales"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Medidas urgentes"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-24295",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24295",
+   "title": "Resolución de 18 de noviembre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de convalidación del Real Decreto-ley 34/2026, de 10 de noviembre, de medidas urgentes para el refuerzo de la seguridad operacional en el transporte ferroviario y la protección social del personal ferroviario.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-11-20",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24295",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24295",
+   "classification": {
+    "materias": [
+     "1337",
+     "3677",
+     "4553",
+     "4555",
+     "7921",
+     "6497",
+     "6909"
+    ],
+    "materias_labels": [
+     "Conductores de vehículos de motor",
+     "Ferrocarriles",
+     "Jornada laboral",
+     "Jubilación",
+     "Red Ferroviaria de Interés General",
+     "Seguridad industrial",
+     "Trabajadores"
+    ],
+    "department": [
+     "Cortes Generales"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Medidas urgentes"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-24296",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24296",
+   "title": "Resolución de 18 de noviembre de 2026, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de convalidación del Real Decreto-ley 35/2026, de 10 de noviembre, de medidas urgentes para el reconocimiento y protección a las familias monoparentales y otras medidas de apoyo a familias.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-11-20",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24296",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24296",
+   "classification": {
+    "materias": [
+     "204",
+     "329",
+     "420",
+     "3076",
+     "3599",
+     "3602",
+     "3790",
+     "4925",
+     "5686",
+     "6499",
+     "6931"
+    ],
+    "materias_labels": [
+     "Alimentos entre parientes",
+     "Asistencia social",
+     "Ayudas",
+     "Divorcio",
+     "Familia",
+     "Familias numerosas",
+     "Fondos de dinero",
+     "Menores",
+     "Presupuestos Generales del Estado",
+     "Seguridad Social",
+     "Transporte público"
+    ],
+    "department": [
+     "Cortes Generales"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Medidas urgentes"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-24298",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24298",
+   "title": "Acuerdo entre el Gobierno del Reino de España (El «Donante») y la Entidad de las Naciones Unidas para la igualdad de género y el empoderamiento de las mujeres («ONU Mujeres»), hecho en Nueva York el 10 de noviembre de 2026.",
+   "language": "es",
+   "doc_type": "Acuerdo Internacional",
+   "published": "2026-11-20",
+   "entry_into_force": "2026-11-10",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24298",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24298",
+   "classification": {
+    "materias": [
+     "71",
+     "3790",
+     "4662",
+     "5066",
+     "5282"
+    ],
+    "materias_labels": [
+     "Acuerdos internacionales",
+     "Fondos de dinero",
+     "Igualdad de género",
+     "Mujer",
+     "Organización de las Naciones Unidas"
+    ],
+    "department": [
+     "Ministerio de Asuntos Exteriores, Unión Europea y Cooperación"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Acuerdos internacionales administrativos"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-24301",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24301",
+   "title": "Real Decreto 1005/2026, de 18 de noviembre, por el que se regulan los términos y las condiciones de inclusión en el Régimen General de la Seguridad Social de los ministros de culto de la Iglesia Ortodoxa Rumana en España.",
+   "language": "es",
+   "doc_type": "Real Decreto",
+   "published": "2026-11-20",
+   "entry_into_force": "2027-01-01",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24301",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24301",
+   "classification": {
+    "materias": [
+     "354",
+     "1754",
+     "4772",
+     "5935",
+     "6120",
+     "6499",
+     "6909"
+    ],
+    "materias_labels": [
+     "Asociaciones confesionales no católicas",
+     "Cotización a la Seguridad Social",
+     "Libertad religiosa",
+     "Régimen General de la Seguridad Social",
+     "Rumanía",
+     "Seguridad Social",
+     "Trabajadores"
+    ],
+    "department": [
+     "Ministerio de la Presidencia, Justicia y Relaciones con las Cortes"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Seguridad Social"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-24316",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24316",
+   "title": "Real Decreto 1025/2026, de 18 de noviembre, por el que se determinan las especialidades de conocimiento, a efectos del establecimiento de los perfiles de los concursos de las plazas de profesorado universitario de las universidades públicas, y los ámbitos de conocimiento, a efectos de la adscripción de los puestos de trabajo del profesorado universitario, y se modifica el Real Decreto 898/1985, de 30 de abril, sobre régimen del profesorado universitario.",
+   "language": "es",
+   "doc_type": "Real Decreto",
+   "published": "2026-11-20",
+   "entry_into_force": "2026-11-21",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24316",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24316",
+   "classification": {
+    "materias": [
+     "1856",
+     "2263",
+     "3159",
+     "3214",
+     "5247",
+     "5752",
+     "7090"
+    ],
+    "materias_labels": [
+     "Cuerpo de Catedráticos de Escuelas Universitarias",
+     "Currículo",
+     "Empleados públicos",
+     "Enseñanza Universitaria",
+     "Oposiciones y concursos",
+     "Profesorado",
+     "Universidades"
+    ],
+    "department": [
+     "Ministerio de Ciencia, Innovación y Universidades"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Cuerpos docentes universitarios"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-24437",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24437",
+   "title": "Real Decreto-ley 40/2026, de 20 de noviembre, de medidas urgentes para el impulso de la competitividad y la soberanía tecnológica en el ámbito científico e investigador.",
+   "language": "es",
+   "doc_type": "Real Decreto-ley",
+   "published": "2026-11-21",
+   "entry_into_force": "2026-11-21",
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24437",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24437",
+   "classification": {
+    "materias": [
+     "467",
+     "792",
+     "1640",
+     "1667",
+     "1754",
+     "1758",
+     "2479",
+     "3862",
+     "4113",
+     "4134",
+     "4521",
+     "4582",
+     "5117",
+     "5278",
+     "5331"
+    ],
+    "materias_labels": [
+     "Barcelona",
+     "Centros tecnológicos",
+     "Contratación administrativa",
+     "Contratos de trabajo",
+     "Cotización a la Seguridad Social",
+     "Créditos Extraordinarios y Suplementarios",
+     "Desarrollo tecnológico",
+     "Fundaciones estatales",
+     "Impuesto sobre Sociedades",
+     "Incompatibilidades",
+     "Investigación científica",
+     "Ministerio de Ciencia Innovación y Universidades",
+     "Mutualidad General de Funcionarios Civiles del Estado",
+     "Organización de la Administración del Estado",
+     "Órganos colegiados"
+    ],
+    "department": [
+     "Jefatura del Estado"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Medidas urgentes"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-24441",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24441",
+   "title": "Resolución de 13 de noviembre de 2026, de la Tesorería General de la Seguridad Social, por la que se publica el fallo de la Sentencia de 1 de diciembre de 2025 del Juzgado Central de lo Contencioso-Administrativo n.o 6, relativa a la cuestión de ilegalidad número 1/2025, en relación con la Resolución de 26 de diciembre de 2014, por la que se autoriza la utilización de tarjetas, tanto de débito como de crédito, como medio de pago de las deudas con la Seguridad Social en vía voluntaria no ingresadas dentro del plazo reglamentario, de las deudas en vía ejecutiva y de las deudas que hayan sido objeto de reclamación de deuda.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-11-21",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24441",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24441",
+   "classification": {
+    "materias": [
+     "2503",
+     "5343",
+     "5876",
+     "5886",
+     "6499",
+     "6876"
+    ],
+    "materias_labels": [
+     "Dinero electrónico",
+     "Pagos",
+     "Recaudación",
+     "Recurso Contencioso Administrativo",
+     "Seguridad Social",
+     "Tesorería General de la Seguridad Social"
+    ],
+    "department": [
+     "Ministerio de Inclusión, Seguridad Social y Migraciones"
+    ],
+    "headings": [
+     "I. Disposiciones generales",
+     "Seguridad Social. Recaudación"
+    ],
+    "section": [
+     "1"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-24480",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24480",
+   "title": "Resolución de 11 de noviembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Cardtronics Spain, SLU.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-11-21",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24480",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24480",
+   "classification": {
+    "materias": [
+     "566",
+     "1684"
+    ],
+    "materias_labels": [
+     "Cajeros automáticos",
+     "Convenios colectivos"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-24481",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24481",
+   "title": "Resolución de 11 de noviembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Happy Games, SL.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-11-21",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24481",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24481",
+   "classification": {
+    "materias": [
+     "1684",
+     "3446",
+     "5197"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Establecimientos públicos",
+     "Ocio"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-24482",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24482",
+   "title": "Resolución de 11 de noviembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el IV Convenio colectivo de Unedisa Comunicaciones, SL.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-11-21",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24482",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24482",
+   "classification": {
+    "materias": [
+     "1684",
+     "5671"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Prensa"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-24575",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24575",
+   "title": "Resolución de 11 de noviembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el Acta del acuerdo de prórroga, hasta el 31 de diciembre de 2027, y de modificación del Convenio colectivo de Vodafone Intelligent Solutions España, SL.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-11-23",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24575",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24575",
+   "classification": {
+    "materias": [
+     "1684",
+     "6854"
+    ],
+    "materias_labels": [
+     "Convenios colectivos",
+     "Telecomunicaciones"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  },
+  {
+   "id": "es:BOE-A-2026-24576",
+   "source": "es",
+   "market": "ES",
+   "native_id": "BOE-A-2026-24576",
+   "title": "Resolución de 11 de noviembre de 2026, de la Dirección General de Trabajo, por la que se registra y publica el VII Convenio colectivo de Telefónica Servicios Audiovisuales, SAU.",
+   "language": "es",
+   "doc_type": "Resolución",
+   "published": "2026-11-23",
+   "entry_into_force": null,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24576",
+   "text_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2026-24576",
+   "classification": {
+    "materias": [
+     "1311",
+     "1684",
+     "6854",
+     "6859"
+    ],
+    "materias_labels": [
+     "Comunicación Audiovisual",
+     "Convenios colectivos",
+     "Telecomunicaciones",
+     "Telefónica de España"
+    ],
+    "department": [
+     "Ministerio de Trabajo y Economía Social"
+    ],
+    "headings": [
+     "III. Otras disposiciones",
+     "Convenios colectivos de trabajo"
+    ],
+    "section": [
+     "3"
+    ]
+   },
+   "transposes": []
+  }
+ ]
+}
